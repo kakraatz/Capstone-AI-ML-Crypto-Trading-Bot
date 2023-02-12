@@ -522,23 +522,23 @@ class PTModelLoader:
         df_new["Closes"] = close_probs
         df_new.head()
         plt.rcParams["figure.figsize"] = (15, 3)
-        df_new[["Close", "Closes"]].plot()
+        df_new[["Close", "Closes", "Opens", "Holds"]].plot()
         
         
 
 # Training the Agent
 
-
+'''
 if __name__ == '__main__':
     env = CoinTradingEnv(df)
     N = 20
     batch_size = 5
-    n_epochs = 20
+    n_epochs = 10
     alpha = 0.0003
     agent = AGENT(n_actions=env.action_space.n, batch_size=batch_size, 
                     alpha=alpha, n_epochs=n_epochs, 
                     input_dims=env.observation_space.shape)
-    n_games = 500
+    n_games = 200
     figure_file = 'sinewave.png'
     best_score = env.reward_range[0]
     score_history = []
@@ -582,7 +582,7 @@ if __name__ == '__main__':
     print(x)
     print(running_avg)
     plot_learning_curve(x, score_history, figure_file)
-
+'''
 
 # Load an Agent for making predictions
 
