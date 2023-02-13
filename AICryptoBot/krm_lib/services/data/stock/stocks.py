@@ -40,5 +40,8 @@ class StockHistory():
         df_test = df_mod.copy()
         df_test = df_test.iloc[700:]
         '''
+    def get_price_data(self):
+        df = pdr.get_data_yahoo(self.symbol, start=self.start, end=self.end)
+        return df
         
         

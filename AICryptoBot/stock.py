@@ -456,6 +456,7 @@ def plot_learning_curve(x, scores, figure_file):
 
 alpha = 0.0005 # 204.21 % 
 #alpha = 0.0004 268 %
+'''
 if __name__ == '__main__':
     env = StockTradingEnv(df_train)
     #N = 20
@@ -509,16 +510,17 @@ if __name__ == '__main__':
             
     x = [i+1 for i in range(len(score_history))]
     plot_learning_curve(x, score_history, figure_file)
-    
+    '''
 # Load and Run - Existing Model
 # agent.save_models()
 
 # LOAD
+env = StockTradingEnv(df_train)
 n_actions = env.action_space.n
 input_dims = env.observation_space.shape
 #alpha = 0.0003
 model = ActorNetwork(n_actions, input_dims, alpha)
-model.load_state_dict(T.load("tmp/actor_torch_ppo"))
+model.load_state_dict(T.load("archive/AAPL/tmp_204_20_5_10_0005/actor_torch_ppo"))
 model.eval()
 
 # RUN
@@ -544,10 +546,10 @@ for step in range(5, len(reporting_df)):
     probs = dist.probs.cpu().detach().numpy()
     
     print(np.argmax(probs), probs)
-    
+    action = np.argmax(probs)
     if action == 0:
         is_long += 1
-    if action == 0:
+    if action == 1:
         is_short += 1
     long_ratio = is_long / (is_long + is_short)
 

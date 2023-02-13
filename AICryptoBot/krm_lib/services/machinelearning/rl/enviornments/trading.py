@@ -16,9 +16,7 @@ import torch
 MAX_INT = 2147483647
 MAX_TRADES = 10000
 MAX_OPEN_POSITIONS = 1
-#INITIAL_ACCOUNT_BALANCE = 1000
 PERCENT_CAPITAL = 0.1
-TRADING_COSTS_RATE = 0.001
 KILL_THRESH = 0.4 # Threshold for balance preservation
 
 # Structure environment
@@ -26,14 +24,16 @@ class TradingEnv(gym.Env):
     """A stock trading environment for OpenAI gym"""
     metadata = {'render.modes': ['human']}
 
-    def __init__(self, df, initial_account_balance=1000):
+    def __init__(self, df, initial_account_balance=1000, trading_cost_rate=0.001):
         super(TradingEnv, self).__init__()
         
         # Generic variables
         self.df = df
         
         # Account variables
+        self.initial_balance = initial_account_balance
         self.available_balance = initial_account_balance
+        self.trading_cost_rate = trading_cost_rate
         self.net_profit = 0
         
         # Position variables
@@ -116,7 +116,7 @@ class TradingEnv(gym.Env):
 
     # Reset the state of the environment to an initial state
     def reset(self):
-        self.available_balance = INITIAL_ACCOUNT_BALANCE
+        self.available_balance = self.initial_balance
         self.net_profit = 0
         self.current_step = self.lag
         self.num_trades_long = 0

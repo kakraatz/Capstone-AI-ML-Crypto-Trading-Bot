@@ -9,6 +9,14 @@ import requests
 import pandas as pd
 import datetime
 
+# Example Usage
+'''
+binance = BinanceAPI()
+json_obj = binance.get_server_time()
+pdf = binance.get_daily_price_history(SYMBOL, START_DATE, END_DATE, 'dataframe')
+server_time = datetime.datetime.fromtimestamp(json_obj["serverTime"]/1000)
+'''
+
 class BinanceAPI():
     def __init__(self, token=None):
         self.api_root = 'https://api.binance.us/api/v3/'
@@ -21,16 +29,30 @@ class BinanceAPI():
         end_dt_obj = datetime.datetime.strptime(end_date,
                                '%Y-%m-%d')     
         end_ms = int(end_dt_obj.timestamp() * 1000)
-        request_url = self.api_root + 'klines?symbol=' + symbol + '&interval=1d&startTime=' + str(start_ms) + '&endTime=' + str(end_ms)
-        api_response = requests.get(request_url)
-        if api_response.status_code == 200:            
-            json_obj = json.loads(api_response.text)
-            if dtype == 'dataframe':
-                df = self.__json_to_dataframe(json_obj)
-                return df
-            else:                
-                return json_obj
-            
+        partial_url = self.api_root + 'klines?symbol=' + symbol + '&interval=1d'
+        request_url = partial_url + '&startTime=' + str(start_ms) + '&endTime=' + str(end_ms)
+        data_records = []
+        is_complete = False
+        while not is_complete:
+            api_response = requests.get(request_url)
+            if api_response.status_code == 200:            
+                json_obj = json.loads(api_response.text)
+                cntr = 0
+                for index in range(len(json_obj)):
+                    data_records.append(json_obj[index])
+                    if cntr == 0 or cntr == (len(json_obj) - 1):
+                        cst = CandleStick(json_obj[index])
+                        start = cst.open_time
+                    cntr = cntr + 1
+                check_date = self.__check_last_date(json_obj, end_ms)
+                is_complete = check_date[0]
+                request_url = partial_url + '&startTime=' + str(check_date[1]) + '&endTime=' + str(end_ms)            
+        if dtype == 'dataframe':
+            df = self.__json_to_dataframe(data_records)
+            return df
+        else:                
+            return data_records
+    
     def __json_to_dataframe(self, data):
         record_array = []
         for index in range(len(data)):
@@ -38,6 +60,15 @@ class BinanceAPI():
             record_array.append(stick.to_record())
         df = pd.DataFrame(record_array)
         return df
+    
+    def __check_last_date(self, data, end_ms):
+        last_record = data[len(data) - 1]
+        last_record_start = last_record[0]
+        last_record_end = last_record[6]
+        if last_record_end >= end_ms:
+            return (True, last_record_end)
+        else:
+            return (False, last_record_end)
     
     def get_server_time(self):
         request_url = self.api_root + 'time'
