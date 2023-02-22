@@ -64,16 +64,22 @@ class TradingEnv(gym.Env):
     # Structure sign observation data
     def _next_observation(self):
         
-        item_0_T0 = self.df.loc[self.current_step - 0, "Open"].item()
-        item_1_T0 = self.df.loc[self.current_step - 0, "High"].item()       
-        item_2_T0 = self.df.loc[self.current_step - 0, "Low"].item()
-        item_3_T0 = self.df.loc[self.current_step - 0, "Close"].item()
-        item_4_T0 = self.df.loc[self.current_step - 0, "Volume"].item()
-        item_5_T0 = self.df.loc[self.current_step - 0, "VWAP"].item()
-        
+        # item_0_T0 = self.df.loc[self.current_step - 0, "Open"].item()
+        # item_1_T0 = self.df.loc[self.current_step - 0, "High"].item()
+        # item_2_T0 = self.df.loc[self.current_step - 0, "Low"].item()
+        # item_3_T0 = self.df.loc[self.current_step - 0, "Close"].item()
+        # item_4_T0 = self.df.loc[self.current_step - 0, "Volume"].item()
+        # item_5_T0 = self.df.loc[self.current_step - 0, "VWAP"].item()
+
+        col_list = list(self.df.columns)
+        item_list = []
+        for i in range(len(col_list)):
+            exec(f'item_{i}_T0 = self.df.loc[{self.current_step} - 0, "{col_list[i]}"].item()')
+            exec(f'item_list.append(item_{i}_T0)')
         env_4 = 1 if self.long_short_ratio else 0
+        item_list.append(env_4)
         
-        obs = np.array([item_0_T0, item_1_T0, item_2_T0, item_3_T0, item_4_T0, item_5_T0, env_4])
+        obs = np.array(item_list)
         
         return obs
 

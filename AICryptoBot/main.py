@@ -4,6 +4,8 @@ Created on Sun Feb 12 09:16:50 2023
 
 @author: JohnMurphy
 """
+import torch
+
 from krm_lib.services.machinelearning.rl.enviornments.trading import TradingEnv
 from krm_lib.services.machinelearning.rl.agents.ppo_agent import Agent
 from krm_lib.services.machinelearning.rl.agents.ppo_agent import ActorNetwork
@@ -40,6 +42,7 @@ def run_test():
 
     # Min Max Scaled
     df_mod = df.copy()
+#    print(df_mod)
     
     # Split Training and Testing
     df_train = df_mod.copy()
@@ -54,7 +57,8 @@ def run_test():
     input_dims = env.observation_space.shape
     #alpha = 0.0003
     model = ActorNetwork(n_actions, input_dims, alpha)
-    model.load_state_dict(T.load("tmp/actor_torch_ppo"))
+#   model.load_state_dict(T.load("tmp/actor_torch_ppo"))
+    model.load_state_dict(T.load("tmp/actor_torch_ppo", map_location=torch.device('cpu')))
     model.eval()
     
     # RUN
@@ -64,16 +68,27 @@ def run_test():
     is_long = 1
     is_short = 1
     long_ratio = 0.5
+
+    col_list = list(df_mod.columns)
+    # print(col_list)
+    item_list = []
+    # print(df_mod)
+
     for step in range(5, len(reporting_df)): # changed from reporting_df
 
-        item_0_T0 = df_mod.loc[step - 0, "Open"].item()
-        item_1_T0 = df_mod.loc[step - 0, "High"].item()
-        item_2_T0 = df_mod.loc[step - 0, "Low"].item()
-        item_3_T0 = df_mod.loc[step - 0, "Close"].item()
-        item_4_T0 = df_mod.loc[step - 0, "Volume"].item()
-        item_5_T0 = df_mod.loc[step - 0, "VWAP"].item()
-        
-        obs = np.array([item_0_T0, item_1_T0, item_2_T0, item_3_T0, item_4_T0, item_5_T0, long_ratio])
+        for i in range(len(col_list)):
+            exec(f'item_{i}_T0 = df_mod.loc[{step} - 0, "{col_list[i]}"].item()')
+            exec(f'item_list.append(item_{i}_T0)')
+        # item_0_T0 = df_mod.loc[step - 0, "Open"].item()
+        # item_1_T0 = df_mod.loc[step - 0, "High"].item()
+        # item_2_T0 = df_mod.loc[step - 0, "Low"].item()
+        # item_3_T0 = df_mod.loc[step - 0, "Close"].item()
+        # item_4_T0 = df_mod.loc[step - 0, "Volume"].item()
+        # item_5_T0 = df_mod.loc[step - 0, "VWAP"].item()
+
+        item_list.append(long_ratio)
+        obs = np.array(item_list)
+        item_list.clear()
         
         state = T.tensor(obs).float().to(model.device)
         dist = model(state)
@@ -91,6 +106,12 @@ def run_test():
         long_probs.append(probs[0])
         short_probs.append(probs[1])
 
+
+    # Adding the Open Column again
+    binance = BinanceAPI()
+    df_open = binance.get_daily_price_history(CRYPTO_SYMBOL, CRYPTO_START, CRYPTO_END, 'dataframe')
+    reporting_df["Open"] = df_open["Open"].iloc[501:].values
+    print(reporting_df)
 
     # Equity Capital Benchmark
     capital = 1
@@ -141,6 +162,7 @@ def run_train():
     
     # Min Max Scaled
     df_mod = df.copy()
+    # print(df_mod)
     
     # Split Training and Testing
     df_train = df_mod.copy()
@@ -161,7 +183,7 @@ def run_train():
                     alpha=alpha, n_epochs=n_epochs, 
                     input_dims=env.observation_space.shape)
 
-    n_games = 1000
+    n_games = 50
     figure_file = 'crypto_training.png'
 
     best_score = env.reward_range[0]
@@ -194,7 +216,7 @@ def run_train():
             best_score = avg_score
             agent.save_models()
         
-        print(f"episide: {i}, score: {score}, avg score: {avg_score}, best_score: {best_score}")
+        print(f"Episode: {i}, score: {score}, avg score: {avg_score}, best_score: {best_score}")
             
     plotter = Plotters()
     x = [i+1 for i in range(len(score_history))]
