@@ -1,0 +1,8902 @@
+[
+  {
+    "last": -0.24,
+    "mean": 0.24,
+    "sum": 1014.88,
+    "timestamp": 1662937183.6806865,
+    "count": 4179,
+    "btc_price": "21638.62",
+    "rate": 2.37,
+    "median": 0.26
+  },
+  {
+    "last": 0.35,
+    "mean": 0.24,
+    "sum": 1009.84,
+    "timestamp": 1662937213.7793279,
+    "count": 4157,
+    "btc_price": "21645.01",
+    "rate": 2.38,
+    "median": 0.26
+  },
+  {
+    "last": 0.36,
+    "mean": 0.24,
+    "sum": 1003.47,
+    "timestamp": 1662937244.1029627,
+    "count": 4166,
+    "btc_price": "21644",
+    "rate": 2.51,
+    "median": 0.26
+  },
+  {
+    "last": 0.63,
+    "mean": 0.24,
+    "sum": 996.59,
+    "timestamp": 1662937274.289717,
+    "count": 4162,
+    "btc_price": "21632.17",
+    "rate": 2.55,
+    "median": 0.26
+  },
+  {
+    "last": 0.6,
+    "mean": 0.24,
+    "sum": 992.2,
+    "timestamp": 1662937304.604138,
+    "count": 4163,
+    "btc_price": "21625.48",
+    "rate": 2.58,
+    "median": 0.26
+  },
+  {
+    "last": -0.23,
+    "mean": 0.24,
+    "sum": 989.47,
+    "timestamp": 1662937335.3309505,
+    "count": 4176,
+    "btc_price": "21636.44",
+    "rate": 2.61,
+    "median": 0.26
+  },
+  {
+    "last": 0.51,
+    "mean": 0.24,
+    "sum": 945.61,
+    "timestamp": 1662937397.8911965,
+    "count": 4019,
+    "btc_price": "21644.98",
+    "rate": 0.0,
+    "median": 0.25
+  },
+  {
+    "last": 0.38,
+    "mean": 0.23,
+    "sum": 945.25,
+    "timestamp": 1662937428.4076762,
+    "count": 4038,
+    "btc_price": "21623.06",
+    "rate": 3.34,
+    "median": 0.25
+  },
+  {
+    "last": 0.39,
+    "mean": 0.23,
+    "sum": 945.1,
+    "timestamp": 1662937459.4652815,
+    "count": 4024,
+    "btc_price": "21622.07",
+    "rate": 2.86,
+    "median": 0.25
+  },
+  {
+    "last": 0.25,
+    "mean": 0.24,
+    "sum": 953.0,
+    "timestamp": 1662937490.2322922,
+    "count": 4041,
+    "btc_price": "21627.04",
+    "rate": 2.76,
+    "median": 0.25
+  },
+  {
+    "last": 0.2,
+    "mean": 0.24,
+    "sum": 971.13,
+    "timestamp": 1662937521.0302033,
+    "count": 4111,
+    "btc_price": "21618.96",
+    "rate": 2.64,
+    "median": 0.25
+  },
+  {
+    "last": -0.41,
+    "mean": 0.24,
+    "sum": 990.23,
+    "timestamp": 1662937551.78171,
+    "count": 4186,
+    "btc_price": "21613.58",
+    "rate": 2.6,
+    "median": 0.25
+  },
+  {
+    "last": 0.25,
+    "mean": 0.24,
+    "sum": 997.51,
+    "timestamp": 1662937582.102353,
+    "count": 4227,
+    "btc_price": "21619.9",
+    "rate": 2.71,
+    "median": 0.25
+  },
+  {
+    "last": 0.45,
+    "mean": 0.24,
+    "sum": 999.96,
+    "timestamp": 1662937612.246666,
+    "count": 4241,
+    "btc_price": "21617.88",
+    "rate": 2.73,
+    "median": 0.25
+  },
+  {
+    "last": 0.77,
+    "mean": 0.24,
+    "sum": 999.09,
+    "timestamp": 1662937643.3349483,
+    "count": 4232,
+    "btc_price": "21611.81",
+    "rate": 2.67,
+    "median": 0.25
+  },
+  {
+    "last": 0.44,
+    "mean": 0.24,
+    "sum": 1002.43,
+    "timestamp": 1662937673.3601,
+    "count": 4229,
+    "btc_price": "21608.82",
+    "rate": 2.65,
+    "median": 0.25
+  },
+  {
+    "last": -0.25,
+    "mean": 0.24,
+    "sum": 997.19,
+    "timestamp": 1662937703.5077949,
+    "count": 4236,
+    "btc_price": "21604.15",
+    "rate": 2.68,
+    "median": 0.25
+  },
+  {
+    "last": 0.83,
+    "mean": 0.24,
+    "sum": 1001.54,
+    "timestamp": 1662937733.6469913,
+    "count": 4242,
+    "btc_price": "21610.68",
+    "rate": 2.71,
+    "median": 0.25
+  },
+  {
+    "last": 0.32,
+    "mean": 0.24,
+    "sum": 998.52,
+    "timestamp": 1662937763.81966,
+    "count": 4234,
+    "btc_price": "21607.71",
+    "rate": 2.68,
+    "median": 0.25
+  },
+  {
+    "last": 0.36,
+    "mean": 0.24,
+    "sum": 1003.88,
+    "timestamp": 1662937794.1671898,
+    "count": 4237,
+    "btc_price": "21591.46",
+    "rate": 2.68,
+    "median": 0.25
+  },
+  {
+    "last": -0.04,
+    "mean": 0.24,
+    "sum": 1001.18,
+    "timestamp": 1662937824.3311348,
+    "count": 4233,
+    "btc_price": "21592.43",
+    "rate": 2.66,
+    "median": 0.25
+  },
+  {
+    "last": -0.33,
+    "mean": 0.24,
+    "sum": 1010.41,
+    "timestamp": 1662937854.4005625,
+    "count": 4249,
+    "btc_price": "21600.68",
+    "rate": 2.69,
+    "median": 0.25
+  },
+  {
+    "last": -0.2,
+    "mean": 0.24,
+    "sum": 1010.82,
+    "timestamp": 1662937884.4814157,
+    "count": 4233,
+    "btc_price": "21602.55",
+    "rate": 2.68,
+    "median": 0.25
+  },
+  {
+    "last": -0.57,
+    "mean": 0.24,
+    "sum": 961.16,
+    "timestamp": 1662937960.8887093,
+    "count": 4037,
+    "btc_price": "21626.33",
+    "rate": 0.0,
+    "median": 0.25
+  },
+  {
+    "last": 0.39,
+    "mean": 0.24,
+    "sum": 975.0,
+    "timestamp": 1662937991.8346543,
+    "count": 4042,
+    "btc_price": "21629.69",
+    "rate": 2.94,
+    "median": 0.25
+  },
+  {
+    "last": 0.48,
+    "mean": 0.24,
+    "sum": 977.14,
+    "timestamp": 1662938022.637546,
+    "count": 4040,
+    "btc_price": "21659.33",
+    "rate": 3.03,
+    "median": 0.25
+  },
+  {
+    "last": 0.32,
+    "mean": 0.24,
+    "sum": 987.69,
+    "timestamp": 1662938053.4305265,
+    "count": 4058,
+    "btc_price": "21655.22",
+    "rate": 2.93,
+    "median": 0.26
+  },
+  {
+    "last": 0.12,
+    "mean": 0.25,
+    "sum": 1014.69,
+    "timestamp": 1662938083.8957026,
+    "count": 4139,
+    "btc_price": "21668.61",
+    "rate": 2.86,
+    "median": 0.26
+  },
+  {
+    "last": 0.04,
+    "mean": 0.25,
+    "sum": 1038.99,
+    "timestamp": 1662938114.2392888,
+    "count": 4215,
+    "btc_price": "21647.25",
+    "rate": 2.79,
+    "median": 0.26
+  },
+  {
+    "last": 0.67,
+    "mean": 0.25,
+    "sum": 1058.72,
+    "timestamp": 1662938144.658858,
+    "count": 4265,
+    "btc_price": "21641.78",
+    "rate": 2.88,
+    "median": 0.26
+  },
+  {
+    "last": 0.57,
+    "mean": 0.25,
+    "sum": 1073.87,
+    "timestamp": 1662938174.8460782,
+    "count": 4283,
+    "btc_price": "21626.62",
+    "rate": 2.91,
+    "median": 0.26
+  },
+  {
+    "last": 0.32,
+    "mean": 0.25,
+    "sum": 1086.22,
+    "timestamp": 1662938204.965975,
+    "count": 4271,
+    "btc_price": "21630.97",
+    "rate": 2.93,
+    "median": 0.26
+  },
+  {
+    "last": 0.66,
+    "mean": 0.25,
+    "sum": 1080.0,
+    "timestamp": 1662938235.1988142,
+    "count": 4237,
+    "btc_price": "21642.86",
+    "rate": 2.89,
+    "median": 0.26
+  },
+  {
+    "last": 0.73,
+    "mean": 0.26,
+    "sum": 1077.66,
+    "timestamp": 1662938265.7006176,
+    "count": 4207,
+    "btc_price": "21622.83",
+    "rate": 2.81,
+    "median": 0.26
+  },
+  {
+    "last": 0.18,
+    "mean": 0.26,
+    "sum": 1076.27,
+    "timestamp": 1662938297.5135705,
+    "count": 4194,
+    "btc_price": "21629.01",
+    "rate": 2.81,
+    "median": 0.26
+  },
+  {
+    "last": 0.51,
+    "mean": 0.26,
+    "sum": 1083.54,
+    "timestamp": 1662938327.66483,
+    "count": 4203,
+    "btc_price": "21634.97",
+    "rate": 2.79,
+    "median": 0.26
+  },
+  {
+    "last": 0.33,
+    "mean": 0.29,
+    "sum": 599.18,
+    "timestamp": 1662939306.8965597,
+    "count": 2045,
+    "btc_price": "21699.28",
+    "rate": 0.0,
+    "median": 0.31
+  },
+  {
+    "last": 0.94,
+    "mean": 0.29,
+    "sum": 591.36,
+    "timestamp": 1662939337.117567,
+    "count": 2046,
+    "btc_price": "21698.75",
+    "rate": 2.58,
+    "median": 0.31
+  },
+  {
+    "last": 0.31,
+    "mean": 0.29,
+    "sum": 583.5,
+    "timestamp": 1662939369.69258,
+    "count": 2020,
+    "btc_price": "21697.96",
+    "rate": 2.34,
+    "median": 0.31
+  },
+  {
+    "last": 0.26,
+    "mean": 0.29,
+    "sum": 584.32,
+    "timestamp": 1662939399.8062856,
+    "count": 2006,
+    "btc_price": "21708.48",
+    "rate": 2.44,
+    "median": 0.31
+  },
+  {
+    "last": -0.42,
+    "mean": 0.29,
+    "sum": 592.12,
+    "timestamp": 1662939430.2892094,
+    "count": 2011,
+    "btc_price": "21707.77",
+    "rate": 2.46,
+    "median": 0.31
+  },
+  {
+    "last": 0.21,
+    "mean": 0.29,
+    "sum": 581.53,
+    "timestamp": 1662939461.2945254,
+    "count": 2001,
+    "btc_price": "21716.8",
+    "rate": 2.39,
+    "median": 0.31
+  },
+  {
+    "last": 0.08,
+    "mean": 0.29,
+    "sum": 580.99,
+    "timestamp": 1662939491.7748218,
+    "count": 2003,
+    "btc_price": "21715.84",
+    "rate": 2.47,
+    "median": 0.31
+  },
+  {
+    "last": 0.07,
+    "mean": 0.29,
+    "sum": 574.75,
+    "timestamp": 1662939522.0116136,
+    "count": 1983,
+    "btc_price": "21721.68",
+    "rate": 2.44,
+    "median": 0.31
+  },
+  {
+    "last": 0.25,
+    "mean": 0.29,
+    "sum": 568.05,
+    "timestamp": 1662939553.249242,
+    "count": 1957,
+    "btc_price": "21724.01",
+    "rate": 2.39,
+    "median": 0.31
+  },
+  {
+    "last": 0.57,
+    "mean": 0.29,
+    "sum": 567.83,
+    "timestamp": 1662939583.2993453,
+    "count": 1951,
+    "btc_price": "21720.03",
+    "rate": 2.36,
+    "median": 0.31
+  },
+  {
+    "last": 0.01,
+    "mean": 0.29,
+    "sum": 567.7,
+    "timestamp": 1662939613.7287066,
+    "count": 1950,
+    "btc_price": "21724.99",
+    "rate": 2.36,
+    "median": 0.31
+  },
+  {
+    "last": 0.76,
+    "mean": 0.29,
+    "sum": 563.53,
+    "timestamp": 1662939643.8036857,
+    "count": 1928,
+    "btc_price": "21710.49",
+    "rate": 2.35,
+    "median": 0.31
+  },
+  {
+    "last": 0.04,
+    "mean": 0.29,
+    "sum": 565.03,
+    "timestamp": 1662939674.257024,
+    "count": 1918,
+    "btc_price": "21706.74",
+    "rate": 2.36,
+    "median": 0.31
+  },
+  {
+    "last": 0.02,
+    "mean": 0.29,
+    "sum": 577.36,
+    "timestamp": 1662939704.2997239,
+    "count": 1975,
+    "btc_price": "21704.73",
+    "rate": 2.39,
+    "median": 0.31
+  },
+  {
+    "last": 0.25,
+    "mean": 0.29,
+    "sum": 606.37,
+    "timestamp": 1662939735.3609354,
+    "count": 2069,
+    "btc_price": "21720.48",
+    "rate": 2.44,
+    "median": 0.31
+  },
+  {
+    "last": 0.43,
+    "mean": 0.29,
+    "sum": 625.95,
+    "timestamp": 1662939765.5675716,
+    "count": 2131,
+    "btc_price": "21712.73",
+    "rate": 2.45,
+    "median": 0.31
+  },
+  {
+    "last": 0.45,
+    "mean": 0.29,
+    "sum": 614.39,
+    "timestamp": 1662939796.5532968,
+    "count": 2126,
+    "btc_price": "21734.69",
+    "rate": 2.47,
+    "median": 0.3
+  },
+  {
+    "last": -0.05,
+    "mean": 0.27,
+    "sum": 321.08,
+    "timestamp": 1662940783.9761,
+    "count": 1210,
+    "btc_price": "21788.46",
+    "rate": 0.0,
+    "median": 0.26
+  },
+  {
+    "last": 0.74,
+    "mean": 0.26,
+    "sum": 345.56,
+    "timestamp": 1662940814.394945,
+    "count": 1313,
+    "btc_price": "21840.25",
+    "rate": 3.42,
+    "median": 0.26
+  },
+  {
+    "last": 0.43,
+    "mean": 0.25,
+    "sum": 365.22,
+    "timestamp": 1662940844.617141,
+    "count": 1460,
+    "btc_price": "21830.28",
+    "rate": 4.14,
+    "median": 0.25
+  },
+  {
+    "last": 0.43,
+    "mean": 0.25,
+    "sum": 399.89,
+    "timestamp": 1662940875.21039,
+    "count": 1586,
+    "btc_price": "21822.71",
+    "rate": 4.13,
+    "median": 0.26
+  },
+  {
+    "last": -0.12,
+    "mean": 0.25,
+    "sum": 424.03,
+    "timestamp": 1662940905.7367837,
+    "count": 1704,
+    "btc_price": "21822.34",
+    "rate": 4.06,
+    "median": 0.25
+  },
+  {
+    "last": 0.23,
+    "mean": 0.25,
+    "sum": 445.06,
+    "timestamp": 1662940936.3010237,
+    "count": 1808,
+    "btc_price": "21795.45",
+    "rate": 3.93,
+    "median": 0.25
+  },
+  {
+    "last": 0.51,
+    "mean": 0.25,
+    "sum": 473.57,
+    "timestamp": 1662940966.6920984,
+    "count": 1901,
+    "btc_price": "21777.8",
+    "rate": 3.79,
+    "median": 0.25
+  },
+  {
+    "last": -0.12,
+    "mean": 0.25,
+    "sum": 490.19,
+    "timestamp": 1662940996.80313,
+    "count": 1986,
+    "btc_price": "21768.72",
+    "rate": 3.65,
+    "median": 0.25
+  },
+  {
+    "last": 0.1,
+    "mean": 0.25,
+    "sum": 511.44,
+    "timestamp": 1662941027.0844977,
+    "count": 2074,
+    "btc_price": "21781.87",
+    "rate": 3.56,
+    "median": 0.25
+  },
+  {
+    "last": 0.36,
+    "mean": 0.25,
+    "sum": 410.67,
+    "timestamp": 1662941275.6825428,
+    "count": 1666,
+    "btc_price": "21828.63",
+    "rate": 0.0,
+    "median": 0.25
+  },
+  {
+    "last": -0.38,
+    "mean": 0.25,
+    "sum": 415.29,
+    "timestamp": 1662941305.9105256,
+    "count": 1677,
+    "btc_price": "21813.87",
+    "rate": 3.18,
+    "median": 0.25
+  },
+  {
+    "last": 0.52,
+    "mean": 0.24,
+    "sum": 419.24,
+    "timestamp": 1662941336.1913166,
+    "count": 1712,
+    "btc_price": "21808.97",
+    "rate": 3.21,
+    "median": 0.25
+  },
+  {
+    "last": 0.66,
+    "mean": 0.25,
+    "sum": 428.7,
+    "timestamp": 1662941367.4284472,
+    "count": 1739,
+    "btc_price": "21807.16",
+    "rate": 3.12,
+    "median": 0.25
+  },
+  {
+    "last": 0.5,
+    "mean": 0.25,
+    "sum": 438.96,
+    "timestamp": 1662941397.8890808,
+    "count": 1781,
+    "btc_price": "21798.64",
+    "rate": 3.21,
+    "median": 0.26
+  },
+  {
+    "last": 0.35,
+    "mean": 0.25,
+    "sum": 447.8,
+    "timestamp": 1662941428.3168657,
+    "count": 1815,
+    "btc_price": "21794.68",
+    "rate": 3.24,
+    "median": 0.26
+  },
+  {
+    "last": 0.01,
+    "mean": 0.25,
+    "sum": 456.11,
+    "timestamp": 1662941458.5972805,
+    "count": 1840,
+    "btc_price": "21798.19",
+    "rate": 3.23,
+    "median": 0.26
+  },
+  {
+    "last": 0.57,
+    "mean": 0.25,
+    "sum": 466.52,
+    "timestamp": 1662941488.8474321,
+    "count": 1868,
+    "btc_price": "21820.01",
+    "rate": 3.28,
+    "median": 0.26
+  },
+  {
+    "last": 0.28,
+    "mean": 0.25,
+    "sum": 471.49,
+    "timestamp": 1662941519.2263608,
+    "count": 1877,
+    "btc_price": "21817.32",
+    "rate": 3.29,
+    "median": 0.26
+  },
+  {
+    "last": 0.4,
+    "mean": 0.25,
+    "sum": 474.8,
+    "timestamp": 1662941549.7414258,
+    "count": 1892,
+    "btc_price": "21805.85",
+    "rate": 3.28,
+    "median": 0.26
+  },
+  {
+    "last": 0.6,
+    "mean": 0.25,
+    "sum": 479.92,
+    "timestamp": 1662941580.3169508,
+    "count": 1895,
+    "btc_price": "21831.4",
+    "rate": 3.23,
+    "median": 0.27
+  },
+  {
+    "last": 0.17,
+    "mean": 0.26,
+    "sum": 492.91,
+    "timestamp": 1662941610.731288,
+    "count": 1929,
+    "btc_price": "21816.69",
+    "rate": 3.18,
+    "median": 0.28
+  },
+  {
+    "last": 0.89,
+    "mean": 0.26,
+    "sum": 510.23,
+    "timestamp": 1662941641.817772,
+    "count": 1987,
+    "btc_price": "21821.32",
+    "rate": 3.07,
+    "median": 0.29
+  },
+  {
+    "last": 0.43,
+    "mean": 0.26,
+    "sum": 526.79,
+    "timestamp": 1662941672.2139308,
+    "count": 2054,
+    "btc_price": "21818.55",
+    "rate": 3.0,
+    "median": 0.29
+  },
+  {
+    "last": 0.7,
+    "mean": 0.26,
+    "sum": 558.73,
+    "timestamp": 1662941702.6036406,
+    "count": 2157,
+    "btc_price": "21814.44",
+    "rate": 3.03,
+    "median": 0.29
+  },
+  {
+    "last": 0.52,
+    "mean": 0.3,
+    "sum": 100.77,
+    "timestamp": 1662943368.7056165,
+    "count": 340,
+    "btc_price": "21732.05",
+    "rate": 0.0,
+    "median": 0.36
+  },
+  {
+    "last": 0.19,
+    "mean": 0.31,
+    "sum": 111.12,
+    "timestamp": 1662943398.8670967,
+    "count": 357,
+    "btc_price": "21731.73",
+    "rate": 2.95,
+    "median": 0.39
+  },
+  {
+    "last": 0.13,
+    "mean": 0.32,
+    "sum": 120.76,
+    "timestamp": 1662943429.0161293,
+    "count": 377,
+    "btc_price": "21723.25",
+    "rate": 3.12,
+    "median": 0.4
+  },
+  {
+    "last": 0.51,
+    "mean": 0.34,
+    "sum": 151.01,
+    "timestamp": 1662943459.1750517,
+    "count": 447,
+    "btc_price": "21715.39",
+    "rate": 3.43,
+    "median": 0.43
+  },
+  {
+    "last": 0.4,
+    "mean": 0.35,
+    "sum": 187.99,
+    "timestamp": 1662943489.3666627,
+    "count": 536,
+    "btc_price": "21718.71",
+    "rate": 3.99,
+    "median": 0.44
+  },
+  {
+    "last": 0.75,
+    "mean": 0.35,
+    "sum": 209.74,
+    "timestamp": 1662943519.6362245,
+    "count": 591,
+    "btc_price": "21732.63",
+    "rate": 3.92,
+    "median": 0.44
+  },
+  {
+    "last": -0.25,
+    "mean": 0.34,
+    "sum": 248.31,
+    "timestamp": 1662943549.6949625,
+    "count": 724,
+    "btc_price": "21725.13",
+    "rate": 4.0,
+    "median": 0.42
+  },
+  {
+    "last": 0.51,
+    "mean": 0.34,
+    "sum": 281.42,
+    "timestamp": 1662943580.340242,
+    "count": 832,
+    "btc_price": "21706.75",
+    "rate": 3.93,
+    "median": 0.41
+  },
+  {
+    "last": 0.51,
+    "mean": 0.33,
+    "sum": 309.87,
+    "timestamp": 1662943610.6295063,
+    "count": 935,
+    "btc_price": "21704.99",
+    "rate": 3.87,
+    "median": 0.41
+  },
+  {
+    "last": 0.51,
+    "mean": 0.33,
+    "sum": 352.76,
+    "timestamp": 1662943641.16391,
+    "count": 1060,
+    "btc_price": "21703.55",
+    "rate": 3.89,
+    "median": 0.41
+  },
+  {
+    "last": 0.15,
+    "mean": 0.33,
+    "sum": 394.42,
+    "timestamp": 1662943671.2721863,
+    "count": 1192,
+    "btc_price": "21700.1",
+    "rate": 3.94,
+    "median": 0.41
+  },
+  {
+    "last": 0.16,
+    "mean": 0.33,
+    "sum": 437.96,
+    "timestamp": 1662943701.6699126,
+    "count": 1315,
+    "btc_price": "21707.85",
+    "rate": 3.95,
+    "median": 0.41
+  },
+  {
+    "last": 0.55,
+    "mean": 0.33,
+    "sum": 456.77,
+    "timestamp": 1662943731.8038945,
+    "count": 1387,
+    "btc_price": "21702.3",
+    "rate": 3.82,
+    "median": 0.4
+  },
+  {
+    "last": -0.48,
+    "mean": 0.31,
+    "sum": 98.62,
+    "timestamp": 1662945444.2916198,
+    "count": 314,
+    "btc_price": "21672.33",
+    "rate": 0.0,
+    "median": 0.35
+  },
+  {
+    "last": 0.52,
+    "mean": 0.3,
+    "sum": 81.06,
+    "timestamp": 1662945474.5835853,
+    "count": 269,
+    "btc_price": "21668.15",
+    "rate": 2.87,
+    "median": 0.35
+  },
+  {
+    "last": -0.3,
+    "mean": 0.26,
+    "sum": 61.66,
+    "timestamp": 1662945504.9682279,
+    "count": 233,
+    "btc_price": "21667.94",
+    "rate": 2.75,
+    "median": 0.3
+  },
+  {
+    "last": 0.54,
+    "mean": 0.26,
+    "sum": 63.9,
+    "timestamp": 1662945535.7608013,
+    "count": 247,
+    "btc_price": "21688.8",
+    "rate": 2.7,
+    "median": 0.29
+  },
+  {
+    "last": -0.19,
+    "mean": 0.24,
+    "sum": 82.05,
+    "timestamp": 1662945565.7984803,
+    "count": 338,
+    "btc_price": "21688.64",
+    "rate": 2.78,
+    "median": 0.26
+  },
+  {
+    "last": 0.44,
+    "mean": 0.26,
+    "sum": 105.0,
+    "timestamp": 1662945596.2774425,
+    "count": 411,
+    "btc_price": "21690.79",
+    "rate": 2.71,
+    "median": 0.28
+  },
+  {
+    "last": -0.18,
+    "mean": 0.25,
+    "sum": 123.48,
+    "timestamp": 1662945626.6851773,
+    "count": 488,
+    "btc_price": "21693.01",
+    "rate": 2.68,
+    "median": 0.28
+  },
+  {
+    "last": 0.35,
+    "mean": 0.25,
+    "sum": 141.19,
+    "timestamp": 1662945657.8700297,
+    "count": 558,
+    "btc_price": "21712.83",
+    "rate": 2.61,
+    "median": 0.29
+  },
+  {
+    "last": 0.61,
+    "mean": 0.26,
+    "sum": 168.72,
+    "timestamp": 1662945688.539144,
+    "count": 652,
+    "btc_price": "21693",
+    "rate": 2.67,
+    "median": 0.28
+  },
+  {
+    "last": 0.7,
+    "mean": 0.26,
+    "sum": 196.37,
+    "timestamp": 1662945718.6979294,
+    "count": 747,
+    "btc_price": "21677.26",
+    "rate": 2.72,
+    "median": 0.28
+  },
+  {
+    "last": -0.24,
+    "mean": 0.27,
+    "sum": 222.4,
+    "timestamp": 1662945749.1442873,
+    "count": 837,
+    "btc_price": "21674.71",
+    "rate": 2.75,
+    "median": 0.29
+  },
+  {
+    "last": 0.51,
+    "mean": 0.27,
+    "sum": 246.47,
+    "timestamp": 1662945779.7738295,
+    "count": 910,
+    "btc_price": "21696.29",
+    "rate": 2.71,
+    "median": 0.31
+  },
+  {
+    "last": 0.35,
+    "mean": 0.27,
+    "sum": 271.65,
+    "timestamp": 1662945811.745307,
+    "count": 989,
+    "btc_price": "21693.71",
+    "rate": 2.69,
+    "median": 0.32
+  },
+  {
+    "last": 0.14,
+    "mean": 0.28,
+    "sum": 291.51,
+    "timestamp": 1662945842.9288542,
+    "count": 1053,
+    "btc_price": "21715.72",
+    "rate": 2.64,
+    "median": 0.33
+  },
+  {
+    "last": 0.17,
+    "mean": 0.28,
+    "sum": 309.79,
+    "timestamp": 1662945873.113895,
+    "count": 1124,
+    "btc_price": "21708.56",
+    "rate": 2.62,
+    "median": 0.33
+  },
+  {
+    "last": -0.03,
+    "mean": 0.27,
+    "sum": 331.79,
+    "timestamp": 1662945903.3307862,
+    "count": 1209,
+    "btc_price": "21726.73",
+    "rate": 2.63,
+    "median": 0.33
+  },
+  {
+    "last": 0.78,
+    "mean": 0.27,
+    "sum": 352.48,
+    "timestamp": 1662945933.4413013,
+    "count": 1285,
+    "btc_price": "21734.99",
+    "rate": 2.63,
+    "median": 0.33
+  },
+  {
+    "last": 0.01,
+    "mean": 0.27,
+    "sum": 337.91,
+    "timestamp": 1662947260.779689,
+    "count": 1229,
+    "btc_price": "22212.64",
+    "rate": 0.0,
+    "median": 0.33
+  },
+  {
+    "last": 0.67,
+    "mean": 0.27,
+    "sum": 342.84,
+    "timestamp": 1662947290.9488494,
+    "count": 1276,
+    "btc_price": "22210.37",
+    "rate": 4.21,
+    "median": 0.3
+  },
+  {
+    "last": 0.04,
+    "mean": 0.28,
+    "sum": 358.96,
+    "timestamp": 1662947320.9930573,
+    "count": 1304,
+    "btc_price": "22170.5",
+    "rate": 3.72,
+    "median": 0.32
+  },
+  {
+    "last": 0.21,
+    "mean": 0.28,
+    "sum": 364.79,
+    "timestamp": 1662947351.5947886,
+    "count": 1309,
+    "btc_price": "22253.18",
+    "rate": 3.48,
+    "median": 0.32
+  },
+  {
+    "last": 0.43,
+    "mean": 0.28,
+    "sum": 370.47,
+    "timestamp": 1662947382.2367537,
+    "count": 1302,
+    "btc_price": "22235.66",
+    "rate": 3.31,
+    "median": 0.33
+  },
+  {
+    "last": 0.38,
+    "mean": 0.29,
+    "sum": 382.31,
+    "timestamp": 1662947412.615675,
+    "count": 1325,
+    "btc_price": "22239.3",
+    "rate": 3.24,
+    "median": 0.33
+  },
+  {
+    "last": 0.1,
+    "mean": 0.29,
+    "sum": 391.84,
+    "timestamp": 1662947442.7762938,
+    "count": 1350,
+    "btc_price": "22187.16",
+    "rate": 3.25,
+    "median": 0.33
+  },
+  {
+    "last": 0.67,
+    "mean": 0.29,
+    "sum": 396.93,
+    "timestamp": 1662947473.2125196,
+    "count": 1350,
+    "btc_price": "22231.64",
+    "rate": 3.18,
+    "median": 0.34
+  },
+  {
+    "last": 0.62,
+    "mean": 0.29,
+    "sum": 392.48,
+    "timestamp": 1662947503.276348,
+    "count": 1343,
+    "btc_price": "22195.55",
+    "rate": 3.13,
+    "median": 0.34
+  },
+  {
+    "last": 0.29,
+    "mean": 0.29,
+    "sum": 380.89,
+    "timestamp": 1662947534.1023333,
+    "count": 1315,
+    "btc_price": "22195.31",
+    "rate": 3.02,
+    "median": 0.33
+  },
+  {
+    "last": 0.84,
+    "mean": 0.29,
+    "sum": 383.74,
+    "timestamp": 1662947564.3241477,
+    "count": 1325,
+    "btc_price": "22177.65",
+    "rate": 3.0,
+    "median": 0.33
+  },
+  {
+    "last": -0.67,
+    "mean": 0.29,
+    "sum": 382.12,
+    "timestamp": 1662947594.4883723,
+    "count": 1331,
+    "btc_price": "22179.2",
+    "rate": 2.98,
+    "median": 0.33
+  },
+  {
+    "last": 0.23,
+    "mean": 0.29,
+    "sum": 289.0,
+    "timestamp": 1662948346.0358078,
+    "count": 994,
+    "btc_price": "22036.25",
+    "rate": 0.0,
+    "median": 0.31
+  },
+  {
+    "last": 0.11,
+    "mean": 0.29,
+    "sum": 310.93,
+    "timestamp": 1662948376.443538,
+    "count": 1071,
+    "btc_price": "22039",
+    "rate": 2.57,
+    "median": 0.31
+  },
+  {
+    "last": 0.11,
+    "mean": 0.29,
+    "sum": 340.32,
+    "timestamp": 1662948407.0358982,
+    "count": 1189,
+    "btc_price": "21989.81",
+    "rate": 3.22,
+    "median": 0.3
+  },
+  {
+    "last": 0.11,
+    "mean": 0.28,
+    "sum": 364.14,
+    "timestamp": 1662948437.46807,
+    "count": 1286,
+    "btc_price": "21964.68",
+    "rate": 3.2,
+    "median": 0.3
+  },
+  {
+    "last": 0.61,
+    "mean": 0.28,
+    "sum": 393.59,
+    "timestamp": 1662948467.8841126,
+    "count": 1385,
+    "btc_price": "21977.87",
+    "rate": 3.22,
+    "median": 0.3
+  },
+  {
+    "last": 0.33,
+    "mean": 0.28,
+    "sum": 419.0,
+    "timestamp": 1662948498.4081004,
+    "count": 1477,
+    "btc_price": "21965.07",
+    "rate": 3.18,
+    "median": 0.29
+  },
+  {
+    "last": 0.48,
+    "mean": 0.28,
+    "sum": 441.51,
+    "timestamp": 1662948528.713733,
+    "count": 1580,
+    "btc_price": "21972.36",
+    "rate": 3.21,
+    "median": 0.29
+  },
+  {
+    "last": -0.38,
+    "mean": 0.28,
+    "sum": 470.94,
+    "timestamp": 1662948558.9085836,
+    "count": 1665,
+    "btc_price": "21978.27",
+    "rate": 3.16,
+    "median": 0.29
+  },
+  {
+    "last": 0.45,
+    "mean": 0.28,
+    "sum": 497.14,
+    "timestamp": 1662948589.1942964,
+    "count": 1763,
+    "btc_price": "21971.34",
+    "rate": 3.17,
+    "median": 0.29
+  },
+  {
+    "last": 0.29,
+    "mean": 0.28,
+    "sum": 522.75,
+    "timestamp": 1662948619.3052244,
+    "count": 1853,
+    "btc_price": "21960.92",
+    "rate": 3.15,
+    "median": 0.29
+  },
+  {
+    "last": 0.51,
+    "mean": 0.28,
+    "sum": 555.52,
+    "timestamp": 1662948649.6531684,
+    "count": 1978,
+    "btc_price": "21963.67",
+    "rate": 3.25,
+    "median": 0.29
+  },
+  {
+    "last": 0.52,
+    "mean": 0.28,
+    "sum": 578.03,
+    "timestamp": 1662948679.9641762,
+    "count": 2049,
+    "btc_price": "21942.04",
+    "rate": 3.16,
+    "median": 0.29
+  },
+  {
+    "last": 0.11,
+    "mean": 0.28,
+    "sum": 599.95,
+    "timestamp": 1662948710.73165,
+    "count": 2137,
+    "btc_price": "21914.61",
+    "rate": 3.14,
+    "median": 0.29
+  },
+  {
+    "last": 0.46,
+    "mean": 0.27,
+    "sum": 616.3,
+    "timestamp": 1662948741.0145328,
+    "count": 2249,
+    "btc_price": "21874.44",
+    "rate": 3.18,
+    "median": 0.29
+  },
+  {
+    "last": 0.09,
+    "mean": 0.28,
+    "sum": 822.22,
+    "timestamp": 1662949060.9680889,
+    "count": 2987,
+    "btc_price": "21773.07",
+    "rate": 3.07,
+    "median": 0.29
+  },
+  {
+    "last": 0.65,
+    "mean": 0.28,
+    "sum": 821.81,
+    "timestamp": 1662949091.8507135,
+    "count": 2952,
+    "btc_price": "21792.18",
+    "rate": 3.06,
+    "median": 0.29
+  },
+  {
+    "last": 0.14,
+    "mean": 0.28,
+    "sum": 815.29,
+    "timestamp": 1662949121.9791992,
+    "count": 2946,
+    "btc_price": "21795.66",
+    "rate": 3.05,
+    "median": 0.29
+  },
+  {
+    "last": -0.25,
+    "mean": 0.27,
+    "sum": 806.44,
+    "timestamp": 1662949152.223888,
+    "count": 2938,
+    "btc_price": "21767.54",
+    "rate": 3.02,
+    "median": 0.29
+  },
+  {
+    "last": -0.33,
+    "mean": 0.27,
+    "sum": 804.34,
+    "timestamp": 1662949182.563881,
+    "count": 2943,
+    "btc_price": "21763.01",
+    "rate": 3.02,
+    "median": 0.29
+  },
+  {
+    "last": 0.21,
+    "mean": 0.27,
+    "sum": 794.96,
+    "timestamp": 1662949212.949475,
+    "count": 2927,
+    "btc_price": "21762.12",
+    "rate": 2.97,
+    "median": 0.29
+  },
+  {
+    "last": 0.43,
+    "mean": 0.27,
+    "sum": 788.92,
+    "timestamp": 1662949243.338007,
+    "count": 2911,
+    "btc_price": "21778.21",
+    "rate": 2.96,
+    "median": 0.29
+  },
+  {
+    "last": 0.03,
+    "mean": 0.27,
+    "sum": 737.3,
+    "timestamp": 1662949313.2672234,
+    "count": 2726,
+    "btc_price": "21788.5",
+    "rate": 0.0,
+    "median": 0.29
+  },
+  {
+    "last": 0.51,
+    "mean": 0.27,
+    "sum": 731.07,
+    "timestamp": 1662949343.3135734,
+    "count": 2723,
+    "btc_price": "21801.1",
+    "rate": 2.39,
+    "median": 0.29
+  },
+  {
+    "last": 0.11,
+    "mean": 0.27,
+    "sum": 728.82,
+    "timestamp": 1662949374.2091753,
+    "count": 2745,
+    "btc_price": "21812.33",
+    "rate": 2.93,
+    "median": 0.29
+  },
+  {
+    "last": 0.19,
+    "mean": 0.27,
+    "sum": 735.05,
+    "timestamp": 1662949404.655963,
+    "count": 2771,
+    "btc_price": "21815.87",
+    "rate": 2.85,
+    "median": 0.29
+  },
+  {
+    "last": 0.31,
+    "mean": 0.27,
+    "sum": 756.66,
+    "timestamp": 1662949435.309797,
+    "count": 2853,
+    "btc_price": "21825.89",
+    "rate": 2.81,
+    "median": 0.29
+  },
+  {
+    "last": 0.43,
+    "mean": 0.26,
+    "sum": 776.96,
+    "timestamp": 1662949465.3527389,
+    "count": 2937,
+    "btc_price": "21846.84",
+    "rate": 2.81,
+    "median": 0.29
+  },
+  {
+    "last": 0.23,
+    "mean": 0.26,
+    "sum": 807.09,
+    "timestamp": 1662949496.414562,
+    "count": 3061,
+    "btc_price": "21852.42",
+    "rate": 3.01,
+    "median": 0.29
+  },
+  {
+    "last": 0.68,
+    "mean": 0.26,
+    "sum": 834.19,
+    "timestamp": 1662949526.4829516,
+    "count": 3158,
+    "btc_price": "21852.07",
+    "rate": 3.04,
+    "median": 0.29
+  },
+  {
+    "last": 0.29,
+    "mean": 0.26,
+    "sum": 858.68,
+    "timestamp": 1662949556.792359,
+    "count": 3244,
+    "btc_price": "21870.38",
+    "rate": 3.01,
+    "median": 0.29
+  },
+  {
+    "last": 0.67,
+    "mean": 0.27,
+    "sum": 879.66,
+    "timestamp": 1662949586.9890544,
+    "count": 3318,
+    "btc_price": "21849.05",
+    "rate": 2.95,
+    "median": 0.29
+  },
+  {
+    "last": 0.23,
+    "mean": 0.27,
+    "sum": 902.98,
+    "timestamp": 1662949617.1803608,
+    "count": 3398,
+    "btc_price": "21822.77",
+    "rate": 2.92,
+    "median": 0.29
+  },
+  {
+    "last": 0.44,
+    "mean": 0.27,
+    "sum": 927.24,
+    "timestamp": 1662949647.4133751,
+    "count": 3491,
+    "btc_price": "21811.77",
+    "rate": 2.94,
+    "median": 0.29
+  },
+  {
+    "last": 0.43,
+    "mean": 0.27,
+    "sum": 956.92,
+    "timestamp": 1662949677.7243607,
+    "count": 3587,
+    "btc_price": "21805.3",
+    "rate": 2.95,
+    "median": 0.29
+  },
+  {
+    "last": 0.15,
+    "mean": 0.27,
+    "sum": 980.96,
+    "timestamp": 1662949708.6131425,
+    "count": 3675,
+    "btc_price": "21794.23",
+    "rate": 2.95,
+    "median": 0.29
+  },
+  {
+    "last": 0.29,
+    "mean": 0.27,
+    "sum": 1003.48,
+    "timestamp": 1662949738.8561661,
+    "count": 3772,
+    "btc_price": "21792.29",
+    "rate": 2.97,
+    "median": 0.29
+  },
+  {
+    "last": 0.6,
+    "mean": 0.26,
+    "sum": 1237.46,
+    "timestamp": 1662950146.293789,
+    "count": 4749,
+    "btc_price": "21863.06",
+    "rate": 2.9,
+    "median": 0.29
+  },
+  {
+    "last": 0.45,
+    "mean": 0.26,
+    "sum": 1233.83,
+    "timestamp": 1662950176.3910384,
+    "count": 4744,
+    "btc_price": "21851.03",
+    "rate": 2.85,
+    "median": 0.29
+  },
+  {
+    "last": -0.25,
+    "mean": 0.26,
+    "sum": 1220.57,
+    "timestamp": 1662950207.2993655,
+    "count": 4712,
+    "btc_price": "21813.65",
+    "rate": 2.85,
+    "median": 0.29
+  },
+  {
+    "last": 0.29,
+    "mean": 0.26,
+    "sum": 1215.2,
+    "timestamp": 1662950238.714648,
+    "count": 4674,
+    "btc_price": "21807.71",
+    "rate": 2.79,
+    "median": 0.29
+  },
+  {
+    "last": 0.16,
+    "mean": 0.26,
+    "sum": 1140.81,
+    "timestamp": 1662950328.4107594,
+    "count": 4389,
+    "btc_price": "21781.47",
+    "rate": 0.0,
+    "median": 0.29
+  },
+  {
+    "last": 0.54,
+    "mean": 0.26,
+    "sum": 1122.27,
+    "timestamp": 1662950358.5302036,
+    "count": 4358,
+    "btc_price": "21771.73",
+    "rate": 1.86,
+    "median": 0.29
+  },
+  {
+    "last": 0.33,
+    "mean": 0.26,
+    "sum": 1119.11,
+    "timestamp": 1662950388.8174198,
+    "count": 4334,
+    "btc_price": "21780.47",
+    "rate": 2.15,
+    "median": 0.29
+  },
+  {
+    "last": 0.57,
+    "mean": 0.26,
+    "sum": 1112.71,
+    "timestamp": 1662950419.7527134,
+    "count": 4315,
+    "btc_price": "21786.91",
+    "rate": 2.22,
+    "median": 0.28
+  },
+  {
+    "last": 0.25,
+    "mean": 0.26,
+    "sum": 1100.44,
+    "timestamp": 1662950449.895161,
+    "count": 4261,
+    "btc_price": "21775.33",
+    "rate": 2.25,
+    "median": 0.29
+  },
+  {
+    "last": 0.6,
+    "mean": 0.26,
+    "sum": 1092.53,
+    "timestamp": 1662950480.249809,
+    "count": 4276,
+    "btc_price": "21772.01",
+    "rate": 2.36,
+    "median": 0.28
+  },
+  {
+    "last": 0.1,
+    "mean": 0.26,
+    "sum": 1086.8,
+    "timestamp": 1662950510.9628923,
+    "count": 4260,
+    "btc_price": "21774.8",
+    "rate": 2.37,
+    "median": 0.28
+  },
+  {
+    "last": 0.44,
+    "mean": 0.26,
+    "sum": 1090.83,
+    "timestamp": 1662950541.2088475,
+    "count": 4233,
+    "btc_price": "21790.07",
+    "rate": 2.42,
+    "median": 0.29
+  },
+  {
+    "last": 0.57,
+    "mean": 0.26,
+    "sum": 1119.31,
+    "timestamp": 1662950572.010941,
+    "count": 4332,
+    "btc_price": "21780.32",
+    "rate": 2.52,
+    "median": 0.29
+  },
+  {
+    "last": -0.18,
+    "mean": 0.26,
+    "sum": 1135.86,
+    "timestamp": 1662950602.7586508,
+    "count": 4396,
+    "btc_price": "21778.04",
+    "rate": 2.47,
+    "median": 0.29
+  },
+  {
+    "last": 0.64,
+    "mean": 0.25,
+    "sum": 527.95,
+    "timestamp": 1662951461.147297,
+    "count": 2133,
+    "btc_price": "21767.97",
+    "rate": 0.0,
+    "median": 0.28
+  },
+  {
+    "last": 0.33,
+    "mean": 0.25,
+    "sum": 518.03,
+    "timestamp": 1662951492.249283,
+    "count": 2107,
+    "btc_price": "21760.88",
+    "rate": 2.48,
+    "median": 0.26
+  },
+  {
+    "last": -0.25,
+    "mean": 0.24,
+    "sum": 18.81,
+    "timestamp": 1662952494.4090497,
+    "count": 78,
+    "btc_price": "21821.08",
+    "rate": 0.0,
+    "median": 0.26
+  },
+  {
+    "last": 0.12,
+    "mean": 0.27,
+    "sum": 48.53,
+    "timestamp": 1662952525.002266,
+    "count": 178,
+    "btc_price": "21831.77",
+    "rate": 3.31,
+    "median": 0.31
+  },
+  {
+    "last": 0.23,
+    "mean": 0.27,
+    "sum": 84.71,
+    "timestamp": 1662952555.62979,
+    "count": 312,
+    "btc_price": "21821.83",
+    "rate": 3.84,
+    "median": 0.33
+  },
+  {
+    "last": 0.53,
+    "mean": 0.26,
+    "sum": 105.18,
+    "timestamp": 1662952585.8800092,
+    "count": 400,
+    "btc_price": "21803.95",
+    "rate": 3.53,
+    "median": 0.33
+  },
+  {
+    "last": -0.27,
+    "mean": 0.26,
+    "sum": 132.63,
+    "timestamp": 1662952615.9622357,
+    "count": 512,
+    "btc_price": "21803.62",
+    "rate": 3.58,
+    "median": 0.33
+  },
+  {
+    "last": 0.33,
+    "mean": 0.27,
+    "sum": 163.46,
+    "timestamp": 1662952645.986012,
+    "count": 608,
+    "btc_price": "21820",
+    "rate": 3.5,
+    "median": 0.33
+  },
+  {
+    "last": 0.33,
+    "mean": 0.27,
+    "sum": 187.18,
+    "timestamp": 1662952676.1365232,
+    "count": 695,
+    "btc_price": "21820.69",
+    "rate": 3.4,
+    "median": 0.33
+  },
+  {
+    "last": 0.33,
+    "mean": 0.27,
+    "sum": 207.16,
+    "timestamp": 1662952706.2904322,
+    "count": 779,
+    "btc_price": "21813.76",
+    "rate": 3.31,
+    "median": 0.33
+  },
+  {
+    "last": 0.81,
+    "mean": 0.27,
+    "sum": 228.49,
+    "timestamp": 1662952736.7661104,
+    "count": 862,
+    "btc_price": "21811.53",
+    "rate": 3.24,
+    "median": 0.33
+  },
+  {
+    "last": 0.14,
+    "mean": 0.26,
+    "sum": 249.03,
+    "timestamp": 1662952767.1272845,
+    "count": 944,
+    "btc_price": "21812.05",
+    "rate": 3.18,
+    "median": 0.33
+  },
+  {
+    "last": -0.07,
+    "mean": 0.26,
+    "sum": 272.43,
+    "timestamp": 1662952798.1267803,
+    "count": 1029,
+    "btc_price": "21782.65",
+    "rate": 3.13,
+    "median": 0.33
+  },
+  {
+    "last": 0.54,
+    "mean": 0.26,
+    "sum": 298.7,
+    "timestamp": 1662952828.361862,
+    "count": 1129,
+    "btc_price": "21766.57",
+    "rate": 3.15,
+    "median": 0.33
+  },
+  {
+    "last": 0.33,
+    "mean": 0.26,
+    "sum": 322.77,
+    "timestamp": 1662952858.7197967,
+    "count": 1229,
+    "btc_price": "21762.29",
+    "rate": 3.16,
+    "median": 0.33
+  },
+  {
+    "last": 0.33,
+    "mean": 0.26,
+    "sum": 304.04,
+    "timestamp": 1662953738.8881874,
+    "count": 1153,
+    "btc_price": "21610.18",
+    "rate": 0.0,
+    "median": 0.33
+  },
+  {
+    "last": 0.51,
+    "mean": 0.26,
+    "sum": 320.87,
+    "timestamp": 1662953769.0715022,
+    "count": 1225,
+    "btc_price": "21607.88",
+    "rate": 2.42,
+    "median": 0.33
+  },
+  {
+    "last": 0.26,
+    "mean": 0.26,
+    "sum": 336.74,
+    "timestamp": 1662953799.766062,
+    "count": 1307,
+    "btc_price": "21592.98",
+    "rate": 2.55,
+    "median": 0.33
+  },
+  {
+    "last": 0.82,
+    "mean": 0.26,
+    "sum": 358.1,
+    "timestamp": 1662953830.5618007,
+    "count": 1381,
+    "btc_price": "21580.24",
+    "rate": 2.5,
+    "median": 0.33
+  },
+  {
+    "last": 0.46,
+    "mean": 0.26,
+    "sum": 375.24,
+    "timestamp": 1662953860.964413,
+    "count": 1453,
+    "btc_price": "21610",
+    "rate": 2.47,
+    "median": 0.33
+  },
+  {
+    "last": -0.22,
+    "mean": 0.26,
+    "sum": 395.2,
+    "timestamp": 1662953891.0675428,
+    "count": 1537,
+    "btc_price": "21580.75",
+    "rate": 2.53,
+    "median": 0.32
+  },
+  {
+    "last": 0.06,
+    "mean": 0.26,
+    "sum": 421.46,
+    "timestamp": 1662953921.1792157,
+    "count": 1625,
+    "btc_price": "21591.56",
+    "rate": 2.59,
+    "median": 0.32
+  },
+  {
+    "last": 0.46,
+    "mean": 0.26,
+    "sum": 438.54,
+    "timestamp": 1662953951.4753866,
+    "count": 1696,
+    "btc_price": "21597.45",
+    "rate": 2.56,
+    "median": 0.32
+  },
+  {
+    "last": 0.44,
+    "mean": 0.26,
+    "sum": 456.5,
+    "timestamp": 1662953981.903796,
+    "count": 1765,
+    "btc_price": "21624.97",
+    "rate": 2.52,
+    "median": 0.31
+  },
+  {
+    "last": 0.4,
+    "mean": 0.26,
+    "sum": 473.16,
+    "timestamp": 1662954013.4077826,
+    "count": 1839,
+    "btc_price": "21608.94",
+    "rate": 2.5,
+    "median": 0.31
+  },
+  {
+    "last": 0.67,
+    "mean": 0.26,
+    "sum": 495.52,
+    "timestamp": 1662954043.8791447,
+    "count": 1931,
+    "btc_price": "21601.78",
+    "rate": 2.55,
+    "median": 0.31
+  },
+  {
+    "last": 0.67,
+    "mean": 0.25,
+    "sum": 513.93,
+    "timestamp": 1662954074.0796056,
+    "count": 2021,
+    "btc_price": "21608.18",
+    "rate": 2.59,
+    "median": 0.31
+  },
+  {
+    "last": 0.29,
+    "mean": 0.25,
+    "sum": 531.89,
+    "timestamp": 1662954104.108323,
+    "count": 2100,
+    "btc_price": "21589.45",
+    "rate": 2.6,
+    "median": 0.31
+  },
+  {
+    "last": -0.07,
+    "mean": 0.25,
+    "sum": 550.97,
+    "timestamp": 1662954134.2306592,
+    "count": 2173,
+    "btc_price": "21598.35",
+    "rate": 2.58,
+    "median": 0.31
+  },
+  {
+    "last": -0.42,
+    "mean": 0.25,
+    "sum": 566.66,
+    "timestamp": 1662954165.0450191,
+    "count": 2259,
+    "btc_price": "21600.08",
+    "rate": 2.6,
+    "median": 0.31
+  },
+  {
+    "last": 0.32,
+    "mean": 0.25,
+    "sum": 581.78,
+    "timestamp": 1662954195.694067,
+    "count": 2350,
+    "btc_price": "21620.73",
+    "rate": 2.62,
+    "median": 0.3
+  },
+  {
+    "last": 0.32,
+    "mean": 0.24,
+    "sum": 594.35,
+    "timestamp": 1662954225.958759,
+    "count": 2434,
+    "btc_price": "21621.32",
+    "rate": 2.63,
+    "median": 0.3
+  },
+  {
+    "last": 0.25,
+    "mean": 0.24,
+    "sum": 606.79,
+    "timestamp": 1662954257.2879648,
+    "count": 2523,
+    "btc_price": "21621.98",
+    "rate": 2.65,
+    "median": 0.3
+  },
+  {
+    "last": 0.33,
+    "mean": 0.24,
+    "sum": 575.02,
+    "timestamp": 1662954326.9953895,
+    "count": 2410,
+    "btc_price": "21643.71",
+    "rate": 0.0,
+    "median": 0.29
+  },
+  {
+    "last": -0.42,
+    "mean": 0.24,
+    "sum": 561.55,
+    "timestamp": 1662954357.0963957,
+    "count": 2384,
+    "btc_price": "21653.72",
+    "rate": 3.42,
+    "median": 0.29
+  },
+  {
+    "last": 0.33,
+    "mean": 0.23,
+    "sum": 552.2,
+    "timestamp": 1662954387.1450188,
+    "count": 2382,
+    "btc_price": "21644.93",
+    "rate": 3.18,
+    "median": 0.29
+  },
+  {
+    "last": 0.12,
+    "mean": 0.23,
+    "sum": 543.75,
+    "timestamp": 1662954417.7382166,
+    "count": 2364,
+    "btc_price": "21624.55",
+    "rate": 3.09,
+    "median": 0.29
+  },
+  {
+    "last": 0.33,
+    "mean": 0.22,
+    "sum": 523.32,
+    "timestamp": 1662954447.8134909,
+    "count": 2335,
+    "btc_price": "21635.59",
+    "rate": 2.9,
+    "median": 0.29
+  },
+  {
+    "last": -0.17,
+    "mean": 0.22,
+    "sum": 516.59,
+    "timestamp": 1662954478.3005657,
+    "count": 2346,
+    "btc_price": "21624.03",
+    "rate": 2.96,
+    "median": 0.28
+  },
+  {
+    "last": 0.33,
+    "mean": 0.22,
+    "sum": 514.12,
+    "timestamp": 1662954509.1160922,
+    "count": 2348,
+    "btc_price": "21615.21",
+    "rate": 2.93,
+    "median": 0.28
+  },
+  {
+    "last": 0.25,
+    "mean": 0.22,
+    "sum": 511.6,
+    "timestamp": 1662954539.2464073,
+    "count": 2349,
+    "btc_price": "21602.33",
+    "rate": 2.91,
+    "median": 0.28
+  },
+  {
+    "last": 0.19,
+    "mean": 0.21,
+    "sum": 503.61,
+    "timestamp": 1662954569.520306,
+    "count": 2345,
+    "btc_price": "21622.75",
+    "rate": 2.86,
+    "median": 0.27
+  },
+  {
+    "last": 0.24,
+    "mean": 0.21,
+    "sum": 495.72,
+    "timestamp": 1662954599.6477642,
+    "count": 2346,
+    "btc_price": "21619.12",
+    "rate": 2.86,
+    "median": 0.26
+  },
+  {
+    "last": 0.04,
+    "mean": 0.21,
+    "sum": 483.82,
+    "timestamp": 1662954629.7608876,
+    "count": 2331,
+    "btc_price": "21600.93",
+    "rate": 2.85,
+    "median": 0.26
+  },
+  {
+    "last": 0.4,
+    "mean": 0.2,
+    "sum": 469.6,
+    "timestamp": 1662954659.8701618,
+    "count": 2305,
+    "btc_price": "21605.13",
+    "rate": 2.81,
+    "median": 0.26
+  },
+  {
+    "last": 0.21,
+    "mean": 0.2,
+    "sum": 480.24,
+    "timestamp": 1662954690.493155,
+    "count": 2379,
+    "btc_price": "21599.88",
+    "rate": 2.77,
+    "median": 0.26
+  },
+  {
+    "last": 0.6,
+    "mean": 0.2,
+    "sum": 499.26,
+    "timestamp": 1662954721.4568388,
+    "count": 2464,
+    "btc_price": "21602.88",
+    "rate": 2.77,
+    "median": 0.26
+  },
+  {
+    "last": -0.76,
+    "mean": 0.2,
+    "sum": 519.89,
+    "timestamp": 1662954751.8087714,
+    "count": 2547,
+    "btc_price": "21617.03",
+    "rate": 2.77,
+    "median": 0.26
+  },
+  {
+    "last": 0.02,
+    "mean": 0.21,
+    "sum": 537.86,
+    "timestamp": 1662954782.100706,
+    "count": 2616,
+    "btc_price": "21610.13",
+    "rate": 2.74,
+    "median": 0.26
+  },
+  {
+    "last": 0.33,
+    "mean": 0.21,
+    "sum": 557.85,
+    "timestamp": 1662954812.4762897,
+    "count": 2701,
+    "btc_price": "21624.59",
+    "rate": 2.74,
+    "median": 0.26
+  },
+  {
+    "last": 0.44,
+    "mean": 0.21,
+    "sum": 653.83,
+    "timestamp": 1662955539.7375104,
+    "count": 3062,
+    "btc_price": "21657.75",
+    "rate": 2.78,
+    "median": 0.26
+  },
+  {
+    "last": 0.33,
+    "mean": 0.21,
+    "sum": 661.91,
+    "timestamp": 1662955569.7724223,
+    "count": 3082,
+    "btc_price": "21669.17",
+    "rate": 2.82,
+    "median": 0.26
+  },
+  {
+    "last": 0.26,
+    "mean": 0.22,
+    "sum": 663.31,
+    "timestamp": 1662955599.977239,
+    "count": 3079,
+    "btc_price": "21664.46",
+    "rate": 2.78,
+    "median": 0.27
+  },
+  {
+    "last": 0.15,
+    "mean": 0.21,
+    "sum": 662.69,
+    "timestamp": 1662955630.144592,
+    "count": 3084,
+    "btc_price": "21663.11",
+    "rate": 2.75,
+    "median": 0.26
+  },
+  {
+    "last": 0.21,
+    "mean": 0.22,
+    "sum": 667.24,
+    "timestamp": 1662955660.2767894,
+    "count": 3099,
+    "btc_price": "21672.67",
+    "rate": 2.77,
+    "median": 0.27
+  },
+  {
+    "last": 0.33,
+    "mean": 0.22,
+    "sum": 670.34,
+    "timestamp": 1662955690.5498753,
+    "count": 3103,
+    "btc_price": "21685.12",
+    "rate": 2.79,
+    "median": 0.27
+  },
+  {
+    "last": 0.33,
+    "mean": 0.22,
+    "sum": 665.47,
+    "timestamp": 1662955720.7541149,
+    "count": 3091,
+    "btc_price": "21684.58",
+    "rate": 2.75,
+    "median": 0.27
+  },
+  {
+    "last": -0.09,
+    "mean": 0.22,
+    "sum": 670.19,
+    "timestamp": 1662955750.8703303,
+    "count": 3095,
+    "btc_price": "21693.49",
+    "rate": 2.73,
+    "median": 0.27
+  },
+  {
+    "last": 0.19,
+    "mean": 0.22,
+    "sum": 678.64,
+    "timestamp": 1662955780.978615,
+    "count": 3130,
+    "btc_price": "21673.29",
+    "rate": 2.79,
+    "median": 0.28
+  },
+  {
+    "last": 0.1,
+    "mean": 0.22,
+    "sum": 679.25,
+    "timestamp": 1662955811.2004676,
+    "count": 3129,
+    "btc_price": "21696.45",
+    "rate": 2.77,
+    "median": 0.28
+  },
+  {
+    "last": 0.41,
+    "mean": 0.22,
+    "sum": 675.69,
+    "timestamp": 1662955841.710778,
+    "count": 3121,
+    "btc_price": "21695.5",
+    "rate": 2.75,
+    "median": 0.28
+  },
+  {
+    "last": 0.46,
+    "mean": 0.22,
+    "sum": 683.17,
+    "timestamp": 1662955872.2792008,
+    "count": 3129,
+    "btc_price": "21679.41",
+    "rate": 2.79,
+    "median": 0.28
+  },
+  {
+    "last": 0.55,
+    "mean": 0.22,
+    "sum": 685.4,
+    "timestamp": 1662955902.8434474,
+    "count": 3125,
+    "btc_price": "21650.16",
+    "rate": 2.77,
+    "median": 0.28
+  },
+  {
+    "last": 0.8,
+    "mean": 0.22,
+    "sum": 649.45,
+    "timestamp": 1662955970.7933946,
+    "count": 2946,
+    "btc_price": "21680.02",
+    "rate": 0.0,
+    "median": 0.28
+  },
+  {
+    "last": 0.3,
+    "mean": 0.22,
+    "sum": 656.59,
+    "timestamp": 1662956000.8975198,
+    "count": 2948,
+    "btc_price": "21681.85",
+    "rate": 2.86,
+    "median": 0.28
+  },
+  {
+    "last": 0.05,
+    "mean": 0.23,
+    "sum": 662.68,
+    "timestamp": 1662956030.9567902,
+    "count": 2921,
+    "btc_price": "21680.17",
+    "rate": 2.48,
+    "median": 0.29
+  },
+  {
+    "last": 0.7,
+    "mean": 0.23,
+    "sum": 669.31,
+    "timestamp": 1662956061.534335,
+    "count": 2929,
+    "btc_price": "21679.06",
+    "rate": 2.51,
+    "median": 0.29
+  },
+  {
+    "last": 0.01,
+    "mean": 0.22,
+    "sum": 682.83,
+    "timestamp": 1662956092.0291328,
+    "count": 3038,
+    "btc_price": "21669.05",
+    "rate": 2.78,
+    "median": 0.28
+  },
+  {
+    "last": 0.01,
+    "mean": 0.22,
+    "sum": 700.69,
+    "timestamp": 1662956122.4543278,
+    "count": 3118,
+    "btc_price": "21674.93",
+    "rate": 2.75,
+    "median": 0.28
+  },
+  {
+    "last": 0.4,
+    "mean": 0.22,
+    "sum": 703.08,
+    "timestamp": 1662956152.9176278,
+    "count": 3129,
+    "btc_price": "21675.08",
+    "rate": 2.83,
+    "median": 0.28
+  },
+  {
+    "last": 0.33,
+    "mean": 0.23,
+    "sum": 712.98,
+    "timestamp": 1662956183.0381608,
+    "count": 3123,
+    "btc_price": "21652.46",
+    "rate": 2.8,
+    "median": 0.28
+  },
+  {
+    "last": 0.1,
+    "mean": 0.23,
+    "sum": 719.42,
+    "timestamp": 1662956213.1072042,
+    "count": 3117,
+    "btc_price": "21661.88",
+    "rate": 2.83,
+    "median": 0.28
+  },
+  {
+    "last": 0.32,
+    "mean": 0.23,
+    "sum": 734.91,
+    "timestamp": 1662956243.4215324,
+    "count": 3151,
+    "btc_price": "21671.59",
+    "rate": 2.88,
+    "median": 0.29
+  },
+  {
+    "last": 0.4,
+    "mean": 0.24,
+    "sum": 749.13,
+    "timestamp": 1662956273.5123084,
+    "count": 3164,
+    "btc_price": "21667.07",
+    "rate": 2.94,
+    "median": 0.29
+  },
+  {
+    "last": 0.42,
+    "mean": 0.24,
+    "sum": 756.92,
+    "timestamp": 1662956304.0006924,
+    "count": 3174,
+    "btc_price": "21674.56",
+    "rate": 2.97,
+    "median": 0.29
+  },
+  {
+    "last": 0.34,
+    "mean": 0.24,
+    "sum": 759.34,
+    "timestamp": 1662956334.0234027,
+    "count": 3160,
+    "btc_price": "21670.23",
+    "rate": 2.94,
+    "median": 0.29
+  },
+  {
+    "last": -0.05,
+    "mean": 0.24,
+    "sum": 767.0,
+    "timestamp": 1662956364.342295,
+    "count": 3180,
+    "btc_price": "21682.84",
+    "rate": 2.94,
+    "median": 0.29
+  },
+  {
+    "last": -0.06,
+    "mean": 0.24,
+    "sum": 773.98,
+    "timestamp": 1662956394.502943,
+    "count": 3181,
+    "btc_price": "21669.02",
+    "rate": 2.94,
+    "median": 0.29
+  },
+  {
+    "last": -0.04,
+    "mean": 0.25,
+    "sum": 739.1,
+    "timestamp": 1662956485.6941726,
+    "count": 2949,
+    "btc_price": "21656.47",
+    "rate": 0.0,
+    "median": 0.29
+  },
+  {
+    "last": -0.07,
+    "mean": 0.25,
+    "sum": 737.89,
+    "timestamp": 1662956516.157435,
+    "count": 2942,
+    "btc_price": "21644.13",
+    "rate": 2.49,
+    "median": 0.29
+  },
+  {
+    "last": -0.17,
+    "mean": 0.25,
+    "sum": 735.93,
+    "timestamp": 1662956546.3957388,
+    "count": 2926,
+    "btc_price": "21645.9",
+    "rate": 2.28,
+    "median": 0.29
+  },
+  {
+    "last": 0.68,
+    "mean": 0.25,
+    "sum": 740.17,
+    "timestamp": 1662956576.7163434,
+    "count": 2928,
+    "btc_price": "21654.29",
+    "rate": 2.39,
+    "median": 0.29
+  },
+  {
+    "last": 0.04,
+    "mean": 0.25,
+    "sum": 744.35,
+    "timestamp": 1662956607.0778553,
+    "count": 2934,
+    "btc_price": "21669.26",
+    "rate": 2.52,
+    "median": 0.29
+  },
+  {
+    "last": 0.55,
+    "mean": 0.25,
+    "sum": 767.03,
+    "timestamp": 1662956637.1162608,
+    "count": 3011,
+    "btc_price": "21668.49",
+    "rate": 2.61,
+    "median": 0.29
+  },
+  {
+    "last": 0.31,
+    "mean": 0.26,
+    "sum": 793.77,
+    "timestamp": 1662956667.405984,
+    "count": 3112,
+    "btc_price": "21673.4",
+    "rate": 2.73,
+    "median": 0.29
+  },
+  {
+    "last": -0.12,
+    "mean": 0.26,
+    "sum": 820.5,
+    "timestamp": 1662956697.52163,
+    "count": 3212,
+    "btc_price": "21678.08",
+    "rate": 2.81,
+    "median": 0.29
+  },
+  {
+    "last": 0.33,
+    "mean": 0.26,
+    "sum": 843.23,
+    "timestamp": 1662956728.6362958,
+    "count": 3301,
+    "btc_price": "21675.68",
+    "rate": 2.82,
+    "median": 0.29
+  },
+  {
+    "last": 0.04,
+    "mean": 0.26,
+    "sum": 862.36,
+    "timestamp": 1662956758.8212428,
+    "count": 3374,
+    "btc_price": "21677.7",
+    "rate": 2.78,
+    "median": 0.29
+  },
+  {
+    "last": 0.06,
+    "mean": 0.25,
+    "sum": 883.32,
+    "timestamp": 1662956789.0267897,
+    "count": 3476,
+    "btc_price": "21679.48",
+    "rate": 2.84,
+    "median": 0.29
+  },
+  {
+    "last": -0.1,
+    "mean": 0.25,
+    "sum": 906.6,
+    "timestamp": 1662956819.5113018,
+    "count": 3567,
+    "btc_price": "21688.64",
+    "rate": 2.85,
+    "median": 0.29
+  },
+  {
+    "last": 0.82,
+    "mean": 0.25,
+    "sum": 924.66,
+    "timestamp": 1662956849.8543513,
+    "count": 3639,
+    "btc_price": "21683.54",
+    "rate": 2.81,
+    "median": 0.29
+  },
+  {
+    "last": 0.34,
+    "mean": 0.25,
+    "sum": 948.49,
+    "timestamp": 1662956879.882631,
+    "count": 3738,
+    "btc_price": "21680.97",
+    "rate": 2.85,
+    "median": 0.29
+  },
+  {
+    "last": 0.21,
+    "mean": 0.25,
+    "sum": 970.69,
+    "timestamp": 1662956910.5364726,
+    "count": 3816,
+    "btc_price": "21695.46",
+    "rate": 2.83,
+    "median": 0.29
+  },
+  {
+    "last": 0.18,
+    "mean": 0.25,
+    "sum": 986.5,
+    "timestamp": 1662956941.0550117,
+    "count": 3888,
+    "btc_price": "21698.58",
+    "rate": 2.79,
+    "median": 0.29
+  },
+  {
+    "last": 0.07,
+    "mean": 0.25,
+    "sum": 1004.4,
+    "timestamp": 1662956972.0962336,
+    "count": 3969,
+    "btc_price": "21698.43",
+    "rate": 2.78,
+    "median": 0.29
+  },
+  {
+    "last": 0.29,
+    "mean": 0.25,
+    "sum": 1138.11,
+    "timestamp": 1662957208.9050512,
+    "count": 4521,
+    "btc_price": "21711.12",
+    "rate": 3.22,
+    "median": 0.29
+  },
+  {
+    "last": 0.1,
+    "mean": 0.25,
+    "sum": 1135.67,
+    "timestamp": 1662957239.0138643,
+    "count": 4521,
+    "btc_price": "21711.08",
+    "rate": 3.16,
+    "median": 0.29
+  },
+  {
+    "last": -0.25,
+    "mean": 0.25,
+    "sum": 1139.27,
+    "timestamp": 1662957269.0464058,
+    "count": 4546,
+    "btc_price": "21717.79",
+    "rate": 3.2,
+    "median": 0.29
+  },
+  {
+    "last": -0.25,
+    "mean": 0.25,
+    "sum": 1146.49,
+    "timestamp": 1662957299.2819042,
+    "count": 4569,
+    "btc_price": "21705.5",
+    "rate": 3.24,
+    "median": 0.29
+  },
+  {
+    "last": 0.32,
+    "mean": 0.25,
+    "sum": 1146.31,
+    "timestamp": 1662957329.7188702,
+    "count": 4560,
+    "btc_price": "21710.88",
+    "rate": 3.19,
+    "median": 0.29
+  },
+  {
+    "last": 0.16,
+    "mean": 0.25,
+    "sum": 1147.29,
+    "timestamp": 1662957359.7905326,
+    "count": 4582,
+    "btc_price": "21713.82",
+    "rate": 3.21,
+    "median": 0.29
+  },
+  {
+    "last": 0.25,
+    "mean": 0.25,
+    "sum": 1156.69,
+    "timestamp": 1662957389.92341,
+    "count": 4609,
+    "btc_price": "21701.09",
+    "rate": 3.24,
+    "median": 0.29
+  },
+  {
+    "last": 0.23,
+    "mean": 0.25,
+    "sum": 1174.14,
+    "timestamp": 1662957420.025309,
+    "count": 4639,
+    "btc_price": "21712.62",
+    "rate": 3.26,
+    "median": 0.29
+  },
+  {
+    "last": -0.27,
+    "mean": 0.25,
+    "sum": 1193.35,
+    "timestamp": 1662957450.6025124,
+    "count": 4688,
+    "btc_price": "21714.65",
+    "rate": 3.33,
+    "median": 0.29
+  },
+  {
+    "last": 0.48,
+    "mean": 0.26,
+    "sum": 788.29,
+    "timestamp": 1662958078.8762,
+    "count": 3070,
+    "btc_price": "21721.07",
+    "rate": 0.0,
+    "median": 0.29
+  },
+  {
+    "last": 0.12,
+    "mean": 0.26,
+    "sum": 795.35,
+    "timestamp": 1662958109.0475006,
+    "count": 3086,
+    "btc_price": "21716.77",
+    "rate": 3.55,
+    "median": 0.29
+  },
+  {
+    "last": 0.76,
+    "mean": 0.26,
+    "sum": 798.5,
+    "timestamp": 1662958139.6314232,
+    "count": 3108,
+    "btc_price": "21721.95",
+    "rate": 3.51,
+    "median": 0.29
+  },
+  {
+    "last": 0.33,
+    "mean": 0.26,
+    "sum": 803.52,
+    "timestamp": 1662958169.9931614,
+    "count": 3104,
+    "btc_price": "21725.59",
+    "rate": 3.34,
+    "median": 0.29
+  },
+  {
+    "last": 0.29,
+    "mean": 0.26,
+    "sum": 806.54,
+    "timestamp": 1662958200.130039,
+    "count": 3129,
+    "btc_price": "21726.08",
+    "rate": 3.27,
+    "median": 0.29
+  },
+  {
+    "last": -0.53,
+    "mean": 0.26,
+    "sum": 830.01,
+    "timestamp": 1662958230.6108732,
+    "count": 3215,
+    "btc_price": "21730.42",
+    "rate": 3.18,
+    "median": 0.29
+  },
+  {
+    "last": -0.25,
+    "mean": 0.26,
+    "sum": 858.53,
+    "timestamp": 1662958260.8191185,
+    "count": 3313,
+    "btc_price": "21730.89",
+    "rate": 3.19,
+    "median": 0.29
+  },
+  {
+    "last": -0.4,
+    "mean": 0.26,
+    "sum": 875.69,
+    "timestamp": 1662958292.701285,
+    "count": 3371,
+    "btc_price": "21740.11",
+    "rate": 3.09,
+    "median": 0.29
+  },
+  {
+    "last": 0.18,
+    "mean": 0.26,
+    "sum": 880.83,
+    "timestamp": 1662958322.8742604,
+    "count": 3369,
+    "btc_price": "21737.1",
+    "rate": 2.99,
+    "median": 0.29
+  },
+  {
+    "last": 0.29,
+    "mean": 0.26,
+    "sum": 887.94,
+    "timestamp": 1662958353.2066896,
+    "count": 3384,
+    "btc_price": "21741.96",
+    "rate": 2.96,
+    "median": 0.29
+  },
+  {
+    "last": 0.84,
+    "mean": 0.27,
+    "sum": 943.52,
+    "timestamp": 1662958383.3305125,
+    "count": 3477,
+    "btc_price": "21742.67",
+    "rate": 3.2,
+    "median": 0.29
+  },
+  {
+    "last": 0.17,
+    "mean": 0.28,
+    "sum": 988.02,
+    "timestamp": 1662958413.5519953,
+    "count": 3523,
+    "btc_price": "21743.43",
+    "rate": 3.34,
+    "median": 0.29
+  },
+  {
+    "last": 0.84,
+    "mean": 0.29,
+    "sum": 1034.96,
+    "timestamp": 1662958443.6976225,
+    "count": 3573,
+    "btc_price": "21748.47",
+    "rate": 3.44,
+    "median": 0.3
+  },
+  {
+    "last": 0.84,
+    "mean": 0.3,
+    "sum": 1067.89,
+    "timestamp": 1662958473.8375728,
+    "count": 3611,
+    "btc_price": "21749.32",
+    "rate": 3.52,
+    "median": 0.3
+  },
+  {
+    "last": 0.84,
+    "mean": 0.3,
+    "sum": 1004.54,
+    "timestamp": 1662958561.3792143,
+    "count": 3364,
+    "btc_price": "21748.05",
+    "rate": 0.0,
+    "median": 0.3
+  },
+  {
+    "last": 0.44,
+    "mean": 0.3,
+    "sum": 1021.1,
+    "timestamp": 1662958591.552816,
+    "count": 3375,
+    "btc_price": "21751.37",
+    "rate": 4.02,
+    "median": 0.3
+  },
+  {
+    "last": 0.84,
+    "mean": 0.31,
+    "sum": 1046.01,
+    "timestamp": 1662958621.6458592,
+    "count": 3400,
+    "btc_price": "21741.06",
+    "rate": 3.82,
+    "median": 0.31
+  },
+  {
+    "last": 0.33,
+    "mean": 0.31,
+    "sum": 1073.72,
+    "timestamp": 1662958652.4311442,
+    "count": 3438,
+    "btc_price": "21728.24",
+    "rate": 3.8,
+    "median": 0.32
+  },
+  {
+    "last": 0.04,
+    "mean": 0.32,
+    "sum": 1093.02,
+    "timestamp": 1662958682.4843974,
+    "count": 3450,
+    "btc_price": "21705.43",
+    "rate": 3.75,
+    "median": 0.32
+  },
+  {
+    "last": 0.67,
+    "mean": 0.32,
+    "sum": 1122.52,
+    "timestamp": 1662958712.7104564,
+    "count": 3495,
+    "btc_price": "21703.91",
+    "rate": 3.79,
+    "median": 0.33
+  },
+  {
+    "last": -0.25,
+    "mean": 0.33,
+    "sum": 1157.86,
+    "timestamp": 1662958742.7856581,
+    "count": 3539,
+    "btc_price": "21714.63",
+    "rate": 3.81,
+    "median": 0.33
+  },
+  {
+    "last": 0.12,
+    "mean": 0.33,
+    "sum": 1196.44,
+    "timestamp": 1662958773.1264708,
+    "count": 3589,
+    "btc_price": "21717.51",
+    "rate": 3.86,
+    "median": 0.33
+  },
+  {
+    "last": 0.52,
+    "mean": 0.34,
+    "sum": 1244.73,
+    "timestamp": 1662958803.4025428,
+    "count": 3704,
+    "btc_price": "21721.91",
+    "rate": 3.86,
+    "median": 0.33
+  },
+  {
+    "last": 0.53,
+    "mean": 0.33,
+    "sum": 1278.13,
+    "timestamp": 1662958833.8472993,
+    "count": 3850,
+    "btc_price": "21719.29",
+    "rate": 3.96,
+    "median": 0.33
+  },
+  {
+    "last": 0.65,
+    "mean": 0.33,
+    "sum": 1286.77,
+    "timestamp": 1662958863.9887898,
+    "count": 3844,
+    "btc_price": "21723.91",
+    "rate": 3.91,
+    "median": 0.33
+  },
+  {
+    "last": 0.33,
+    "mean": 0.34,
+    "sum": 1297.95,
+    "timestamp": 1662958894.519136,
+    "count": 3842,
+    "btc_price": "21714.46",
+    "rate": 3.82,
+    "median": 0.33
+  },
+  {
+    "last": 0.55,
+    "mean": 0.34,
+    "sum": 1310.04,
+    "timestamp": 1662958924.6952846,
+    "count": 3854,
+    "btc_price": "21720.86",
+    "rate": 3.78,
+    "median": 0.33
+  },
+  {
+    "last": 0.42,
+    "mean": 0.34,
+    "sum": 1250.82,
+    "timestamp": 1662958994.2415287,
+    "count": 3642,
+    "btc_price": "21717.25",
+    "rate": 0.0,
+    "median": 0.33
+  },
+  {
+    "last": 0.6,
+    "mean": 0.34,
+    "sum": 1253.84,
+    "timestamp": 1662959025.5461636,
+    "count": 3647,
+    "btc_price": "21729.86",
+    "rate": 3.17,
+    "median": 0.33
+  },
+  {
+    "last": -0.1,
+    "mean": 0.35,
+    "sum": 1251.25,
+    "timestamp": 1662959055.6182737,
+    "count": 3616,
+    "btc_price": "21729.14",
+    "rate": 2.8,
+    "median": 0.33
+  },
+  {
+    "last": 0.65,
+    "mean": 0.35,
+    "sum": 1253.75,
+    "timestamp": 1662959085.9642406,
+    "count": 3598,
+    "btc_price": "21729.12",
+    "rate": 2.79,
+    "median": 0.33
+  },
+  {
+    "last": 0.5,
+    "mean": 0.35,
+    "sum": 1252.65,
+    "timestamp": 1662959116.5273209,
+    "count": 3585,
+    "btc_price": "21735.26",
+    "rate": 2.76,
+    "median": 0.33
+  },
+  {
+    "last": 0.14,
+    "mean": 0.35,
+    "sum": 1244.54,
+    "timestamp": 1662959146.6339931,
+    "count": 3572,
+    "btc_price": "21737.82",
+    "rate": 2.79,
+    "median": 0.33
+  },
+  {
+    "last": 0.14,
+    "mean": 0.35,
+    "sum": 1242.61,
+    "timestamp": 1662959176.7011786,
+    "count": 3550,
+    "btc_price": "21738.68",
+    "rate": 2.76,
+    "median": 0.33
+  },
+  {
+    "last": 0.33,
+    "mean": 0.35,
+    "sum": 1224.1,
+    "timestamp": 1662959207.1102388,
+    "count": 3510,
+    "btc_price": "21742.4",
+    "rate": 2.7,
+    "median": 0.33
+  },
+  {
+    "last": 0.55,
+    "mean": 0.35,
+    "sum": 1219.72,
+    "timestamp": 1662959237.5290668,
+    "count": 3494,
+    "btc_price": "21729.72",
+    "rate": 2.72,
+    "median": 0.33
+  },
+  {
+    "last": 0.18,
+    "mean": 0.35,
+    "sum": 1222.81,
+    "timestamp": 1662959267.6733115,
+    "count": 3513,
+    "btc_price": "21720",
+    "rate": 2.74,
+    "median": 0.33
+  },
+  {
+    "last": 0.14,
+    "mean": 0.35,
+    "sum": 1258.51,
+    "timestamp": 1662959298.0024376,
+    "count": 3617,
+    "btc_price": "21727.22",
+    "rate": 2.81,
+    "median": 0.33
+  },
+  {
+    "last": 0.47,
+    "mean": 0.35,
+    "sum": 1292.52,
+    "timestamp": 1662959328.45619,
+    "count": 3731,
+    "btc_price": "21730.06",
+    "rate": 2.89,
+    "median": 0.33
+  },
+  {
+    "last": 0.64,
+    "mean": 0.35,
+    "sum": 1324.25,
+    "timestamp": 1662959358.708864,
+    "count": 3835,
+    "btc_price": "21737.38",
+    "rate": 2.94,
+    "median": 0.33
+  },
+  {
+    "last": 0.48,
+    "mean": 0.35,
+    "sum": 1366.18,
+    "timestamp": 1662959389.15587,
+    "count": 3947,
+    "btc_price": "21742.45",
+    "rate": 3.0,
+    "median": 0.33
+  },
+  {
+    "last": 0.84,
+    "mean": 0.35,
+    "sum": 1407.01,
+    "timestamp": 1662959419.2566485,
+    "count": 4043,
+    "btc_price": "21739.1",
+    "rate": 3.01,
+    "median": 0.33
+  },
+  {
+    "last": 0.46,
+    "mean": 0.35,
+    "sum": 1878.54,
+    "timestamp": 1662959879.6098747,
+    "count": 5387,
+    "btc_price": "21724.71",
+    "rate": 3.62,
+    "median": 0.33
+  },
+  {
+    "last": 0.44,
+    "mean": 0.35,
+    "sum": 1882.21,
+    "timestamp": 1662959909.7229462,
+    "count": 5377,
+    "btc_price": "21724.34",
+    "rate": 3.58,
+    "median": 0.33
+  },
+  {
+    "last": -0.25,
+    "mean": 0.34,
+    "sum": 1411.7,
+    "timestamp": 1662960293.6663814,
+    "count": 4095,
+    "btc_price": "21701.03",
+    "rate": 0.0,
+    "median": 0.33
+  },
+  {
+    "last": 0.84,
+    "mean": 0.34,
+    "sum": 1443.2,
+    "timestamp": 1662960323.7255168,
+    "count": 4198,
+    "btc_price": "21704.95",
+    "rate": 3.46,
+    "median": 0.33
+  },
+  {
+    "last": 0.65,
+    "mean": 0.34,
+    "sum": 1470.05,
+    "timestamp": 1662960353.9807355,
+    "count": 4290,
+    "btc_price": "21715.8",
+    "rate": 3.25,
+    "median": 0.33
+  },
+  {
+    "last": 0.33,
+    "mean": 0.34,
+    "sum": 1460.34,
+    "timestamp": 1662960384.3236098,
+    "count": 4261,
+    "btc_price": "21743",
+    "rate": 2.91,
+    "median": 0.33
+  },
+  {
+    "last": 0.15,
+    "mean": 0.34,
+    "sum": 1445.33,
+    "timestamp": 1662960415.174391,
+    "count": 4250,
+    "btc_price": "21748.64",
+    "rate": 3.0,
+    "median": 0.33
+  },
+  {
+    "last": 0.33,
+    "mean": 0.34,
+    "sum": 1437.39,
+    "timestamp": 1662960445.6344705,
+    "count": 4241,
+    "btc_price": "21743.25",
+    "rate": 3.09,
+    "median": 0.33
+  },
+  {
+    "last": 0.25,
+    "mean": 0.34,
+    "sum": 1435.39,
+    "timestamp": 1662960475.8594668,
+    "count": 4243,
+    "btc_price": "21748.05",
+    "rate": 3.13,
+    "median": 0.33
+  },
+  {
+    "last": 0.56,
+    "mean": 0.34,
+    "sum": 1412.73,
+    "timestamp": 1662960506.3728423,
+    "count": 4201,
+    "btc_price": "21758.3",
+    "rate": 3.09,
+    "median": 0.33
+  },
+  {
+    "last": 0.22,
+    "mean": 0.33,
+    "sum": 1402.74,
+    "timestamp": 1662960536.8833098,
+    "count": 4193,
+    "btc_price": "21749.43",
+    "rate": 3.15,
+    "median": 0.33
+  },
+  {
+    "last": 0.74,
+    "mean": 0.33,
+    "sum": 1380.8,
+    "timestamp": 1662960567.158954,
+    "count": 4157,
+    "btc_price": "21748.47",
+    "rate": 3.15,
+    "median": 0.33
+  },
+  {
+    "last": 0.57,
+    "mean": 0.33,
+    "sum": 1368.21,
+    "timestamp": 1662960597.9002469,
+    "count": 4144,
+    "btc_price": "21752.16",
+    "rate": 3.15,
+    "median": 0.33
+  },
+  {
+    "last": -0.1,
+    "mean": 0.33,
+    "sum": 1359.93,
+    "timestamp": 1662960627.9908237,
+    "count": 4091,
+    "btc_price": "21748.5",
+    "rate": 3.13,
+    "median": 0.33
+  },
+  {
+    "last": 0.44,
+    "mean": 0.33,
+    "sum": 1354.61,
+    "timestamp": 1662960658.2988198,
+    "count": 4064,
+    "btc_price": "21747.41",
+    "rate": 3.14,
+    "median": 0.33
+  },
+  {
+    "last": 0.18,
+    "mean": 0.33,
+    "sum": 1359.58,
+    "timestamp": 1662960688.7754636,
+    "count": 4078,
+    "btc_price": "21775.28",
+    "rate": 3.12,
+    "median": 0.33
+  },
+  {
+    "last": 0.26,
+    "mean": 0.33,
+    "sum": 1355.16,
+    "timestamp": 1662960718.8475783,
+    "count": 4066,
+    "btc_price": "21777.95",
+    "rate": 3.13,
+    "median": 0.33
+  },
+  {
+    "last": 0.25,
+    "mean": 0.33,
+    "sum": 1380.33,
+    "timestamp": 1662960749.6151292,
+    "count": 4151,
+    "btc_price": "21770.43",
+    "rate": 3.14,
+    "median": 0.33
+  },
+  {
+    "last": 0.18,
+    "mean": 0.33,
+    "sum": 1361.32,
+    "timestamp": 1662960814.3236623,
+    "count": 4083,
+    "btc_price": "21774.89",
+    "rate": 0.0,
+    "median": 0.33
+  },
+  {
+    "last": 0.29,
+    "mean": 0.33,
+    "sum": 1372.18,
+    "timestamp": 1662960844.5101187,
+    "count": 4106,
+    "btc_price": "21774.42",
+    "rate": 3.25,
+    "median": 0.33
+  },
+  {
+    "last": 0.33,
+    "mean": 0.33,
+    "sum": 1369.45,
+    "timestamp": 1662960874.666324,
+    "count": 4110,
+    "btc_price": "21762.32",
+    "rate": 2.94,
+    "median": 0.33
+  },
+  {
+    "last": 0.44,
+    "mean": 0.33,
+    "sum": 1370.49,
+    "timestamp": 1662960904.75706,
+    "count": 4110,
+    "btc_price": "21775.6",
+    "rate": 3.01,
+    "median": 0.33
+  },
+  {
+    "last": 0.56,
+    "mean": 0.33,
+    "sum": 1382.94,
+    "timestamp": 1662960934.9194145,
+    "count": 4140,
+    "btc_price": "21774.19",
+    "rate": 3.19,
+    "median": 0.33
+  },
+  {
+    "last": 0.25,
+    "mean": 0.34,
+    "sum": 1404.98,
+    "timestamp": 1662960965.4840634,
+    "count": 4172,
+    "btc_price": "21764.29",
+    "rate": 3.24,
+    "median": 0.33
+  },
+  {
+    "last": 0.84,
+    "mean": 0.34,
+    "sum": 1420.44,
+    "timestamp": 1662960996.3893337,
+    "count": 4191,
+    "btc_price": "21758.67",
+    "rate": 3.24,
+    "median": 0.33
+  },
+  {
+    "last": 0.44,
+    "mean": 0.34,
+    "sum": 1428.06,
+    "timestamp": 1662961026.446632,
+    "count": 4194,
+    "btc_price": "21753.32",
+    "rate": 3.19,
+    "median": 0.33
+  },
+  {
+    "last": 0.19,
+    "mean": 0.34,
+    "sum": 1434.57,
+    "timestamp": 1662961056.802658,
+    "count": 4205,
+    "btc_price": "21757.12",
+    "rate": 3.18,
+    "median": 0.33
+  },
+  {
+    "last": 0.6,
+    "mean": 0.34,
+    "sum": 1441.23,
+    "timestamp": 1662961087.0620236,
+    "count": 4209,
+    "btc_price": "21764.75",
+    "rate": 3.19,
+    "median": 0.33
+  },
+  {
+    "last": 0.84,
+    "mean": 0.34,
+    "sum": 1442.58,
+    "timestamp": 1662961117.0957985,
+    "count": 4193,
+    "btc_price": "21750.56",
+    "rate": 3.18,
+    "median": 0.33
+  },
+  {
+    "last": 0.84,
+    "mean": 0.35,
+    "sum": 1442.75,
+    "timestamp": 1662961147.5736084,
+    "count": 4175,
+    "btc_price": "21754.51",
+    "rate": 3.15,
+    "median": 0.33
+  },
+  {
+    "last": 0.57,
+    "mean": 0.35,
+    "sum": 1436.45,
+    "timestamp": 1662961177.6172113,
+    "count": 4141,
+    "btc_price": "21757.32",
+    "rate": 3.11,
+    "median": 0.33
+  },
+  {
+    "last": 0.33,
+    "mean": 0.35,
+    "sum": 1433.47,
+    "timestamp": 1662961208.788907,
+    "count": 4153,
+    "btc_price": "21772.93",
+    "rate": 3.17,
+    "median": 0.33
+  },
+  {
+    "last": 0.14,
+    "mean": 0.34,
+    "sum": 1454.53,
+    "timestamp": 1662961238.9457653,
+    "count": 4226,
+    "btc_price": "21779.69",
+    "rate": 3.19,
+    "median": 0.33
+  },
+  {
+    "last": 0.14,
+    "mean": 0.34,
+    "sum": 1426.31,
+    "timestamp": 1662961326.0770836,
+    "count": 4147,
+    "btc_price": "21779.16",
+    "rate": 0.0,
+    "median": 0.33
+  },
+  {
+    "last": -0.06,
+    "mean": 0.34,
+    "sum": 1416.27,
+    "timestamp": 1662961356.2437935,
+    "count": 4123,
+    "btc_price": "21786.11",
+    "rate": 3.12,
+    "median": 0.33
+  },
+  {
+    "last": -0.33,
+    "mean": 0.34,
+    "sum": 1401.25,
+    "timestamp": 1662961386.7250764,
+    "count": 4084,
+    "btc_price": "21783.27",
+    "rate": 3.0,
+    "median": 0.33
+  },
+  {
+    "last": 0.44,
+    "mean": 0.34,
+    "sum": 1392.56,
+    "timestamp": 1662961417.1974585,
+    "count": 4082,
+    "btc_price": "21786.37",
+    "rate": 3.05,
+    "median": 0.33
+  },
+  {
+    "last": 0.26,
+    "mean": 0.34,
+    "sum": 1385.55,
+    "timestamp": 1662961447.7616441,
+    "count": 4053,
+    "btc_price": "21793.06",
+    "rate": 2.98,
+    "median": 0.33
+  },
+  {
+    "last": 0.48,
+    "mean": 0.34,
+    "sum": 1383.9,
+    "timestamp": 1662961478.26253,
+    "count": 4050,
+    "btc_price": "21788.91",
+    "rate": 3.1,
+    "median": 0.33
+  },
+  {
+    "last": 0.17,
+    "mean": 0.34,
+    "sum": 1403.42,
+    "timestamp": 1662961508.3541744,
+    "count": 4079,
+    "btc_price": "21789.34",
+    "rate": 3.21,
+    "median": 0.33
+  },
+  {
+    "last": 0.54,
+    "mean": 0.35,
+    "sum": 1414.72,
+    "timestamp": 1662961538.7029188,
+    "count": 4080,
+    "btc_price": "21780.33",
+    "rate": 3.33,
+    "median": 0.33
+  },
+  {
+    "last": 0.23,
+    "mean": 0.35,
+    "sum": 1418.29,
+    "timestamp": 1662961569.039626,
+    "count": 4067,
+    "btc_price": "21776.53",
+    "rate": 3.35,
+    "median": 0.33
+  },
+  {
+    "last": -0.3,
+    "mean": 0.35,
+    "sum": 1415.77,
+    "timestamp": 1662961599.101779,
+    "count": 4057,
+    "btc_price": "21768.67",
+    "rate": 3.35,
+    "median": 0.33
+  },
+  {
+    "last": 0.46,
+    "mean": 0.35,
+    "sum": 1414.94,
+    "timestamp": 1662961629.4585412,
+    "count": 4064,
+    "btc_price": "21778.7",
+    "rate": 3.38,
+    "median": 0.33
+  },
+  {
+    "last": -0.39,
+    "mean": 0.35,
+    "sum": 1416.21,
+    "timestamp": 1662961659.676534,
+    "count": 4078,
+    "btc_price": "21779.2",
+    "rate": 3.43,
+    "median": 0.33
+  },
+  {
+    "last": 0.39,
+    "mean": 0.35,
+    "sum": 1418.18,
+    "timestamp": 1662961690.013275,
+    "count": 4091,
+    "btc_price": "21781.92",
+    "rate": 3.42,
+    "median": 0.33
+  },
+  {
+    "last": -0.18,
+    "mean": 0.34,
+    "sum": 1425.25,
+    "timestamp": 1662961720.9199553,
+    "count": 4133,
+    "btc_price": "21783.93",
+    "rate": 3.42,
+    "median": 0.33
+  },
+  {
+    "last": 0.54,
+    "mean": 0.35,
+    "sum": 1283.38,
+    "timestamp": 1662962240.7425246,
+    "count": 3679,
+    "btc_price": "21780.52",
+    "rate": 0.0,
+    "median": 0.33
+  },
+  {
+    "last": 0.15,
+    "mean": 0.35,
+    "sum": 1275.56,
+    "timestamp": 1662962271.7574303,
+    "count": 3686,
+    "btc_price": "21792.46",
+    "rate": 3.58,
+    "median": 0.33
+  },
+  {
+    "last": 0.48,
+    "mean": 0.34,
+    "sum": 1267.0,
+    "timestamp": 1662962301.8941925,
+    "count": 3695,
+    "btc_price": "21785.98",
+    "rate": 3.3,
+    "median": 0.33
+  },
+  {
+    "last": 0.65,
+    "mean": 0.34,
+    "sum": 1252.11,
+    "timestamp": 1662962332.5422747,
+    "count": 3682,
+    "btc_price": "21790.55",
+    "rate": 3.27,
+    "median": 0.33
+  },
+  {
+    "last": -0.12,
+    "mean": 0.34,
+    "sum": 1246.48,
+    "timestamp": 1662962363.0103347,
+    "count": 3696,
+    "btc_price": "21788.83",
+    "rate": 3.29,
+    "median": 0.33
+  },
+  {
+    "last": 0.26,
+    "mean": 0.33,
+    "sum": 1229.65,
+    "timestamp": 1662962393.0674114,
+    "count": 3685,
+    "btc_price": "21789.21",
+    "rate": 3.26,
+    "median": 0.33
+  },
+  {
+    "last": 0.47,
+    "mean": 0.33,
+    "sum": 1243.36,
+    "timestamp": 1662962423.3597598,
+    "count": 3753,
+    "btc_price": "21793.2",
+    "rate": 3.5,
+    "median": 0.33
+  },
+  {
+    "last": 0.35,
+    "mean": 0.33,
+    "sum": 1250.9,
+    "timestamp": 1662962453.7640622,
+    "count": 3820,
+    "btc_price": "21770.7",
+    "rate": 3.82,
+    "median": 0.33
+  },
+  {
+    "last": 0.35,
+    "mean": 0.33,
+    "sum": 1248.57,
+    "timestamp": 1662962484.039992,
+    "count": 3831,
+    "btc_price": "21763.99",
+    "rate": 3.76,
+    "median": 0.33
+  },
+  {
+    "last": 0.29,
+    "mean": 0.32,
+    "sum": 1243.92,
+    "timestamp": 1662962514.4273345,
+    "count": 3853,
+    "btc_price": "21752.54",
+    "rate": 3.77,
+    "median": 0.33
+  },
+  {
+    "last": 0.69,
+    "mean": 0.32,
+    "sum": 1245.52,
+    "timestamp": 1662962544.4996634,
+    "count": 3868,
+    "btc_price": "21758.71",
+    "rate": 3.77,
+    "median": 0.33
+  },
+  {
+    "last": 0.14,
+    "mean": 0.32,
+    "sum": 1272.53,
+    "timestamp": 1662962574.5876667,
+    "count": 3953,
+    "btc_price": "21762.78",
+    "rate": 3.74,
+    "median": 0.33
+  },
+  {
+    "last": 0.84,
+    "mean": 0.32,
+    "sum": 1227.82,
+    "timestamp": 1662962664.1452608,
+    "count": 3806,
+    "btc_price": "21761.94",
+    "rate": 0.0,
+    "median": 0.33
+  },
+  {
+    "last": 0.18,
+    "mean": 0.32,
+    "sum": 1235.04,
+    "timestamp": 1662962694.2322557,
+    "count": 3819,
+    "btc_price": "21765.06",
+    "rate": 3.42,
+    "median": 0.33
+  },
+  {
+    "last": 0.2,
+    "mean": 0.32,
+    "sum": 1244.9,
+    "timestamp": 1662962724.498691,
+    "count": 3832,
+    "btc_price": "21761.95",
+    "rate": 3.74,
+    "median": 0.33
+  },
+  {
+    "last": 0.25,
+    "mean": 0.32,
+    "sum": 1244.72,
+    "timestamp": 1662962755.0730891,
+    "count": 3834,
+    "btc_price": "21773.93",
+    "rate": 3.75,
+    "median": 0.33
+  },
+  {
+    "last": 0.84,
+    "mean": 0.32,
+    "sum": 1245.61,
+    "timestamp": 1662962785.6348917,
+    "count": 3837,
+    "btc_price": "21760.77",
+    "rate": 3.64,
+    "median": 0.33
+  },
+  {
+    "last": 0.87,
+    "mean": 0.32,
+    "sum": 1239.05,
+    "timestamp": 1662962815.8706453,
+    "count": 3840,
+    "btc_price": "21755.76",
+    "rate": 3.49,
+    "median": 0.33
+  },
+  {
+    "last": 0.51,
+    "mean": 0.32,
+    "sum": 1240.77,
+    "timestamp": 1662962846.2197626,
+    "count": 3852,
+    "btc_price": "21763.31",
+    "rate": 3.45,
+    "median": 0.33
+  },
+  {
+    "last": 0.54,
+    "mean": 0.32,
+    "sum": 1235.48,
+    "timestamp": 1662962876.5042071,
+    "count": 3840,
+    "btc_price": "21768.95",
+    "rate": 3.43,
+    "median": 0.33
+  },
+  {
+    "last": -0.22,
+    "mean": 0.32,
+    "sum": 1228.76,
+    "timestamp": 1662962906.5867383,
+    "count": 3848,
+    "btc_price": "21767.72",
+    "rate": 3.42,
+    "median": 0.33
+  },
+  {
+    "last": 0.61,
+    "mean": 0.32,
+    "sum": 1235.64,
+    "timestamp": 1662962936.7253792,
+    "count": 3866,
+    "btc_price": "21757.78",
+    "rate": 3.44,
+    "median": 0.33
+  },
+  {
+    "last": 0.55,
+    "mean": 0.32,
+    "sum": 1237.39,
+    "timestamp": 1662962967.1574838,
+    "count": 3881,
+    "btc_price": "21757.15",
+    "rate": 3.4,
+    "median": 0.33
+  },
+  {
+    "last": -0.15,
+    "mean": 0.32,
+    "sum": 1230.23,
+    "timestamp": 1662962997.266002,
+    "count": 3891,
+    "btc_price": "21764.72",
+    "rate": 3.44,
+    "median": 0.33
+  },
+  {
+    "last": -0.05,
+    "mean": 0.32,
+    "sum": 1226.89,
+    "timestamp": 1662963027.3661418,
+    "count": 3888,
+    "btc_price": "21774.31",
+    "rate": 3.44,
+    "median": 0.33
+  },
+  {
+    "last": -0.16,
+    "mean": 0.31,
+    "sum": 1239.22,
+    "timestamp": 1662963057.4960256,
+    "count": 3953,
+    "btc_price": "21774.43",
+    "rate": 3.44,
+    "median": 0.33
+  },
+  {
+    "last": 0.33,
+    "mean": 0.31,
+    "sum": 1265.72,
+    "timestamp": 1662963087.6247087,
+    "count": 4043,
+    "btc_price": "21751.5",
+    "rate": 3.41,
+    "median": 0.33
+  },
+  {
+    "last": 0.26,
+    "mean": 0.3,
+    "sum": 204.77,
+    "timestamp": 1662964689.6682878,
+    "count": 680,
+    "btc_price": "21788.73",
+    "rate": 0.0,
+    "median": 0.3
+  },
+  {
+    "last": 0.23,
+    "mean": 0.3,
+    "sum": 199.26,
+    "timestamp": 1662964719.779166,
+    "count": 667,
+    "btc_price": "21797.04",
+    "rate": 3.43,
+    "median": 0.29
+  },
+  {
+    "last": 0.65,
+    "mean": 0.3,
+    "sum": 197.91,
+    "timestamp": 1662964750.6181471,
+    "count": 668,
+    "btc_price": "21804.58",
+    "rate": 3.43,
+    "median": 0.29
+  },
+  {
+    "last": 0.84,
+    "mean": 0.3,
+    "sum": 204.04,
+    "timestamp": 1662964781.3114316,
+    "count": 688,
+    "btc_price": "21814.99",
+    "rate": 3.64,
+    "median": 0.3
+  },
+  {
+    "last": -0.18,
+    "mean": 0.27,
+    "sum": 193.74,
+    "timestamp": 1662964812.1434188,
+    "count": 709,
+    "btc_price": "21805.44",
+    "rate": 3.7,
+    "median": 0.28
+  },
+  {
+    "last": 0.1,
+    "mean": 0.27,
+    "sum": 198.31,
+    "timestamp": 1662964842.5127666,
+    "count": 726,
+    "btc_price": "21810.81",
+    "rate": 3.78,
+    "median": 0.28
+  },
+  {
+    "last": 0.1,
+    "mean": 0.27,
+    "sum": 193.62,
+    "timestamp": 1662964872.9208841,
+    "count": 723,
+    "btc_price": "21795.96",
+    "rate": 3.72,
+    "median": 0.29
+  },
+  {
+    "last": -0.32,
+    "mean": 0.26,
+    "sum": 208.85,
+    "timestamp": 1662964903.1541061,
+    "count": 791,
+    "btc_price": "21790.04",
+    "rate": 3.71,
+    "median": 0.29
+  },
+  {
+    "last": 0.26,
+    "mean": 0.27,
+    "sum": 243.12,
+    "timestamp": 1662964933.5015953,
+    "count": 895,
+    "btc_price": "21791.12",
+    "rate": 3.67,
+    "median": 0.29
+  },
+  {
+    "last": 0.15,
+    "mean": 0.27,
+    "sum": 270.3,
+    "timestamp": 1662964963.8532655,
+    "count": 995,
+    "btc_price": "21799.65",
+    "rate": 3.63,
+    "median": 0.3
+  },
+  {
+    "last": -0.66,
+    "mean": 0.27,
+    "sum": 305.82,
+    "timestamp": 1662964994.435914,
+    "count": 1118,
+    "btc_price": "21804.96",
+    "rate": 3.67,
+    "median": 0.3
+  },
+  {
+    "last": -0.15,
+    "mean": 0.27,
+    "sum": 328.84,
+    "timestamp": 1662965025.9006019,
+    "count": 1228,
+    "btc_price": "21810.3",
+    "rate": 3.66,
+    "median": 0.3
+  },
+  {
+    "last": 0.27,
+    "mean": 0.27,
+    "sum": 353.81,
+    "timestamp": 1662965056.1219625,
+    "count": 1321,
+    "btc_price": "21813.99",
+    "rate": 3.6,
+    "median": 0.3
+  },
+  {
+    "last": 0.16,
+    "mean": 0.26,
+    "sum": 91.91,
+    "timestamp": 1662966756.4249396,
+    "count": 357,
+    "btc_price": "21846.7",
+    "rate": 0.0,
+    "median": 0.3
+  },
+  {
+    "last": 0.24,
+    "mean": 0.25,
+    "sum": 86.02,
+    "timestamp": 1662966786.6453044,
+    "count": 351,
+    "btc_price": "21861.1",
+    "rate": 3.65,
+    "median": 0.26
+  },
+  {
+    "last": -0.25,
+    "mean": 0.26,
+    "sum": 87.29,
+    "timestamp": 1662966816.684352,
+    "count": 332,
+    "btc_price": "21867.91",
+    "rate": 3.68,
+    "median": 0.29
+  },
+  {
+    "last": 0.01,
+    "mean": 0.28,
+    "sum": 100.37,
+    "timestamp": 1662966846.723961,
+    "count": 362,
+    "btc_price": "21896.7",
+    "rate": 3.68,
+    "median": 0.26
+  },
+  {
+    "last": 0.44,
+    "mean": 0.27,
+    "sum": 120.16,
+    "timestamp": 1662966876.8345766,
+    "count": 449,
+    "btc_price": "21908.72",
+    "rate": 3.73,
+    "median": 0.25
+  },
+  {
+    "last": 0.55,
+    "mean": 0.28,
+    "sum": 156.47,
+    "timestamp": 1662966907.3135004,
+    "count": 557,
+    "btc_price": "21907.45",
+    "rate": 3.69,
+    "median": 0.26
+  },
+  {
+    "last": 0.18,
+    "mean": 0.28,
+    "sum": 185.37,
+    "timestamp": 1662966937.9186444,
+    "count": 657,
+    "btc_price": "21932.93",
+    "rate": 3.62,
+    "median": 0.26
+  },
+  {
+    "last": 0.24,
+    "mean": 0.28,
+    "sum": 215.59,
+    "timestamp": 1662966968.0079846,
+    "count": 763,
+    "btc_price": "21910.29",
+    "rate": 3.61,
+    "median": 0.26
+  },
+  {
+    "last": 0.12,
+    "mean": 0.28,
+    "sum": 242.71,
+    "timestamp": 1662966998.3237534,
+    "count": 861,
+    "btc_price": "21912",
+    "rate": 3.56,
+    "median": 0.26
+  },
+  {
+    "last": 0.23,
+    "mean": 0.28,
+    "sum": 273.65,
+    "timestamp": 1662967028.347732,
+    "count": 975,
+    "btc_price": "21924.93",
+    "rate": 3.59,
+    "median": 0.26
+  },
+  {
+    "last": 0.17,
+    "mean": 0.28,
+    "sum": 306.04,
+    "timestamp": 1662967058.8500733,
+    "count": 1084,
+    "btc_price": "21935.02",
+    "rate": 3.58,
+    "median": 0.26
+  },
+  {
+    "last": 0.06,
+    "mean": 0.29,
+    "sum": 336.23,
+    "timestamp": 1662967089.2559624,
+    "count": 1170,
+    "btc_price": "21962.4",
+    "rate": 3.52,
+    "median": 0.28
+  },
+  {
+    "last": 0.1,
+    "mean": 0.28,
+    "sum": 569.18,
+    "timestamp": 1662968556.557739,
+    "count": 2033,
+    "btc_price": "22098.95",
+    "rate": 3.84,
+    "median": 0.27
+  },
+  {
+    "last": 0.53,
+    "mean": 0.28,
+    "sum": 582.86,
+    "timestamp": 1662968586.5828414,
+    "count": 2048,
+    "btc_price": "22120.89",
+    "rate": 3.87,
+    "median": 0.28
+  },
+  {
+    "last": 0.18,
+    "mean": 0.28,
+    "sum": 578.12,
+    "timestamp": 1662968616.6206534,
+    "count": 2054,
+    "btc_price": "22108.4",
+    "rate": 3.87,
+    "median": 0.28
+  },
+  {
+    "last": -0.25,
+    "mean": 0.28,
+    "sum": 574.31,
+    "timestamp": 1662968646.7781267,
+    "count": 2085,
+    "btc_price": "22112.68",
+    "rate": 3.95,
+    "median": 0.26
+  },
+  {
+    "last": 0.02,
+    "mean": 0.27,
+    "sum": 491.23,
+    "timestamp": 1662968724.026877,
+    "count": 1802,
+    "btc_price": "22123.58",
+    "rate": 0.0,
+    "median": 0.26
+  },
+  {
+    "last": -0.25,
+    "mean": 0.27,
+    "sum": 493.23,
+    "timestamp": 1662968754.1144655,
+    "count": 1835,
+    "btc_price": "22116.14",
+    "rate": 4.85,
+    "median": 0.26
+  },
+  {
+    "last": -0.1,
+    "mean": 0.27,
+    "sum": 502.0,
+    "timestamp": 1662968784.1747067,
+    "count": 1888,
+    "btc_price": "22096.65",
+    "rate": 4.85,
+    "median": 0.26
+  },
+  {
+    "last": 0.62,
+    "mean": 0.26,
+    "sum": 498.0,
+    "timestamp": 1662968814.4993114,
+    "count": 1884,
+    "btc_price": "22096.64",
+    "rate": 4.38,
+    "median": 0.26
+  },
+  {
+    "last": 0.11,
+    "mean": 0.26,
+    "sum": 499.56,
+    "timestamp": 1662968844.6959772,
+    "count": 1892,
+    "btc_price": "22131.93",
+    "rate": 4.28,
+    "median": 0.26
+  },
+  {
+    "last": 0.84,
+    "mean": 0.27,
+    "sum": 514.81,
+    "timestamp": 1662968874.752632,
+    "count": 1938,
+    "btc_price": "22148.02",
+    "rate": 4.29,
+    "median": 0.26
+  },
+  {
+    "last": 0.55,
+    "mean": 0.26,
+    "sum": 533.87,
+    "timestamp": 1662968904.8481784,
+    "count": 2021,
+    "btc_price": "22158.54",
+    "rate": 4.29,
+    "median": 0.26
+  },
+  {
+    "last": 0.12,
+    "mean": 0.27,
+    "sum": 578.34,
+    "timestamp": 1662968935.1010954,
+    "count": 2144,
+    "btc_price": "22167.41",
+    "rate": 4.25,
+    "median": 0.26
+  },
+  {
+    "last": 0.14,
+    "mean": 0.27,
+    "sum": 613.35,
+    "timestamp": 1662968965.2705016,
+    "count": 2269,
+    "btc_price": "22171.66",
+    "rate": 4.24,
+    "median": 0.26
+  },
+  {
+    "last": 0.21,
+    "mean": 0.27,
+    "sum": 649.35,
+    "timestamp": 1662968995.972937,
+    "count": 2393,
+    "btc_price": "22193.27",
+    "rate": 4.22,
+    "median": 0.26
+  },
+  {
+    "last": 0.2,
+    "mean": 0.27,
+    "sum": 686.83,
+    "timestamp": 1662969026.4317825,
+    "count": 2524,
+    "btc_price": "22184.94",
+    "rate": 4.23,
+    "median": 0.26
+  },
+  {
+    "last": 0.7,
+    "mean": 0.29,
+    "sum": 198.79,
+    "timestamp": 1662970663.565899,
+    "count": 675,
+    "btc_price": "22175.76",
+    "rate": 0.0,
+    "median": 0.26
+  },
+  {
+    "last": 0.31,
+    "mean": 0.3,
+    "sum": 202.6,
+    "timestamp": 1662970693.8733783,
+    "count": 668,
+    "btc_price": "22190.82",
+    "rate": 3.99,
+    "median": 0.28
+  },
+  {
+    "last": 0.3,
+    "mean": 0.29,
+    "sum": 199.71,
+    "timestamp": 1662970724.1179228,
+    "count": 677,
+    "btc_price": "22184.05",
+    "rate": 4.13,
+    "median": 0.28
+  },
+  {
+    "last": 0.49,
+    "mean": 0.29,
+    "sum": 203.25,
+    "timestamp": 1662970754.3151922,
+    "count": 697,
+    "btc_price": "22164.05",
+    "rate": 4.41,
+    "median": 0.28
+  },
+  {
+    "last": 0.54,
+    "mean": 0.29,
+    "sum": 216.71,
+    "timestamp": 1662970784.420423,
+    "count": 742,
+    "btc_price": "22170.4",
+    "rate": 4.72,
+    "median": 0.29
+  },
+  {
+    "last": 0.33,
+    "mean": 0.29,
+    "sum": 223.8,
+    "timestamp": 1662970815.052559,
+    "count": 762,
+    "btc_price": "22159.81",
+    "rate": 4.71,
+    "median": 0.29
+  },
+  {
+    "last": 0.33,
+    "mean": 0.3,
+    "sum": 248.82,
+    "timestamp": 1662970845.3905413,
+    "count": 822,
+    "btc_price": "22151.87",
+    "rate": 4.52,
+    "median": 0.29
+  },
+  {
+    "last": -0.28,
+    "mean": 0.3,
+    "sum": 282.26,
+    "timestamp": 1662970875.916682,
+    "count": 947,
+    "btc_price": "22154.78",
+    "rate": 4.46,
+    "median": 0.29
+  },
+  {
+    "last": 0.43,
+    "mean": 0.29,
+    "sum": 313.92,
+    "timestamp": 1662970906.331886,
+    "count": 1066,
+    "btc_price": "22185.2",
+    "rate": 4.39,
+    "median": 0.29
+  },
+  {
+    "last": 0.84,
+    "mean": 0.29,
+    "sum": 359.79,
+    "timestamp": 1662970936.3578134,
+    "count": 1221,
+    "btc_price": "22182.75",
+    "rate": 4.48,
+    "median": 0.28
+  },
+  {
+    "last": 0.3,
+    "mean": 0.3,
+    "sum": 444.85,
+    "timestamp": 1662972463.5885158,
+    "count": 1490,
+    "btc_price": "22259.86",
+    "rate": 4.09,
+    "median": 0.3
+  },
+  {
+    "last": -0.15,
+    "mean": 0.29,
+    "sum": 443.86,
+    "timestamp": 1662972494.011657,
+    "count": 1511,
+    "btc_price": "22259.33",
+    "rate": 4.26,
+    "median": 0.3
+  },
+  {
+    "last": -0.09,
+    "mean": 0.29,
+    "sum": 440.98,
+    "timestamp": 1662972524.140207,
+    "count": 1522,
+    "btc_price": "22263.57",
+    "rate": 4.35,
+    "median": 0.29
+  },
+  {
+    "last": 0.42,
+    "mean": 0.29,
+    "sum": 427.39,
+    "timestamp": 1662972554.53956,
+    "count": 1481,
+    "btc_price": "22253.44",
+    "rate": 4.21,
+    "median": 0.29
+  },
+  {
+    "last": 0.32,
+    "mean": 0.29,
+    "sum": 408.53,
+    "timestamp": 1662972584.6840773,
+    "count": 1433,
+    "btc_price": "22265.77",
+    "rate": 4.18,
+    "median": 0.29
+  },
+  {
+    "last": 0.16,
+    "mean": 0.28,
+    "sum": 402.29,
+    "timestamp": 1662972614.7051375,
+    "count": 1412,
+    "btc_price": "22271.22",
+    "rate": 4.16,
+    "median": 0.3
+  },
+  {
+    "last": 0.05,
+    "mean": 0.28,
+    "sum": 395.25,
+    "timestamp": 1662972644.818727,
+    "count": 1421,
+    "btc_price": "22262.2",
+    "rate": 4.12,
+    "median": 0.28
+  },
+  {
+    "last": -0.2,
+    "mean": 0.28,
+    "sum": 394.76,
+    "timestamp": 1662972675.0440989,
+    "count": 1412,
+    "btc_price": "22244.82",
+    "rate": 4.09,
+    "median": 0.29
+  },
+  {
+    "last": 0.12,
+    "mean": 0.28,
+    "sum": 400.08,
+    "timestamp": 1662972705.3364182,
+    "count": 1428,
+    "btc_price": "22235.8",
+    "rate": 4.13,
+    "median": 0.29
+  },
+  {
+    "last": 0.25,
+    "mean": 0.28,
+    "sum": 353.27,
+    "timestamp": 1662972774.4651775,
+    "count": 1271,
+    "btc_price": "22236.1",
+    "rate": 0.0,
+    "median": 0.29
+  },
+  {
+    "last": 0.35,
+    "mean": 0.28,
+    "sum": 393.0,
+    "timestamp": 1662972804.7421126,
+    "count": 1420,
+    "btc_price": "22226.4",
+    "rate": 4.96,
+    "median": 0.27
+  },
+  {
+    "last": 0.3,
+    "mean": 0.27,
+    "sum": 430.5,
+    "timestamp": 1662972834.9363375,
+    "count": 1567,
+    "btc_price": "22230.96",
+    "rate": 4.92,
+    "median": 0.26
+  },
+  {
+    "last": 0.25,
+    "mean": 0.27,
+    "sum": 470.08,
+    "timestamp": 1662972865.309234,
+    "count": 1712,
+    "btc_price": "22230.01",
+    "rate": 4.87,
+    "median": 0.26
+  },
+  {
+    "last": 0.95,
+    "mean": 0.27,
+    "sum": 510.27,
+    "timestamp": 1662972895.334195,
+    "count": 1874,
+    "btc_price": "22232.2",
+    "rate": 5.0,
+    "median": 0.26
+  },
+  {
+    "last": 0.57,
+    "mean": 0.27,
+    "sum": 555.16,
+    "timestamp": 1662972925.996691,
+    "count": 2042,
+    "btc_price": "22227.99",
+    "rate": 5.09,
+    "median": 0.25
+  },
+  {
+    "last": 0.54,
+    "mean": 0.27,
+    "sum": 599.3,
+    "timestamp": 1662972956.0945022,
+    "count": 2199,
+    "btc_price": "22220.71",
+    "rate": 5.11,
+    "median": 0.25
+  },
+  {
+    "last": 0.43,
+    "mean": 0.27,
+    "sum": 634.7,
+    "timestamp": 1662972986.2988422,
+    "count": 2351,
+    "btc_price": "22228.76",
+    "rate": 5.11,
+    "median": 0.25
+  },
+  {
+    "last": 0.76,
+    "mean": 0.27,
+    "sum": 679.44,
+    "timestamp": 1662973016.4945543,
+    "count": 2514,
+    "btc_price": "22256.78",
+    "rate": 5.14,
+    "median": 0.25
+  },
+  {
+    "last": 0.24,
+    "mean": 0.27,
+    "sum": 843.98,
+    "timestamp": 1662974198.1279986,
+    "count": 3135,
+    "btc_price": "22255.24",
+    "rate": 4.96,
+    "median": 0.25
+  },
+  {
+    "last": -0.25,
+    "mean": 0.27,
+    "sum": 841.38,
+    "timestamp": 1662974228.509859,
+    "count": 3151,
+    "btc_price": "22261.62",
+    "rate": 4.86,
+    "median": 0.25
+  },
+  {
+    "last": 0.25,
+    "mean": 0.26,
+    "sum": 837.31,
+    "timestamp": 1662974258.6163912,
+    "count": 3173,
+    "btc_price": "22251.58",
+    "rate": 4.89,
+    "median": 0.25
+  },
+  {
+    "last": 0.5,
+    "mean": 0.26,
+    "sum": 830.12,
+    "timestamp": 1662974289.3201578,
+    "count": 3154,
+    "btc_price": "22245.09",
+    "rate": 4.72,
+    "median": 0.25
+  },
+  {
+    "last": 0.5,
+    "mean": 0.26,
+    "sum": 828.61,
+    "timestamp": 1662974319.3694541,
+    "count": 3148,
+    "btc_price": "22249.18",
+    "rate": 4.68,
+    "median": 0.25
+  },
+  {
+    "last": 0.06,
+    "mean": 0.26,
+    "sum": 734.24,
+    "timestamp": 1662974410.6399767,
+    "count": 2794,
+    "btc_price": "22243.66",
+    "rate": 0.0,
+    "median": 0.25
+  },
+  {
+    "last": 0.39,
+    "mean": 0.26,
+    "sum": 734.85,
+    "timestamp": 1662974441.5202007,
+    "count": 2827,
+    "btc_price": "22248.45",
+    "rate": 5.44,
+    "median": 0.25
+  },
+  {
+    "last": 0.41,
+    "mean": 0.26,
+    "sum": 728.97,
+    "timestamp": 1662974471.6016045,
+    "count": 2845,
+    "btc_price": "22251.04",
+    "rate": 4.87,
+    "median": 0.25
+  },
+  {
+    "last": -0.22,
+    "mean": 0.26,
+    "sum": 737.11,
+    "timestamp": 1662974501.9144373,
+    "count": 2861,
+    "btc_price": "22245.26",
+    "rate": 4.89,
+    "median": 0.25
+  },
+  {
+    "last": -0.01,
+    "mean": 0.25,
+    "sum": 758.23,
+    "timestamp": 1662974532.4963017,
+    "count": 2976,
+    "btc_price": "22250.09",
+    "rate": 4.73,
+    "median": 0.25
+  },
+  {
+    "last": 0.32,
+    "mean": 0.25,
+    "sum": 785.19,
+    "timestamp": 1662974562.5905685,
+    "count": 3101,
+    "btc_price": "22248.56",
+    "rate": 4.61,
+    "median": 0.25
+  },
+  {
+    "last": 0.6,
+    "mean": 0.25,
+    "sum": 797.43,
+    "timestamp": 1662974592.7338116,
+    "count": 3148,
+    "btc_price": "22223.41",
+    "rate": 4.62,
+    "median": 0.25
+  },
+  {
+    "last": 0.54,
+    "mean": 0.25,
+    "sum": 787.75,
+    "timestamp": 1662974623.5381336,
+    "count": 3142,
+    "btc_price": "22238.73",
+    "rate": 4.64,
+    "median": 0.25
+  },
+  {
+    "last": -0.26,
+    "mean": 0.25,
+    "sum": 526.78,
+    "timestamp": 1662975605.0926068,
+    "count": 2145,
+    "btc_price": "22222.56",
+    "rate": 0.0,
+    "median": 0.25
+  },
+  {
+    "last": 0.51,
+    "mean": 0.25,
+    "sum": 570.29,
+    "timestamp": 1662975635.2656324,
+    "count": 2301,
+    "btc_price": "22218.42",
+    "rate": 5.2,
+    "median": 0.26
+  },
+  {
+    "last": 0.24,
+    "mean": 0.25,
+    "sum": 608.65,
+    "timestamp": 1662975665.2971087,
+    "count": 2429,
+    "btc_price": "22216.84",
+    "rate": 4.73,
+    "median": 0.26
+  },
+  {
+    "last": 0.31,
+    "mean": 0.26,
+    "sum": 662.52,
+    "timestamp": 1662975695.4257221,
+    "count": 2591,
+    "btc_price": "22206.44",
+    "rate": 4.95,
+    "median": 0.27
+  },
+  {
+    "last": 0.15,
+    "mean": 0.26,
+    "sum": 716.73,
+    "timestamp": 1662975725.6606429,
+    "count": 2747,
+    "btc_price": "22206.29",
+    "rate": 5.0,
+    "median": 0.27
+  },
+  {
+    "last": 0.61,
+    "mean": 0.26,
+    "sum": 765.16,
+    "timestamp": 1662975756.1227164,
+    "count": 2901,
+    "btc_price": "22201.48",
+    "rate": 5.01,
+    "median": 0.28
+  },
+  {
+    "last": 0.45,
+    "mean": 0.26,
+    "sum": 793.65,
+    "timestamp": 1662975786.2271812,
+    "count": 3028,
+    "btc_price": "22195.57",
+    "rate": 4.88,
+    "median": 0.28
+  },
+  {
+    "last": -0.17,
+    "mean": 0.26,
+    "sum": 832.72,
+    "timestamp": 1662975816.313663,
+    "count": 3170,
+    "btc_price": "22197.48",
+    "rate": 4.86,
+    "median": 0.28
+  },
+  {
+    "last": 0.72,
+    "mean": 0.26,
+    "sum": 868.82,
+    "timestamp": 1662975846.5634694,
+    "count": 3295,
+    "btc_price": "22203.27",
+    "rate": 4.77,
+    "median": 0.28
+  },
+  {
+    "last": 0.18,
+    "mean": 0.26,
+    "sum": 901.89,
+    "timestamp": 1662975876.8103461,
+    "count": 3418,
+    "btc_price": "22209.63",
+    "rate": 4.8,
+    "median": 0.28
+  },
+  {
+    "last": 0.1,
+    "mean": 0.26,
+    "sum": 814.08,
+    "timestamp": 1662975947.7330756,
+    "count": 3082,
+    "btc_price": "22203.2",
+    "rate": 0.0,
+    "median": 0.28
+  },
+  {
+    "last": 0.25,
+    "mean": 0.27,
+    "sum": 808.24,
+    "timestamp": 1662975977.9206238,
+    "count": 3035,
+    "btc_price": "22186.86",
+    "rate": 3.68,
+    "median": 0.28
+  },
+  {
+    "last": 0.54,
+    "mean": 0.27,
+    "sum": 811.76,
+    "timestamp": 1662976008.08567,
+    "count": 3034,
+    "btc_price": "22197.15",
+    "rate": 4.24,
+    "median": 0.29
+  },
+  {
+    "last": 0.39,
+    "mean": 0.27,
+    "sum": 807.39,
+    "timestamp": 1662976038.222764,
+    "count": 3026,
+    "btc_price": "22180.39",
+    "rate": 4.17,
+    "median": 0.29
+  },
+  {
+    "last": 0.24,
+    "mean": 0.27,
+    "sum": 816.55,
+    "timestamp": 1662976068.2453785,
+    "count": 3026,
+    "btc_price": "22167.82",
+    "rate": 4.36,
+    "median": 0.29
+  },
+  {
+    "last": 0.84,
+    "mean": 0.27,
+    "sum": 835.34,
+    "timestamp": 1662976099.043389,
+    "count": 3052,
+    "btc_price": "22166.66",
+    "rate": 4.4,
+    "median": 0.29
+  },
+  {
+    "last": 0.54,
+    "mean": 0.27,
+    "sum": 846.18,
+    "timestamp": 1662976129.5078788,
+    "count": 3084,
+    "btc_price": "22164.87",
+    "rate": 4.37,
+    "median": 0.29
+  },
+  {
+    "last": 0.84,
+    "mean": 0.27,
+    "sum": 879.86,
+    "timestamp": 1662976159.8387263,
+    "count": 3203,
+    "btc_price": "22167.34",
+    "rate": 4.3,
+    "median": 0.29
+  },
+  {
+    "last": -0.14,
+    "mean": 0.28,
+    "sum": 920.92,
+    "timestamp": 1662976190.5402935,
+    "count": 3336,
+    "btc_price": "22159.31",
+    "rate": 4.31,
+    "median": 0.29
+  },
+  {
+    "last": 0.06,
+    "mean": 0.28,
+    "sum": 951.76,
+    "timestamp": 1662976221.0200634,
+    "count": 3421,
+    "btc_price": "22156.26",
+    "rate": 4.3,
+    "median": 0.29
+  },
+  {
+    "last": 0.62,
+    "mean": 0.28,
+    "sum": 852.38,
+    "timestamp": 1662976305.8498764,
+    "count": 3007,
+    "btc_price": "22158.71",
+    "rate": 0.0,
+    "median": 0.3
+  },
+  {
+    "last": 0.37,
+    "mean": 0.29,
+    "sum": 861.25,
+    "timestamp": 1662976335.971641,
+    "count": 3006,
+    "btc_price": "22151.53",
+    "rate": 4.35,
+    "median": 0.3
+  },
+  {
+    "last": 0.84,
+    "mean": 0.29,
+    "sum": 879.8,
+    "timestamp": 1662976366.0496733,
+    "count": 3030,
+    "btc_price": "22145.64",
+    "rate": 4.55,
+    "median": 0.31
+  },
+  {
+    "last": 0.14,
+    "mean": 0.29,
+    "sum": 887.49,
+    "timestamp": 1662976396.1544166,
+    "count": 3026,
+    "btc_price": "22160",
+    "rate": 4.57,
+    "median": 0.31
+  },
+  {
+    "last": 0.25,
+    "mean": 0.3,
+    "sum": 894.07,
+    "timestamp": 1662976426.2698307,
+    "count": 3028,
+    "btc_price": "22157.26",
+    "rate": 4.58,
+    "median": 0.32
+  },
+  {
+    "last": -0.17,
+    "mean": 0.3,
+    "sum": 937.9,
+    "timestamp": 1662976456.38847,
+    "count": 3169,
+    "btc_price": "22149.22",
+    "rate": 4.6,
+    "median": 0.32
+  },
+  {
+    "last": 0.47,
+    "mean": 0.3,
+    "sum": 979.04,
+    "timestamp": 1662976486.5213916,
+    "count": 3313,
+    "btc_price": "22143.24",
+    "rate": 4.63,
+    "median": 0.32
+  },
+  {
+    "last": -0.03,
+    "mean": 0.3,
+    "sum": 1023.8,
+    "timestamp": 1662976517.461418,
+    "count": 3460,
+    "btc_price": "22145.27",
+    "rate": 4.65,
+    "median": 0.32
+  },
+  {
+    "last": -0.37,
+    "mean": 0.29,
+    "sum": 1052.61,
+    "timestamp": 1662976547.9000125,
+    "count": 3586,
+    "btc_price": "22152.15",
+    "rate": 4.58,
+    "median": 0.32
+  },
+  {
+    "last": 0.33,
+    "mean": 0.29,
+    "sum": 1088.01,
+    "timestamp": 1662976578.2997339,
+    "count": 3720,
+    "btc_price": "22153.61",
+    "rate": 4.56,
+    "median": 0.32
+  },
+  {
+    "last": -0.17,
+    "mean": 0.28,
+    "sum": 292.12,
+    "timestamp": 1662978155.0580335,
+    "count": 1030,
+    "btc_price": "22101.77",
+    "rate": 0.0,
+    "median": 0.33
+  },
+  {
+    "last": 0.62,
+    "mean": 0.27,
+    "sum": 271.15,
+    "timestamp": 1662978185.4148803,
+    "count": 990,
+    "btc_price": "22099.97",
+    "rate": 3.43,
+    "median": 0.32
+  },
+  {
+    "last": 0.19,
+    "mean": 0.27,
+    "sum": 260.44,
+    "timestamp": 1662978215.5328858,
+    "count": 976,
+    "btc_price": "22090.47",
+    "rate": 3.94,
+    "median": 0.31
+  },
+  {
+    "last": 0.07,
+    "mean": 0.26,
+    "sum": 251.03,
+    "timestamp": 1662978245.555014,
+    "count": 948,
+    "btc_price": "22118.11",
+    "rate": 3.87,
+    "median": 0.32
+  },
+  {
+    "last": -0.06,
+    "mean": 0.25,
+    "sum": 239.19,
+    "timestamp": 1662978275.72375,
+    "count": 961,
+    "btc_price": "22132.14",
+    "rate": 4.11,
+    "median": 0.29
+  },
+  {
+    "last": 0.53,
+    "mean": 0.24,
+    "sum": 216.97,
+    "timestamp": 1662978306.011728,
+    "count": 920,
+    "btc_price": "22137.96",
+    "rate": 4.06,
+    "median": 0.26
+  },
+  {
+    "last": 0.05,
+    "mean": 0.23,
+    "sum": 212.69,
+    "timestamp": 1662978336.147573,
+    "count": 917,
+    "btc_price": "22114.19",
+    "rate": 4.05,
+    "median": 0.25
+  },
+  {
+    "last": 0.45,
+    "mean": 0.22,
+    "sum": 205.46,
+    "timestamp": 1662978366.2804976,
+    "count": 928,
+    "btc_price": "22111.44",
+    "rate": 4.09,
+    "median": 0.23
+  },
+  {
+    "last": 0.37,
+    "mean": 0.22,
+    "sum": 213.98,
+    "timestamp": 1662978397.433776,
+    "count": 994,
+    "btc_price": "22105.67",
+    "rate": 4.1,
+    "median": 0.21
+  },
+  {
+    "last": 0.03,
+    "mean": 0.21,
+    "sum": 240.51,
+    "timestamp": 1662978427.778483,
+    "count": 1130,
+    "btc_price": "22107.41",
+    "rate": 4.14,
+    "median": 0.2
+  },
+  {
+    "last": -0.14,
+    "mean": 0.22,
+    "sum": 268.61,
+    "timestamp": 1662978459.0542643,
+    "count": 1248,
+    "btc_price": "22087.23",
+    "rate": 4.11,
+    "median": 0.21
+  },
+  {
+    "last": 0.1,
+    "mean": 0.17,
+    "sum": 0.5,
+    "timestamp": 1662980300.4411883,
+    "count": 3,
+    "btc_price": "22179.29",
+    "rate": 4.88,
+    "median": 0.1
+  },
+  {
+    "last": 0.1,
+    "mean": 0.22,
+    "sum": 34.48,
+    "timestamp": 1662980330.5780318,
+    "count": 157,
+    "btc_price": "22166.79",
+    "rate": 5.12,
+    "median": 0.11
+  },
+  {
+    "last": 0.1,
+    "mean": 0.24,
+    "sum": 76.36,
+    "timestamp": 1662980361.3939862,
+    "count": 321,
+    "btc_price": "22160.92",
+    "rate": 5.21,
+    "median": 0.2
+  },
+  {
+    "last": 0.16,
+    "mean": 0.23,
+    "sum": 115.3,
+    "timestamp": 1662980391.7774956,
+    "count": 505,
+    "btc_price": "22166.9",
+    "rate": 5.49,
+    "median": 0.17
+  },
+  {
+    "last": 0.1,
+    "mean": 0.22,
+    "sum": 158.51,
+    "timestamp": 1662980421.9353085,
+    "count": 706,
+    "btc_price": "22160.96",
+    "rate": 5.78,
+    "median": 0.19
+  },
+  {
+    "last": 0.1,
+    "mean": 0.21,
+    "sum": 198.93,
+    "timestamp": 1662980452.0141997,
+    "count": 952,
+    "btc_price": "22154.33",
+    "rate": 6.26,
+    "median": 0.16
+  },
+  {
+    "last": -0.14,
+    "mean": 0.22,
+    "sum": 255.91,
+    "timestamp": 1662980482.1179302,
+    "count": 1161,
+    "btc_price": "22154.13",
+    "rate": 6.37,
+    "median": 0.18
+  },
+  {
+    "last": 0.32,
+    "mean": 0.23,
+    "sum": 314.96,
+    "timestamp": 1662980512.3319297,
+    "count": 1388,
+    "btc_price": "22133.42",
+    "rate": 6.53,
+    "median": 0.2
+  },
+  {
+    "last": 0.33,
+    "mean": 0.06,
+    "sum": 0.18,
+    "timestamp": 1662982629.6066551,
+    "count": 3,
+    "btc_price": "22288.57",
+    "rate": 22.05,
+    "median": 0.27
+  },
+  {
+    "last": 0.29,
+    "mean": 0.22,
+    "sum": 38.82,
+    "timestamp": 1662982659.8418427,
+    "count": 178,
+    "btc_price": "22288.98",
+    "rate": 5.88,
+    "median": 0.17
+  },
+  {
+    "last": 0.05,
+    "mean": 0.22,
+    "sum": 72.04,
+    "timestamp": 1662982690.170389,
+    "count": 327,
+    "btc_price": "22285.09",
+    "rate": 5.39,
+    "median": 0.17
+  },
+  {
+    "last": 0.54,
+    "mean": 0.22,
+    "sum": 107.2,
+    "timestamp": 1662982720.6324177,
+    "count": 478,
+    "btc_price": "22290.56",
+    "rate": 5.25,
+    "median": 0.18
+  },
+  {
+    "last": 0.42,
+    "mean": 0.23,
+    "sum": 144.79,
+    "timestamp": 1662982750.804625,
+    "count": 625,
+    "btc_price": "22289.12",
+    "rate": 5.15,
+    "median": 0.19
+  },
+  {
+    "last": 0.28,
+    "mean": 0.23,
+    "sum": 175.7,
+    "timestamp": 1662982781.0225089,
+    "count": 772,
+    "btc_price": "22273.37",
+    "rate": 5.1,
+    "median": 0.18
+  },
+  {
+    "last": 0.33,
+    "mean": 0.23,
+    "sum": 213.43,
+    "timestamp": 1662982811.1626315,
+    "count": 925,
+    "btc_price": "22300",
+    "rate": 5.09,
+    "median": 0.18
+  },
+  {
+    "last": -0.1,
+    "mean": 0.23,
+    "sum": 253.76,
+    "timestamp": 1662982841.2916262,
+    "count": 1105,
+    "btc_price": "22305.02",
+    "rate": 5.22,
+    "median": 0.19
+  },
+  {
+    "last": 0.55,
+    "mean": 0.23,
+    "sum": 290.18,
+    "timestamp": 1662982871.8808522,
+    "count": 1262,
+    "btc_price": "22298.02",
+    "rate": 5.21,
+    "median": 0.18
+  },
+  {
+    "last": 0.14,
+    "mean": 0.11,
+    "sum": 0.34,
+    "timestamp": 1662984694.8135524,
+    "count": 3,
+    "btc_price": "22315.91",
+    "rate": 331.49,
+    "median": 0.1
+  },
+  {
+    "last": 0.27,
+    "mean": 0.25,
+    "sum": 41.01,
+    "timestamp": 1662984725.0915935,
+    "count": 167,
+    "btc_price": "22315.9",
+    "rate": 5.53,
+    "median": 0.2
+  },
+  {
+    "last": 0.77,
+    "mean": 0.27,
+    "sum": 85.07,
+    "timestamp": 1662984755.225673,
+    "count": 320,
+    "btc_price": "22323.64",
+    "rate": 5.3,
+    "median": 0.26
+  },
+  {
+    "last": 0.4,
+    "mean": 0.26,
+    "sum": 123.57,
+    "timestamp": 1662984785.2589257,
+    "count": 472,
+    "btc_price": "22324.1",
+    "rate": 5.22,
+    "median": 0.27
+  },
+  {
+    "last": 0.65,
+    "mean": 0.26,
+    "sum": 161.69,
+    "timestamp": 1662984815.3901668,
+    "count": 631,
+    "btc_price": "22325.53",
+    "rate": 5.24,
+    "median": 0.27
+  },
+  {
+    "last": 0.09,
+    "mean": 0.25,
+    "sum": 200.16,
+    "timestamp": 1662984845.5043797,
+    "count": 793,
+    "btc_price": "22315.26",
+    "rate": 5.26,
+    "median": 0.26
+  },
+  {
+    "last": -0.15,
+    "mean": 0.25,
+    "sum": 233.83,
+    "timestamp": 1662984875.7027857,
+    "count": 951,
+    "btc_price": "22324.48",
+    "rate": 5.26,
+    "median": 0.25
+  },
+  {
+    "last": 0.18,
+    "mean": 0.24,
+    "sum": 272.71,
+    "timestamp": 1662984905.816103,
+    "count": 1120,
+    "btc_price": "22338.18",
+    "rate": 5.31,
+    "median": 0.25
+  },
+  {
+    "last": 0.56,
+    "mean": 0.25,
+    "sum": 258.63,
+    "timestamp": 1662986506.8381987,
+    "count": 1052,
+    "btc_price": "22360.78",
+    "rate": 0.0,
+    "median": 0.25
+  },
+  {
+    "last": 0.19,
+    "mean": 0.24,
+    "sum": 261.1,
+    "timestamp": 1662986537.052711,
+    "count": 1086,
+    "btc_price": "22360.27",
+    "rate": 6.47,
+    "median": 0.23
+  },
+  {
+    "last": 0.06,
+    "mean": 0.23,
+    "sum": 258.81,
+    "timestamp": 1662986567.2986748,
+    "count": 1115,
+    "btc_price": "22356.33",
+    "rate": 5.94,
+    "median": 0.2
+  },
+  {
+    "last": 0.47,
+    "mean": 0.23,
+    "sum": 263.01,
+    "timestamp": 1662986597.422232,
+    "count": 1125,
+    "btc_price": "22357.08",
+    "rate": 5.91,
+    "median": 0.2
+  },
+  {
+    "last": 0.24,
+    "mean": 0.23,
+    "sum": 265.19,
+    "timestamp": 1662986627.5398495,
+    "count": 1168,
+    "btc_price": "22346.77",
+    "rate": 6.15,
+    "median": 0.19
+  },
+  {
+    "last": 0.23,
+    "mean": 0.22,
+    "sum": 268.18,
+    "timestamp": 1662986657.7053654,
+    "count": 1217,
+    "btc_price": "22348.39",
+    "rate": 6.24,
+    "median": 0.18
+  },
+  {
+    "last": 0.17,
+    "mean": 0.22,
+    "sum": 261.32,
+    "timestamp": 1662986687.7636564,
+    "count": 1208,
+    "btc_price": "22353.51",
+    "rate": 6.16,
+    "median": 0.17
+  },
+  {
+    "last": 0.32,
+    "mean": 0.21,
+    "sum": 284.74,
+    "timestamp": 1662986717.8827405,
+    "count": 1333,
+    "btc_price": "22360.3",
+    "rate": 6.32,
+    "median": 0.17
+  },
+  {
+    "last": 0.44,
+    "mean": 0.21,
+    "sum": 208.18,
+    "timestamp": 1662988363.4474096,
+    "count": 998,
+    "btc_price": "22299.08",
+    "rate": 0.0,
+    "median": 0.17
+  },
+  {
+    "last": 0.58,
+    "mean": 0.21,
+    "sum": 224.24,
+    "timestamp": 1662988393.5706344,
+    "count": 1058,
+    "btc_price": "22297.91",
+    "rate": 7.83,
+    "median": 0.17
+  },
+  {
+    "last": 0.03,
+    "mean": 0.22,
+    "sum": 229.67,
+    "timestamp": 1662988423.599381,
+    "count": 1057,
+    "btc_price": "22317.99",
+    "rate": 7.35,
+    "median": 0.18
+  },
+  {
+    "last": 0.17,
+    "mean": 0.22,
+    "sum": 244.64,
+    "timestamp": 1662988453.8746188,
+    "count": 1093,
+    "btc_price": "22342.93",
+    "rate": 7.53,
+    "median": 0.18
+  },
+  {
+    "last": -0.05,
+    "mean": 0.24,
+    "sum": 273.58,
+    "timestamp": 1662988484.1563985,
+    "count": 1141,
+    "btc_price": "22349.99",
+    "rate": 7.54,
+    "median": 0.19
+  },
+  {
+    "last": 0.48,
+    "mean": 0.25,
+    "sum": 287.5,
+    "timestamp": 1662988514.181585,
+    "count": 1164,
+    "btc_price": "22359.9",
+    "rate": 7.55,
+    "median": 0.23
+  },
+  {
+    "last": 0.1,
+    "mean": 0.25,
+    "sum": 339.43,
+    "timestamp": 1662988544.3316884,
+    "count": 1370,
+    "btc_price": "22339.32",
+    "rate": 7.57,
+    "median": 0.23
+  },
+  {
+    "last": 0.24,
+    "mean": 0.24,
+    "sum": 626.97,
+    "timestamp": 1662990164.2314591,
+    "count": 2563,
+    "btc_price": "22350.7",
+    "rate": 6.04,
+    "median": 0.23
+  },
+  {
+    "last": 0.03,
+    "mean": 0.24,
+    "sum": 290.78,
+    "timestamp": 1662990623.3363552,
+    "count": 1204,
+    "btc_price": "22320.42",
+    "rate": 0.0,
+    "median": 0.22
+  },
+  {
+    "last": 0.26,
+    "mean": 0.25,
+    "sum": 340.89,
+    "timestamp": 1662990653.694641,
+    "count": 1391,
+    "btc_price": "22326.42",
+    "rate": 6.19,
+    "median": 0.23
+  },
+  {
+    "last": 0.35,
+    "mean": 0.25,
+    "sum": 497.68,
+    "timestamp": 1662991764.9534833,
+    "count": 2014,
+    "btc_price": "22413.33",
+    "rate": 6.23,
+    "median": 0.24
+  },
+  {
+    "last": 0.28,
+    "mean": 0.25,
+    "sum": 496.1,
+    "timestamp": 1662991795.043302,
+    "count": 2011,
+    "btc_price": "22406.81",
+    "rate": 6.1,
+    "median": 0.25
+  },
+  {
+    "last": 0.07,
+    "mean": 0.25,
+    "sum": 501.25,
+    "timestamp": 1662991825.2766492,
+    "count": 2013,
+    "btc_price": "22409.92",
+    "rate": 6.21,
+    "median": 0.25
+  },
+  {
+    "last": 0.59,
+    "mean": 0.25,
+    "sum": 509.86,
+    "timestamp": 1662991855.4149916,
+    "count": 2039,
+    "btc_price": "22405.33",
+    "rate": 6.23,
+    "median": 0.26
+  },
+  {
+    "last": 0.3,
+    "mean": 0.26,
+    "sum": 352.31,
+    "timestamp": 1662992188.367017,
+    "count": 1380,
+    "btc_price": "22423.9",
+    "rate": 0.0,
+    "median": 0.29
+  },
+  {
+    "last": 0.17,
+    "mean": 0.26,
+    "sum": 413.4,
+    "timestamp": 1662992218.6644273,
+    "count": 1617,
+    "btc_price": "22440.72",
+    "rate": 7.87,
+    "median": 0.29
+  },
+  {
+    "last": 0.03,
+    "mean": 0.26,
+    "sum": 458.29,
+    "timestamp": 1662992249.00796,
+    "count": 1795,
+    "btc_price": "22461.16",
+    "rate": 6.89,
+    "median": 0.29
+  },
+  {
+    "last": 0.32,
+    "mean": 0.26,
+    "sum": 517.26,
+    "timestamp": 1662992279.3356674,
+    "count": 2002,
+    "btc_price": "22463.03",
+    "rate": 6.85,
+    "median": 0.3
+  },
+  {
+    "last": 0.57,
+    "mean": 0.26,
+    "sum": 574.68,
+    "timestamp": 1662992309.6283987,
+    "count": 2233,
+    "btc_price": "22437.6",
+    "rate": 7.04,
+    "median": 0.3
+  },
+  {
+    "last": -0.18,
+    "mean": 0.26,
+    "sum": 625.79,
+    "timestamp": 1662992339.746955,
+    "count": 2429,
+    "btc_price": "22439.97",
+    "rate": 6.94,
+    "median": 0.3
+  },
+  {
+    "last": 0.57,
+    "mean": 0.26,
+    "sum": 680.8,
+    "timestamp": 1662992369.9172082,
+    "count": 2636,
+    "btc_price": "22423.51",
+    "rate": 6.92,
+    "median": 0.3
+  },
+  {
+    "last": 0.41,
+    "mean": 0.26,
+    "sum": 631.07,
+    "timestamp": 1662992457.9978814,
+    "count": 2449,
+    "btc_price": "22461.27",
+    "rate": 0.0,
+    "median": 0.3
+  },
+  {
+    "last": -0.02,
+    "mean": 0.26,
+    "sum": 675.12,
+    "timestamp": 1662992488.5324366,
+    "count": 2637,
+    "btc_price": "22463.62",
+    "rate": 6.2,
+    "median": 0.3
+  },
+  {
+    "last": -0.08,
+    "mean": 0.25,
+    "sum": 730.02,
+    "timestamp": 1662992518.6924791,
+    "count": 2863,
+    "btc_price": "22447.66",
+    "rate": 6.85,
+    "median": 0.3
+  },
+  {
+    "last": -0.08,
+    "mean": 0.25,
+    "sum": 769.97,
+    "timestamp": 1662992548.813878,
+    "count": 3045,
+    "btc_price": "22455.16",
+    "rate": 6.58,
+    "median": 0.3
+  },
+  {
+    "last": 0.5,
+    "mean": 0.25,
+    "sum": 832.28,
+    "timestamp": 1662992579.0161736,
+    "count": 3275,
+    "btc_price": "22452.59",
+    "rate": 6.83,
+    "median": 0.3
+  },
+  {
+    "last": 0.66,
+    "mean": 0.26,
+    "sum": 886.94,
+    "timestamp": 1662992609.1194015,
+    "count": 3473,
+    "btc_price": "22459.1",
+    "rate": 6.78,
+    "median": 0.3
+  },
+  {
+    "last": 0.56,
+    "mean": 0.26,
+    "sum": 937.55,
+    "timestamp": 1662992639.4183445,
+    "count": 3669,
+    "btc_price": "22456.21",
+    "rate": 6.73,
+    "median": 0.3
+  },
+  {
+    "last": 0.62,
+    "mean": 0.26,
+    "sum": 1308.0,
+    "timestamp": 1662993464.4875224,
+    "count": 5012,
+    "btc_price": "22360.73",
+    "rate": 6.35,
+    "median": 0.33
+  },
+  {
+    "last": -0.05,
+    "mean": 0.26,
+    "sum": 1207.09,
+    "timestamp": 1662993528.7811842,
+    "count": 4604,
+    "btc_price": "22354.25",
+    "rate": 0.0,
+    "median": 0.33
+  },
+  {
+    "last": -0.14,
+    "mean": 0.26,
+    "sum": 1211.5,
+    "timestamp": 1662993558.9423559,
+    "count": 4607,
+    "btc_price": "22345.43",
+    "rate": 6.06,
+    "median": 0.33
+  },
+  {
+    "last": 0.27,
+    "mean": 0.26,
+    "sum": 1223.48,
+    "timestamp": 1662993588.968502,
+    "count": 4641,
+    "btc_price": "22342.69",
+    "rate": 6.5,
+    "median": 0.33
+  },
+  {
+    "last": 0.25,
+    "mean": 0.26,
+    "sum": 1221.54,
+    "timestamp": 1662993619.1931717,
+    "count": 4654,
+    "btc_price": "22339.5",
+    "rate": 6.59,
+    "median": 0.33
+  },
+  {
+    "last": -0.49,
+    "mean": 0.26,
+    "sum": 1220.47,
+    "timestamp": 1662993649.5106382,
+    "count": 4659,
+    "btc_price": "22340.46",
+    "rate": 6.65,
+    "median": 0.33
+  },
+  {
+    "last": 0.03,
+    "mean": 0.26,
+    "sum": 1254.99,
+    "timestamp": 1662993679.6960359,
+    "count": 4806,
+    "btc_price": "22338.31",
+    "rate": 6.51,
+    "median": 0.33
+  },
+  {
+    "last": 0.36,
+    "mean": 0.26,
+    "sum": 1303.0,
+    "timestamp": 1662993710.2655325,
+    "count": 5012,
+    "btc_price": "22339.45",
+    "rate": 6.55,
+    "median": 0.33
+  },
+  {
+    "last": 0.38,
+    "mean": 0.26,
+    "sum": 1352.75,
+    "timestamp": 1662993740.3239853,
+    "count": 5201,
+    "btc_price": "22332.23",
+    "rate": 6.51,
+    "median": 0.33
+  },
+  {
+    "last": 0.39,
+    "mean": 0.26,
+    "sum": 1697.44,
+    "timestamp": 1662993988.7275612,
+    "count": 6433,
+    "btc_price": "22358.48",
+    "rate": 6.98,
+    "median": 0.33
+  },
+  {
+    "last": -0.21,
+    "mean": 0.26,
+    "sum": 1532.27,
+    "timestamp": 1662994080.0913954,
+    "count": 5810,
+    "btc_price": "22377.43",
+    "rate": 0.0,
+    "median": 0.33
+  },
+  {
+    "last": 0.67,
+    "mean": 0.26,
+    "sum": 1529.99,
+    "timestamp": 1662994110.2204268,
+    "count": 5817,
+    "btc_price": "22378.66",
+    "rate": 7.83,
+    "median": 0.32
+  },
+  {
+    "last": 0.35,
+    "mean": 0.26,
+    "sum": 1535.71,
+    "timestamp": 1662994140.3978474,
+    "count": 5840,
+    "btc_price": "22377.46",
+    "rate": 7.56,
+    "median": 0.32
+  },
+  {
+    "last": 0.34,
+    "mean": 0.26,
+    "sum": 1532.68,
+    "timestamp": 1662994170.697396,
+    "count": 5844,
+    "btc_price": "22377.5",
+    "rate": 7.32,
+    "median": 0.31
+  },
+  {
+    "last": 0.35,
+    "mean": 0.26,
+    "sum": 1602.01,
+    "timestamp": 1662994201.0471175,
+    "count": 6087,
+    "btc_price": "22385.48",
+    "rate": 7.5,
+    "median": 0.31
+  },
+  {
+    "last": 0.29,
+    "mean": 0.26,
+    "sum": 1657.59,
+    "timestamp": 1662994231.07239,
+    "count": 6310,
+    "btc_price": "22389.42",
+    "rate": 7.48,
+    "median": 0.31
+  },
+  {
+    "last": 0.26,
+    "mean": 0.26,
+    "sum": 1708.94,
+    "timestamp": 1662994262.0575314,
+    "count": 6507,
+    "btc_price": "22389.95",
+    "rate": 7.46,
+    "median": 0.31
+  },
+  {
+    "last": 0.59,
+    "mean": 0.27,
+    "sum": 1583.65,
+    "timestamp": 1662994344.5505018,
+    "count": 5968,
+    "btc_price": "22357.82",
+    "rate": 0.0,
+    "median": 0.31
+  },
+  {
+    "last": -0.05,
+    "mean": 0.27,
+    "sum": 1583.78,
+    "timestamp": 1662994374.7479548,
+    "count": 5975,
+    "btc_price": "22379.85",
+    "rate": 7.78,
+    "median": 0.31
+  },
+  {
+    "last": 0.24,
+    "mean": 0.26,
+    "sum": 1576.35,
+    "timestamp": 1662994404.8822713,
+    "count": 5974,
+    "btc_price": "22362.29",
+    "rate": 7.22,
+    "median": 0.3
+  },
+  {
+    "last": -0.38,
+    "mean": 0.26,
+    "sum": 1575.9,
+    "timestamp": 1662994435.1536827,
+    "count": 5979,
+    "btc_price": "22334.38",
+    "rate": 7.03,
+    "median": 0.3
+  },
+  {
+    "last": 0.1,
+    "mean": 0.26,
+    "sum": 1622.57,
+    "timestamp": 1662994465.2320757,
+    "count": 6172,
+    "btc_price": "22323.99",
+    "rate": 7.08,
+    "median": 0.3
+  },
+  {
+    "last": 0.26,
+    "mean": 0.26,
+    "sum": 1664.94,
+    "timestamp": 1662994495.7596035,
+    "count": 6371,
+    "btc_price": "22323.71",
+    "rate": 6.97,
+    "median": 0.29
+  },
+  {
+    "last": 0.27,
+    "mean": 0.26,
+    "sum": 1715.48,
+    "timestamp": 1662994525.9039602,
+    "count": 6582,
+    "btc_price": "22319.8",
+    "rate": 6.98,
+    "median": 0.29
+  },
+  {
+    "last": 0.63,
+    "mean": 0.26,
+    "sum": 2021.64,
+    "timestamp": 1662995052.8447456,
+    "count": 7812,
+    "btc_price": "22285.09",
+    "rate": 7.57,
+    "median": 0.28
+  },
+  {
+    "last": 0.54,
+    "mean": 0.26,
+    "sum": 1859.64,
+    "timestamp": 1662995141.1313114,
+    "count": 7244,
+    "btc_price": "22307.75",
+    "rate": 0.0,
+    "median": 0.26
+  },
+  {
+    "last": 0.07,
+    "mean": 0.26,
+    "sum": 1849.19,
+    "timestamp": 1662995171.4365103,
+    "count": 7226,
+    "btc_price": "22297.99",
+    "rate": 6.38,
+    "median": 0.26
+  },
+  {
+    "last": 0.03,
+    "mean": 0.26,
+    "sum": 1853.2,
+    "timestamp": 1662995201.7993433,
+    "count": 7251,
+    "btc_price": "22297.92",
+    "rate": 6.78,
+    "median": 0.26
+  },
+  {
+    "last": 0.29,
+    "mean": 0.26,
+    "sum": 1861.88,
+    "timestamp": 1662995231.8537366,
+    "count": 7296,
+    "btc_price": "22298.56",
+    "rate": 6.89,
+    "median": 0.26
+  },
+  {
+    "last": 0.03,
+    "mean": 0.25,
+    "sum": 1868.82,
+    "timestamp": 1662995262.0252614,
+    "count": 7353,
+    "btc_price": "22289.8",
+    "rate": 7.16,
+    "median": 0.26
+  },
+  {
+    "last": -0.11,
+    "mean": 0.25,
+    "sum": 1918.57,
+    "timestamp": 1662995292.1307876,
+    "count": 7525,
+    "btc_price": "22305.76",
+    "rate": 6.99,
+    "median": 0.26
+  },
+  {
+    "last": 0.23,
+    "mean": 0.26,
+    "sum": 1971.41,
+    "timestamp": 1662995322.328013,
+    "count": 7713,
+    "btc_price": "22289.52",
+    "rate": 6.86,
+    "median": 0.26
+  },
+  {
+    "last": -0.22,
+    "mean": 0.26,
+    "sum": 1988.97,
+    "timestamp": 1662995352.460391,
+    "count": 7763,
+    "btc_price": "22290.78",
+    "rate": 6.84,
+    "median": 0.26
+  },
+  {
+    "last": 0.03,
+    "mean": 0.26,
+    "sum": 1873.03,
+    "timestamp": 1662995422.0956533,
+    "count": 7306,
+    "btc_price": "22291.34",
+    "rate": 0.0,
+    "median": 0.26
+  },
+  {
+    "last": 0.51,
+    "mean": 0.26,
+    "sum": 1879.54,
+    "timestamp": 1662995452.4575593,
+    "count": 7335,
+    "btc_price": "22286.65",
+    "rate": 7.81,
+    "median": 0.26
+  },
+  {
+    "last": 0.73,
+    "mean": 0.26,
+    "sum": 1892.47,
+    "timestamp": 1662995482.659617,
+    "count": 7359,
+    "btc_price": "22290.31",
+    "rate": 7.33,
+    "median": 0.26
+  },
+  {
+    "last": 0.36,
+    "mean": 0.26,
+    "sum": 1897.19,
+    "timestamp": 1662995512.996329,
+    "count": 7388,
+    "btc_price": "22279.97",
+    "rate": 7.57,
+    "median": 0.26
+  },
+  {
+    "last": 0.26,
+    "mean": 0.26,
+    "sum": 1913.96,
+    "timestamp": 1662995543.0426078,
+    "count": 7467,
+    "btc_price": "22287.37",
+    "rate": 7.69,
+    "median": 0.26
+  },
+  {
+    "last": -0.32,
+    "mean": 0.26,
+    "sum": 1972.09,
+    "timestamp": 1662995573.0960383,
+    "count": 7699,
+    "btc_price": "22278.84",
+    "rate": 7.7,
+    "median": 0.26
+  },
+  {
+    "last": 0.12,
+    "mean": 0.26,
+    "sum": 2028.5,
+    "timestamp": 1662995603.130361,
+    "count": 7909,
+    "btc_price": "22273.42",
+    "rate": 7.58,
+    "median": 0.26
+  },
+  {
+    "last": 0.35,
+    "mean": 0.26,
+    "sum": 723.23,
+    "timestamp": 1662996916.0431561,
+    "count": 2818,
+    "btc_price": "22303.97",
+    "rate": 0.0,
+    "median": 0.26
+  },
+  {
+    "last": 0.81,
+    "mean": 0.26,
+    "sum": 756.01,
+    "timestamp": 1662996946.266243,
+    "count": 2958,
+    "btc_price": "22298.22",
+    "rate": 5.89,
+    "median": 0.25
+  },
+  {
+    "last": -0.25,
+    "mean": 0.25,
+    "sum": 746.04,
+    "timestamp": 1662996976.4910216,
+    "count": 2926,
+    "btc_price": "22293.91",
+    "rate": 5.57,
+    "median": 0.25
+  },
+  {
+    "last": 0.12,
+    "mean": 0.25,
+    "sum": 741.16,
+    "timestamp": 1662997006.712275,
+    "count": 2907,
+    "btc_price": "22281.24",
+    "rate": 5.82,
+    "median": 0.25
+  },
+  {
+    "last": 0.25,
+    "mean": 0.25,
+    "sum": 724.88,
+    "timestamp": 1662997036.8073032,
+    "count": 2868,
+    "btc_price": "22254.71",
+    "rate": 5.91,
+    "median": 0.25
+  },
+  {
+    "last": -0.17,
+    "mean": 0.25,
+    "sum": 711.8,
+    "timestamp": 1662997066.9431906,
+    "count": 2816,
+    "btc_price": "22229.18",
+    "rate": 5.94,
+    "median": 0.25
+  },
+  {
+    "last": 0.55,
+    "mean": 0.25,
+    "sum": 691.0,
+    "timestamp": 1662997097.1462266,
+    "count": 2776,
+    "btc_price": "22246.65",
+    "rate": 5.77,
+    "median": 0.25
+  },
+  {
+    "last": 0.25,
+    "mean": 0.25,
+    "sum": 679.9,
+    "timestamp": 1662997127.3627472,
+    "count": 2760,
+    "btc_price": "22255.08",
+    "rate": 5.8,
+    "median": 0.25
+  },
+  {
+    "last": -0.17,
+    "mean": 0.24,
+    "sum": 289.2,
+    "timestamp": 1662997527.1283,
+    "count": 1226,
+    "btc_price": "22183.29",
+    "rate": 0.0,
+    "median": 0.23
+  },
+  {
+    "last": 0.21,
+    "mean": 0.24,
+    "sum": 333.91,
+    "timestamp": 1662997557.3369572,
+    "count": 1413,
+    "btc_price": "22154.65",
+    "rate": 6.24,
+    "median": 0.23
+  },
+  {
+    "last": 0.03,
+    "mean": 0.23,
+    "sum": 371.64,
+    "timestamp": 1662997587.7658877,
+    "count": 1599,
+    "btc_price": "22179.11",
+    "rate": 6.17,
+    "median": 0.23
+  },
+  {
+    "last": 0.63,
+    "mean": 0.23,
+    "sum": 422.68,
+    "timestamp": 1662997618.0300426,
+    "count": 1806,
+    "btc_price": "22161.99",
+    "rate": 6.4,
+    "median": 0.23
+  },
+  {
+    "last": -0.08,
+    "mean": 0.23,
+    "sum": 461.64,
+    "timestamp": 1662997648.0556161,
+    "count": 1972,
+    "btc_price": "22184.83",
+    "rate": 6.18,
+    "median": 0.23
+  },
+  {
+    "last": 0.55,
+    "mean": 0.23,
+    "sum": 500.37,
+    "timestamp": 1662997678.082419,
+    "count": 2141,
+    "btc_price": "22201.06",
+    "rate": 6.07,
+    "median": 0.23
+  },
+  {
+    "last": 0.64,
+    "mean": 0.24,
+    "sum": 546.79,
+    "timestamp": 1662997708.4959726,
+    "count": 2321,
+    "btc_price": "22186.04",
+    "rate": 6.05,
+    "median": 0.23
+  },
+  {
+    "last": 0.46,
+    "mean": 0.24,
+    "sum": 587.42,
+    "timestamp": 1662997738.5791328,
+    "count": 2492,
+    "btc_price": "22176.2",
+    "rate": 5.99,
+    "median": 0.23
+  },
+  {
+    "last": 0.74,
+    "mean": 0.24,
+    "sum": 512.55,
+    "timestamp": 1662998774.5641751,
+    "count": 2166,
+    "btc_price": "22124.88",
+    "rate": 0.0,
+    "median": 0.23
+  },
+  {
+    "last": 0.15,
+    "mean": 0.23,
+    "sum": 508.35,
+    "timestamp": 1662998804.9290922,
+    "count": 2174,
+    "btc_price": "22095.27",
+    "rate": 6.47,
+    "median": 0.23
+  },
+  {
+    "last": 0.37,
+    "mean": 0.24,
+    "sum": 526.03,
+    "timestamp": 1662998835.049001,
+    "count": 2222,
+    "btc_price": "22096.86",
+    "rate": 7.2,
+    "median": 0.24
+  },
+  {
+    "last": 0.13,
+    "mean": 0.24,
+    "sum": 534.54,
+    "timestamp": 1662998865.6507602,
+    "count": 2226,
+    "btc_price": "22091.41",
+    "rate": 6.87,
+    "median": 0.25
+  },
+  {
+    "last": 0.37,
+    "mean": 0.24,
+    "sum": 546.54,
+    "timestamp": 1662998895.949853,
+    "count": 2274,
+    "btc_price": "22118.32",
+    "rate": 6.76,
+    "median": 0.25
+  },
+  {
+    "last": -0.09,
+    "mean": 0.24,
+    "sum": 546.63,
+    "timestamp": 1662998926.2979794,
+    "count": 2277,
+    "btc_price": "22112.36",
+    "rate": 6.63,
+    "median": 0.25
+  },
+  {
+    "last": 0.65,
+    "mean": 0.24,
+    "sum": 590.43,
+    "timestamp": 1662998956.4580963,
+    "count": 2447,
+    "btc_price": "22092.79",
+    "rate": 6.49,
+    "median": 0.25
+  },
+  {
+    "last": 0.18,
+    "mean": 0.24,
+    "sum": 634.89,
+    "timestamp": 1662998986.6198146,
+    "count": 2630,
+    "btc_price": "22065.38",
+    "rate": 6.43,
+    "median": 0.25
+  },
+  {
+    "last": 0.35,
+    "mean": 0.25,
+    "sum": 337.19,
+    "timestamp": 1663000254.8752625,
+    "count": 1364,
+    "btc_price": "22198.64",
+    "rate": 0.0,
+    "median": 0.26
+  },
+  {
+    "last": -0.15,
+    "mean": 0.01,
+    "sum": 0.03,
+    "timestamp": 1663001232.975994,
+    "count": 3,
+    "btc_price": "22223.38",
+    "rate": 213.99,
+    "median": -0.15
+  },
+  {
+    "last": 0.43,
+    "mean": 0.27,
+    "sum": 39.71,
+    "timestamp": 1663001263.4297297,
+    "count": 147,
+    "btc_price": "22238.44",
+    "rate": 4.8,
+    "median": 0.29
+  },
+  {
+    "last": 0.1,
+    "mean": 0.27,
+    "sum": 71.94,
+    "timestamp": 1663001293.7882414,
+    "count": 268,
+    "btc_price": "22237.37",
+    "rate": 4.39,
+    "median": 0.26
+  },
+  {
+    "last": 0.15,
+    "mean": 0.29,
+    "sum": 121.27,
+    "timestamp": 1663001323.9588478,
+    "count": 423,
+    "btc_price": "22231.92",
+    "rate": 4.64,
+    "median": 0.3
+  },
+  {
+    "last": 0.46,
+    "mean": 0.29,
+    "sum": 157.41,
+    "timestamp": 1663001354.0247054,
+    "count": 544,
+    "btc_price": "22229.39",
+    "rate": 4.49,
+    "median": 0.3
+  },
+  {
+    "last": 0.26,
+    "mean": 0.28,
+    "sum": 191.78,
+    "timestamp": 1663001384.2547104,
+    "count": 675,
+    "btc_price": "22234.35",
+    "rate": 4.46,
+    "median": 0.29
+  },
+  {
+    "last": 0.03,
+    "mean": 0.27,
+    "sum": 225.22,
+    "timestamp": 1663001414.3874195,
+    "count": 824,
+    "btc_price": "22225.86",
+    "rate": 4.54,
+    "median": 0.28
+  },
+  {
+    "last": 0.1,
+    "mean": 0.26,
+    "sum": 258.59,
+    "timestamp": 1663001444.4800754,
+    "count": 984,
+    "btc_price": "22233.18",
+    "rate": 4.65,
+    "median": 0.26
+  },
+  {
+    "last": 0.42,
+    "mean": 0.26,
+    "sum": 299.17,
+    "timestamp": 1663001474.8033688,
+    "count": 1141,
+    "btc_price": "22245.31",
+    "rate": 4.72,
+    "median": 0.26
+  },
+  {
+    "last": 0.45,
+    "mean": 0.26,
+    "sum": 299.27,
+    "timestamp": 1663002970.0019388,
+    "count": 1141,
+    "btc_price": "22258.76",
+    "rate": 0.0,
+    "median": 0.26
+  },
+  {
+    "last": -0.14,
+    "mean": 0.27,
+    "sum": 347.1,
+    "timestamp": 1663003000.034076,
+    "count": 1307,
+    "btc_price": "22248.33",
+    "rate": 5.55,
+    "median": 0.26
+  },
+  {
+    "last": -0.11,
+    "mean": 0.26,
+    "sum": 394.79,
+    "timestamp": 1663003030.3343413,
+    "count": 1493,
+    "btc_price": "22240.3",
+    "rate": 5.85,
+    "median": 0.26
+  },
+  {
+    "last": -0.15,
+    "mean": 0.26,
+    "sum": 399.6,
+    "timestamp": 1663003060.3993597,
+    "count": 1531,
+    "btc_price": "22232.07",
+    "rate": 5.83,
+    "median": 0.25
+  },
+  {
+    "last": 0.35,
+    "mean": 0.26,
+    "sum": 412.12,
+    "timestamp": 1663003090.7374697,
+    "count": 1602,
+    "btc_price": "22234.84",
+    "rate": 5.92,
+    "median": 0.25
+  },
+  {
+    "last": 0.28,
+    "mean": 0.25,
+    "sum": 405.38,
+    "timestamp": 1663003120.765432,
+    "count": 1606,
+    "btc_price": "22245.38",
+    "rate": 5.8,
+    "median": 0.25
+  },
+  {
+    "last": -0.41,
+    "mean": 0.25,
+    "sum": 415.11,
+    "timestamp": 1663003150.827613,
+    "count": 1643,
+    "btc_price": "22267.68",
+    "rate": 5.71,
+    "median": 0.25
+  },
+  {
+    "last": 0.27,
+    "mean": 0.25,
+    "sum": 423.65,
+    "timestamp": 1663003180.858395,
+    "count": 1693,
+    "btc_price": "22293.28",
+    "rate": 5.74,
+    "median": 0.25
+  },
+  {
+    "last": -0.09,
+    "mean": 0.26,
+    "sum": 311.33,
+    "timestamp": 1663003806.2591903,
+    "count": 1211,
+    "btc_price": "22308.19",
+    "rate": 0.0,
+    "median": 0.26
+  },
+  {
+    "last": 0.15,
+    "mean": 0.25,
+    "sum": 351.82,
+    "timestamp": 1663003836.3943286,
+    "count": 1413,
+    "btc_price": "22299.85",
+    "rate": 6.76,
+    "median": 0.25
+  },
+  {
+    "last": 0.17,
+    "mean": 0.25,
+    "sum": 397.06,
+    "timestamp": 1663003866.5458407,
+    "count": 1585,
+    "btc_price": "22290.91",
+    "rate": 6.23,
+    "median": 0.26
+  },
+  {
+    "last": 0.43,
+    "mean": 0.25,
+    "sum": 450.19,
+    "timestamp": 1663003896.7053301,
+    "count": 1776,
+    "btc_price": "22291.4",
+    "rate": 6.26,
+    "median": 0.26
+  },
+  {
+    "last": 0.33,
+    "mean": 0.25,
+    "sum": 496.69,
+    "timestamp": 1663003926.7870743,
+    "count": 1962,
+    "btc_price": "22278.05",
+    "rate": 6.24,
+    "median": 0.27
+  },
+  {
+    "last": 0.3,
+    "mean": 0.25,
+    "sum": 543.7,
+    "timestamp": 1663003957.478648,
+    "count": 2153,
+    "btc_price": "22276.41",
+    "rate": 6.24,
+    "median": 0.28
+  },
+  {
+    "last": 0.25,
+    "mean": 0.25,
+    "sum": 586.31,
+    "timestamp": 1663003988.2982185,
+    "count": 2337,
+    "btc_price": "22272.48",
+    "rate": 6.19,
+    "median": 0.27
+  },
+  {
+    "last": 0.06,
+    "mean": 0.25,
+    "sum": 624.79,
+    "timestamp": 1663004018.531078,
+    "count": 2499,
+    "btc_price": "22268.95",
+    "rate": 6.08,
+    "median": 0.27
+  },
+  {
+    "last": 0.14,
+    "mean": 0.24,
+    "sum": 313.51,
+    "timestamp": 1663005155.2275596,
+    "count": 1290,
+    "btc_price": "22273.21",
+    "rate": 0.0,
+    "median": 0.28
+  },
+  {
+    "last": 0.54,
+    "mean": 0.25,
+    "sum": 350.58,
+    "timestamp": 1663005185.4225817,
+    "count": 1430,
+    "btc_price": "22297.71",
+    "rate": 4.67,
+    "median": 0.28
+  },
+  {
+    "last": 0.17,
+    "mean": 0.25,
+    "sum": 388.4,
+    "timestamp": 1663005215.5259306,
+    "count": 1574,
+    "btc_price": "22312.64",
+    "rate": 4.73,
+    "median": 0.28
+  },
+  {
+    "last": 0.23,
+    "mean": 0.25,
+    "sum": 430.3,
+    "timestamp": 1663005245.9915724,
+    "count": 1731,
+    "btc_price": "22323.47",
+    "rate": 4.87,
+    "median": 0.28
+  },
+  {
+    "last": -0.09,
+    "mean": 0.25,
+    "sum": 473.61,
+    "timestamp": 1663005276.1501563,
+    "count": 1905,
+    "btc_price": "22329.29",
+    "rate": 5.09,
+    "median": 0.27
+  },
+  {
+    "last": 0.17,
+    "mean": 0.25,
+    "sum": 515.41,
+    "timestamp": 1663005306.5504289,
+    "count": 2072,
+    "btc_price": "22365.33",
+    "rate": 5.18,
+    "median": 0.27
+  },
+  {
+    "last": -0.15,
+    "mean": 0.25,
+    "sum": 548.59,
+    "timestamp": 1663005336.7296758,
+    "count": 2216,
+    "btc_price": "22359.34",
+    "rate": 5.11,
+    "median": 0.26
+  },
+  {
+    "last": 0.35,
+    "mean": 0.25,
+    "sum": 588.95,
+    "timestamp": 1663005366.9214766,
+    "count": 2369,
+    "btc_price": "22366.08",
+    "rate": 5.1,
+    "median": 0.26
+  },
+  {
+    "last": -0.55,
+    "mean": 0.25,
+    "sum": 629.46,
+    "timestamp": 1663005397.053968,
+    "count": 2533,
+    "btc_price": "22339.13",
+    "rate": 5.14,
+    "median": 0.26
+  },
+  {
+    "last": 0.14,
+    "mean": 0.25,
+    "sum": 836.6,
+    "timestamp": 1663005606.4356334,
+    "count": 3318,
+    "btc_price": "22361.41",
+    "rate": 5.9,
+    "median": 0.28
+  },
+  {
+    "last": 0.14,
+    "mean": 0.25,
+    "sum": 853.92,
+    "timestamp": 1663005636.8904316,
+    "count": 3359,
+    "btc_price": "22348.95",
+    "rate": 6.3,
+    "median": 0.28
+  },
+  {
+    "last": 0.44,
+    "mean": 0.25,
+    "sum": 866.39,
+    "timestamp": 1663005667.0136726,
+    "count": 3415,
+    "btc_price": "22333.29",
+    "rate": 6.49,
+    "median": 0.27
+  },
+  {
+    "last": -0.03,
+    "mean": 0.25,
+    "sum": 746.15,
+    "timestamp": 1663005741.1625836,
+    "count": 2950,
+    "btc_price": "22318.12",
+    "rate": 0.0,
+    "median": 0.27
+  },
+  {
+    "last": 0.1,
+    "mean": 0.25,
+    "sum": 740.88,
+    "timestamp": 1663005771.3547013,
+    "count": 2932,
+    "btc_price": "22317.29",
+    "rate": 5.68,
+    "median": 0.26
+  },
+  {
+    "last": -0.39,
+    "mean": 0.25,
+    "sum": 750.47,
+    "timestamp": 1663005801.4490433,
+    "count": 2948,
+    "btc_price": "22319.22",
+    "rate": 5.72,
+    "median": 0.27
+  },
+  {
+    "last": 0.03,
+    "mean": 0.26,
+    "sum": 772.04,
+    "timestamp": 1663005831.7938595,
+    "count": 3011,
+    "btc_price": "22326.16",
+    "rate": 5.61,
+    "median": 0.27
+  },
+  {
+    "last": 0.2,
+    "mean": 0.26,
+    "sum": 816.42,
+    "timestamp": 1663005861.9779844,
+    "count": 3162,
+    "btc_price": "22310.12",
+    "rate": 5.46,
+    "median": 0.27
+  },
+  {
+    "last": 0.48,
+    "mean": 0.26,
+    "sum": 862.26,
+    "timestamp": 1663005892.4760423,
+    "count": 3337,
+    "btc_price": "22298.62",
+    "rate": 5.52,
+    "median": 0.27
+  },
+  {
+    "last": 0.43,
+    "mean": 0.26,
+    "sum": 901.94,
+    "timestamp": 1663005922.5622535,
+    "count": 3495,
+    "btc_price": "22285.03",
+    "rate": 5.47,
+    "median": 0.27
+  },
+  {
+    "last": 0.12,
+    "mean": 0.26,
+    "sum": 959.53,
+    "timestamp": 1663005952.683751,
+    "count": 3685,
+    "btc_price": "22300",
+    "rate": 5.59,
+    "median": 0.28
+  },
+  {
+    "last": -0.15,
+    "mean": 0.26,
+    "sum": 1084.52,
+    "timestamp": 1663006955.6200101,
+    "count": 4173,
+    "btc_price": "22333.8",
+    "rate": 7.06,
+    "median": 0.26
+  },
+  {
+    "last": 0.15,
+    "mean": 0.26,
+    "sum": 1093.84,
+    "timestamp": 1663006985.898712,
+    "count": 4241,
+    "btc_price": "22324.11",
+    "rate": 6.97,
+    "median": 0.26
+  },
+  {
+    "last": 0.05,
+    "mean": 0.26,
+    "sum": 1108.51,
+    "timestamp": 1663007016.0987186,
+    "count": 4297,
+    "btc_price": "22299.33",
+    "rate": 6.91,
+    "median": 0.26
+  },
+  {
+    "last": 0.25,
+    "mean": 0.26,
+    "sum": 1122.17,
+    "timestamp": 1663007046.2106526,
+    "count": 4345,
+    "btc_price": "22309.25",
+    "rate": 6.88,
+    "median": 0.26
+  },
+  {
+    "last": 0.18,
+    "mean": 0.26,
+    "sum": 1126.39,
+    "timestamp": 1663007076.5288513,
+    "count": 4348,
+    "btc_price": "22332.12",
+    "rate": 6.71,
+    "median": 0.25
+  },
+  {
+    "last": 0.57,
+    "mean": 0.26,
+    "sum": 1025.43,
+    "timestamp": 1663007157.3229022,
+    "count": 3936,
+    "btc_price": "22332.38",
+    "rate": 0.0,
+    "median": 0.26
+  },
+  {
+    "last": 0.13,
+    "mean": 0.26,
+    "sum": 1034.19,
+    "timestamp": 1663007187.5654032,
+    "count": 3948,
+    "btc_price": "22305.62",
+    "rate": 5.77,
+    "median": 0.26
+  },
+  {
+    "last": 0.2,
+    "mean": 0.26,
+    "sum": 1058.76,
+    "timestamp": 1663007217.7456555,
+    "count": 4052,
+    "btc_price": "22310.58",
+    "rate": 5.49,
+    "median": 0.25
+  },
+  {
+    "last": 0.12,
+    "mean": 0.26,
+    "sum": 1105.86,
+    "timestamp": 1663007247.825834,
+    "count": 4212,
+    "btc_price": "22318.83",
+    "rate": 5.44,
+    "median": 0.26
+  },
+  {
+    "last": -0.08,
+    "mean": 0.26,
+    "sum": 1145.22,
+    "timestamp": 1663007277.9948127,
+    "count": 4395,
+    "btc_price": "22316.1",
+    "rate": 5.8,
+    "median": 0.25
+  },
+  {
+    "last": 0.01,
+    "mean": 0.26,
+    "sum": 1142.09,
+    "timestamp": 1663007308.9608116,
+    "count": 4348,
+    "btc_price": "22306.79",
+    "rate": 5.74,
+    "median": 0.25
+  },
+  {
+    "last": -0.01,
+    "mean": 0.26,
+    "sum": 1144.51,
+    "timestamp": 1663007339.5737488,
+    "count": 4338,
+    "btc_price": "22299.38",
+    "rate": 5.71,
+    "median": 0.25
+  },
+  {
+    "last": 0.31,
+    "mean": 0.26,
+    "sum": 1144.0,
+    "timestamp": 1663007369.6769218,
+    "count": 4343,
+    "btc_price": "22298.61",
+    "rate": 5.74,
+    "median": 0.24
+  },
+  {
+    "last": 0.12,
+    "mean": 0.26,
+    "sum": 1157.21,
+    "timestamp": 1663007399.8317804,
+    "count": 4385,
+    "btc_price": "22300.63",
+    "rate": 5.84,
+    "median": 0.24
+  },
+  {
+    "last": 0.42,
+    "mean": 0.27,
+    "sum": 1034.57,
+    "timestamp": 1663007469.5903583,
+    "count": 3879,
+    "btc_price": "22303.39",
+    "rate": 0.0,
+    "median": 0.24
+  },
+  {
+    "last": 0.71,
+    "mean": 0.27,
+    "sum": 1083.24,
+    "timestamp": 1663007500.191562,
+    "count": 4062,
+    "btc_price": "22305.25",
+    "rate": 6.02,
+    "median": 0.24
+  },
+  {
+    "last": 0.12,
+    "mean": 0.27,
+    "sum": 1128.52,
+    "timestamp": 1663007531.3313003,
+    "count": 4241,
+    "btc_price": "22316.3",
+    "rate": 5.88,
+    "median": 0.24
+  },
+  {
+    "last": 0.1,
+    "mean": 0.27,
+    "sum": 1146.27,
+    "timestamp": 1663007561.5107775,
+    "count": 4286,
+    "btc_price": "22303.2",
+    "rate": 5.75,
+    "median": 0.24
+  },
+  {
+    "last": 0.51,
+    "mean": 0.27,
+    "sum": 1158.98,
+    "timestamp": 1663007591.8706713,
+    "count": 4291,
+    "btc_price": "22305.02",
+    "rate": 5.75,
+    "median": 0.24
+  },
+  {
+    "last": 0.68,
+    "mean": 0.27,
+    "sum": 1173.53,
+    "timestamp": 1663007621.9945395,
+    "count": 4320,
+    "btc_price": "22304.71",
+    "rate": 5.85,
+    "median": 0.24
+  },
+  {
+    "last": 0.34,
+    "mean": 0.27,
+    "sum": 1175.39,
+    "timestamp": 1663007652.1030333,
+    "count": 4343,
+    "btc_price": "22310.85",
+    "rate": 5.87,
+    "median": 0.24
+  },
+  {
+    "last": 0.28,
+    "mean": 0.27,
+    "sum": 1160.5,
+    "timestamp": 1663007682.2509687,
+    "count": 4299,
+    "btc_price": "22300.63",
+    "rate": 5.61,
+    "median": 0.23
+  },
+  {
+    "last": 0.17,
+    "mean": 0.27,
+    "sum": 1163.97,
+    "timestamp": 1663007712.9503522,
+    "count": 4300,
+    "btc_price": "22292.59",
+    "rate": 5.57,
+    "median": 0.24
+  },
+  {
+    "last": 0.14,
+    "mean": 0.27,
+    "sum": 1091.14,
+    "timestamp": 1663008157.137632,
+    "count": 4053,
+    "btc_price": "22319.39",
+    "rate": 0.0,
+    "median": 0.23
+  },
+  {
+    "last": 0.24,
+    "mean": 0.27,
+    "sum": 1143.23,
+    "timestamp": 1663008187.6382506,
+    "count": 4217,
+    "btc_price": "22314.56",
+    "rate": 5.41,
+    "median": 0.23
+  },
+  {
+    "last": 0.39,
+    "mean": 0.27,
+    "sum": 1190.37,
+    "timestamp": 1663008217.855756,
+    "count": 4371,
+    "btc_price": "22322.11",
+    "rate": 5.25,
+    "median": 0.24
+  },
+  {
+    "last": 0.21,
+    "mean": 0.27,
+    "sum": 1241.77,
+    "timestamp": 1663008247.9741995,
+    "count": 4542,
+    "btc_price": "22327.72",
+    "rate": 5.39,
+    "median": 0.24
+  },
+  {
+    "last": 0.22,
+    "mean": 0.27,
+    "sum": 1281.95,
+    "timestamp": 1663008278.5981393,
+    "count": 4673,
+    "btc_price": "22329.65",
+    "rate": 5.12,
+    "median": 0.25
+  },
+  {
+    "last": 0.32,
+    "mean": 0.28,
+    "sum": 1326.15,
+    "timestamp": 1663008308.7711043,
+    "count": 4816,
+    "btc_price": "22326.63",
+    "rate": 5.04,
+    "median": 0.25
+  },
+  {
+    "last": 0.51,
+    "mean": 0.27,
+    "sum": 1373.94,
+    "timestamp": 1663008338.8128917,
+    "count": 5012,
+    "btc_price": "22329.31",
+    "rate": 5.28,
+    "median": 0.25
+  },
+  {
+    "last": 0.7,
+    "mean": 0.27,
+    "sum": 1419.51,
+    "timestamp": 1663008368.9497533,
+    "count": 5186,
+    "btc_price": "22329.53",
+    "rate": 5.36,
+    "median": 0.25
+  },
+  {
+    "last": 0.03,
+    "mean": 0.27,
+    "sum": 1457.53,
+    "timestamp": 1663008399.1079223,
+    "count": 5344,
+    "btc_price": "22330.03",
+    "rate": 5.34,
+    "median": 0.25
+  },
+  {
+    "last": 0.28,
+    "mean": 0.28,
+    "sum": 1005.93,
+    "timestamp": 1663009039.5680833,
+    "count": 3617,
+    "btc_price": "22401.2",
+    "rate": 0.0,
+    "median": 0.26
+  },
+  {
+    "last": 0.29,
+    "mean": 0.28,
+    "sum": 991.76,
+    "timestamp": 1663009069.6458397,
+    "count": 3580,
+    "btc_price": "22401.31",
+    "rate": 5.09,
+    "median": 0.26
+  },
+  {
+    "last": 0.43,
+    "mean": 0.28,
+    "sum": 988.18,
+    "timestamp": 1663009099.813824,
+    "count": 3551,
+    "btc_price": "22401.43",
+    "rate": 4.96,
+    "median": 0.26
+  },
+  {
+    "last": 0.52,
+    "mean": 0.27,
+    "sum": 964.3,
+    "timestamp": 1663009129.9756212,
+    "count": 3527,
+    "btc_price": "22412.11",
+    "rate": 5.02,
+    "median": 0.26
+  },
+  {
+    "last": 0.66,
+    "mean": 0.24,
+    "sum": 236.87,
+    "timestamp": 1663010109.7908247,
+    "count": 974,
+    "btc_price": "22394.05",
+    "rate": 0.0,
+    "median": 0.23
+  },
+  {
+    "last": 0.18,
+    "mean": 0.25,
+    "sum": 264.42,
+    "timestamp": 1663010139.8855772,
+    "count": 1046,
+    "btc_price": "22396.99",
+    "rate": 8.87,
+    "median": 0.23
+  },
+  {
+    "last": 0.52,
+    "mean": 0.24,
+    "sum": 257.39,
+    "timestamp": 1663010170.0736465,
+    "count": 1059,
+    "btc_price": "22383.92",
+    "rate": 7.51,
+    "median": 0.23
+  },
+  {
+    "last": 0.5,
+    "mean": 0.25,
+    "sum": 264.12,
+    "timestamp": 1663010200.1967626,
+    "count": 1069,
+    "btc_price": "22378.79",
+    "rate": 6.81,
+    "median": 0.23
+  },
+  {
+    "last": 0.31,
+    "mean": 0.25,
+    "sum": 313.34,
+    "timestamp": 1663010230.3403177,
+    "count": 1240,
+    "btc_price": "22372.93",
+    "rate": 6.53,
+    "median": 0.24
+  },
+  {
+    "last": 0.63,
+    "mean": 0.25,
+    "sum": 346.18,
+    "timestamp": 1663010260.4440079,
+    "count": 1375,
+    "btc_price": "22387.12",
+    "rate": 6.12,
+    "median": 0.24
+  },
+  {
+    "last": 0.32,
+    "mean": 0.25,
+    "sum": 377.91,
+    "timestamp": 1663010290.9635503,
+    "count": 1506,
+    "btc_price": "22394.19",
+    "rate": 5.81,
+    "median": 0.24
+  },
+  {
+    "last": 0.84,
+    "mean": 0.25,
+    "sum": 422.45,
+    "timestamp": 1663010320.9936707,
+    "count": 1658,
+    "btc_price": "22387.1",
+    "rate": 5.71,
+    "median": 0.24
+  },
+  {
+    "last": 0.58,
+    "mean": 0.25,
+    "sum": 575.97,
+    "timestamp": 1663010839.8709004,
+    "count": 2287,
+    "btc_price": "22404.96",
+    "rate": 5.31,
+    "median": 0.24
+  },
+  {
+    "last": -0.27,
+    "mean": 0.25,
+    "sum": 577.99,
+    "timestamp": 1663010870.0565882,
+    "count": 2297,
+    "btc_price": "22398.81",
+    "rate": 5.33,
+    "median": 0.24
+  },
+  {
+    "last": 0.66,
+    "mean": 0.25,
+    "sum": 569.63,
+    "timestamp": 1663010900.5275638,
+    "count": 2285,
+    "btc_price": "22405.04",
+    "rate": 5.2,
+    "median": 0.24
+  },
+  {
+    "last": -0.05,
+    "mean": 0.25,
+    "sum": 578.64,
+    "timestamp": 1663010931.2409441,
+    "count": 2310,
+    "btc_price": "22407.05",
+    "rate": 5.26,
+    "median": 0.24
+  },
+  {
+    "last": 0.2,
+    "mean": 0.25,
+    "sum": 609.3,
+    "timestamp": 1663010961.403891,
+    "count": 2446,
+    "btc_price": "22413.43",
+    "rate": 5.16,
+    "median": 0.23
+  },
+  {
+    "last": -0.25,
+    "mean": 0.25,
+    "sum": 881.0,
+    "timestamp": 1663011909.9503558,
+    "count": 3528,
+    "btc_price": "22428.06",
+    "rate": 5.0,
+    "median": 0.23
+  },
+  {
+    "last": 0.18,
+    "mean": 0.25,
+    "sum": 846.44,
+    "timestamp": 1663011940.0682418,
+    "count": 3432,
+    "btc_price": "22432.36",
+    "rate": 5.07,
+    "median": 0.23
+  },
+  {
+    "last": 0.22,
+    "mean": 0.25,
+    "sum": 725.94,
+    "timestamp": 1663012022.347234,
+    "count": 2954,
+    "btc_price": "22426.96",
+    "rate": 0.0,
+    "median": 0.23
+  },
+  {
+    "last": 0.2,
+    "mean": 0.25,
+    "sum": 734.1,
+    "timestamp": 1663012052.5192149,
+    "count": 2958,
+    "btc_price": "22427.15",
+    "rate": 4.72,
+    "median": 0.23
+  },
+  {
+    "last": 0.57,
+    "mean": 0.25,
+    "sum": 736.45,
+    "timestamp": 1663012082.6274116,
+    "count": 2976,
+    "btc_price": "22420.23",
+    "rate": 5.1,
+    "median": 0.23
+  },
+  {
+    "last": 0.47,
+    "mean": 0.24,
+    "sum": 737.48,
+    "timestamp": 1663012112.841147,
+    "count": 3012,
+    "btc_price": "22411.33",
+    "rate": 5.23,
+    "median": 0.23
+  },
+  {
+    "last": 0.12,
+    "mean": 0.24,
+    "sum": 765.43,
+    "timestamp": 1663012142.952483,
+    "count": 3133,
+    "btc_price": "22408.74",
+    "rate": 5.29,
+    "median": 0.23
+  },
+  {
+    "last": 0.53,
+    "mean": 0.24,
+    "sum": 808.21,
+    "timestamp": 1663012173.0957096,
+    "count": 3308,
+    "btc_price": "22421.88",
+    "rate": 5.4,
+    "median": 0.23
+  },
+  {
+    "last": -0.11,
+    "mean": 0.24,
+    "sum": 851.67,
+    "timestamp": 1663012203.1378977,
+    "count": 3477,
+    "btc_price": "22432.44",
+    "rate": 5.43,
+    "median": 0.23
+  },
+  {
+    "last": -0.19,
+    "mean": 0.25,
+    "sum": 889.2,
+    "timestamp": 1663012233.2447479,
+    "count": 3628,
+    "btc_price": "22433.39",
+    "rate": 5.37,
+    "median": 0.23
+  },
+  {
+    "last": -0.59,
+    "mean": 0.25,
+    "sum": 934.16,
+    "timestamp": 1663012263.426436,
+    "count": 3802,
+    "btc_price": "22441.78",
+    "rate": 5.42,
+    "median": 0.23
+  },
+  {
+    "last": -0.13,
+    "mean": 0.24,
+    "sum": 1131.01,
+    "timestamp": 1663012521.384649,
+    "count": 4775,
+    "btc_price": "22407.25",
+    "rate": 5.41,
+    "median": 0.23
+  },
+  {
+    "last": -0.2,
+    "mean": 0.24,
+    "sum": 1128.77,
+    "timestamp": 1663012551.6128793,
+    "count": 4773,
+    "btc_price": "22424.46",
+    "rate": 5.4,
+    "median": 0.23
+  },
+  {
+    "last": 0.03,
+    "mean": 0.24,
+    "sum": 1116.42,
+    "timestamp": 1663012582.112362,
+    "count": 4749,
+    "btc_price": "22415.04",
+    "rate": 5.27,
+    "median": 0.22
+  },
+  {
+    "last": 0.25,
+    "mean": 0.23,
+    "sum": 1008.54,
+    "timestamp": 1663012665.1708171,
+    "count": 4306,
+    "btc_price": "22433.19",
+    "rate": 0.0,
+    "median": 0.22
+  },
+  {
+    "last": 0.35,
+    "mean": 0.23,
+    "sum": 1014.13,
+    "timestamp": 1663012695.219965,
+    "count": 4316,
+    "btc_price": "22419.08",
+    "rate": 5.03,
+    "median": 0.22
+  },
+  {
+    "last": 0.1,
+    "mean": 0.24,
+    "sum": 1012.29,
+    "timestamp": 1663012725.2511744,
+    "count": 4298,
+    "btc_price": "22412.33",
+    "rate": 5.09,
+    "median": 0.23
+  },
+  {
+    "last": -0.34,
+    "mean": 0.24,
+    "sum": 1008.69,
+    "timestamp": 1663012756.3027682,
+    "count": 4286,
+    "btc_price": "22415.04",
+    "rate": 4.7,
+    "median": 0.23
+  },
+  {
+    "last": 0.03,
+    "mean": 0.23,
+    "sum": 1037.53,
+    "timestamp": 1663012786.3726869,
+    "count": 4436,
+    "btc_price": "22414.61",
+    "rate": 4.99,
+    "median": 0.23
+  },
+  {
+    "last": 0.1,
+    "mean": 0.23,
+    "sum": 1066.36,
+    "timestamp": 1663012816.9372072,
+    "count": 4558,
+    "btc_price": "22428.35",
+    "rate": 4.79,
+    "median": 0.23
+  },
+  {
+    "last": 0.5,
+    "mean": 0.23,
+    "sum": 1112.37,
+    "timestamp": 1663012847.1643615,
+    "count": 4773,
+    "btc_price": "22410.01",
+    "rate": 5.18,
+    "median": 0.22
+  },
+  {
+    "last": 0.18,
+    "mean": 0.23,
+    "sum": 1153.23,
+    "timestamp": 1663012877.3802812,
+    "count": 4932,
+    "btc_price": "22395.71",
+    "rate": 5.19,
+    "median": 0.22
+  },
+  {
+    "last": 0.51,
+    "mean": 0.23,
+    "sum": 1189.75,
+    "timestamp": 1663012907.727577,
+    "count": 5079,
+    "btc_price": "22406.59",
+    "rate": 5.15,
+    "median": 0.23
+  },
+  {
+    "last": 0.37,
+    "mean": 0.24,
+    "sum": 1408.43,
+    "timestamp": 1663013493.171762,
+    "count": 5911,
+    "btc_price": "22439.26",
+    "rate": 5.14,
+    "median": 0.23
+  },
+  {
+    "last": 0.17,
+    "mean": 0.24,
+    "sum": 1410.43,
+    "timestamp": 1663013523.5459204,
+    "count": 5905,
+    "btc_price": "22420.88",
+    "rate": 5.27,
+    "median": 0.23
+  },
+  {
+    "last": 0.05,
+    "mean": 0.24,
+    "sum": 1415.57,
+    "timestamp": 1663013553.654592,
+    "count": 5901,
+    "btc_price": "22410.18",
+    "rate": 5.17,
+    "median": 0.23
+  },
+  {
+    "last": -0.06,
+    "mean": 0.24,
+    "sum": 1413.79,
+    "timestamp": 1663013584.0204937,
+    "count": 5901,
+    "btc_price": "22407.76",
+    "rate": 5.12,
+    "median": 0.23
+  },
+  {
+    "last": 0.12,
+    "mean": 0.24,
+    "sum": 1329.28,
+    "timestamp": 1663013652.5188284,
+    "count": 5557,
+    "btc_price": "22411.78",
+    "rate": 0.0,
+    "median": 0.23
+  },
+  {
+    "last": -0.2,
+    "mean": 0.24,
+    "sum": 1323.81,
+    "timestamp": 1663013682.739611,
+    "count": 5583,
+    "btc_price": "22397.46",
+    "rate": 5.49,
+    "median": 0.23
+  },
+  {
+    "last": -0.18,
+    "mean": 0.24,
+    "sum": 1323.75,
+    "timestamp": 1663013712.9080055,
+    "count": 5581,
+    "btc_price": "22406.42",
+    "rate": 5.1,
+    "median": 0.23
+  },
+  {
+    "last": 0.42,
+    "mean": 0.24,
+    "sum": 1326.97,
+    "timestamp": 1663013742.9488487,
+    "count": 5599,
+    "btc_price": "22414.05",
+    "rate": 5.28,
+    "median": 0.23
+  },
+  {
+    "last": 0.16,
+    "mean": 0.24,
+    "sum": 1363.57,
+    "timestamp": 1663013773.204364,
+    "count": 5762,
+    "btc_price": "22402.39",
+    "rate": 5.3,
+    "median": 0.23
+  },
+  {
+    "last": -0.08,
+    "mean": 0.24,
+    "sum": 1399.33,
+    "timestamp": 1663013803.2290418,
+    "count": 5911,
+    "btc_price": "22381.07",
+    "rate": 5.24,
+    "median": 0.23
+  },
+  {
+    "last": 0.23,
+    "mean": 0.24,
+    "sum": 1415.48,
+    "timestamp": 1663013833.2494648,
+    "count": 5994,
+    "btc_price": "22389.44",
+    "rate": 5.12,
+    "median": 0.23
+  },
+  {
+    "last": 0.18,
+    "mean": 0.23,
+    "sum": 1408.7,
+    "timestamp": 1663013863.5391603,
+    "count": 5996,
+    "btc_price": "22390.45",
+    "rate": 5.11,
+    "median": 0.23
+  },
+  {
+    "last": -0.26,
+    "mean": 0.24,
+    "sum": 1405.51,
+    "timestamp": 1663013893.89584,
+    "count": 5975,
+    "btc_price": "22385.3",
+    "rate": 5.06,
+    "median": 0.23
+  },
+  {
+    "last": 0.09,
+    "mean": 0.23,
+    "sum": 1305.73,
+    "timestamp": 1663013966.7753398,
+    "count": 5561,
+    "btc_price": "22374.33",
+    "rate": 0.0,
+    "median": 0.23
+  },
+  {
+    "last": -0.31,
+    "mean": 0.24,
+    "sum": 1308.5,
+    "timestamp": 1663013997.1725912,
+    "count": 5560,
+    "btc_price": "22374.97",
+    "rate": 5.21,
+    "median": 0.23
+  },
+  {
+    "last": 0.17,
+    "mean": 0.24,
+    "sum": 1323.66,
+    "timestamp": 1663014027.4746706,
+    "count": 5602,
+    "btc_price": "22379.85",
+    "rate": 5.72,
+    "median": 0.23
+  },
+  {
+    "last": 0.47,
+    "mean": 0.24,
+    "sum": 1327.53,
+    "timestamp": 1663014057.5936923,
+    "count": 5576,
+    "btc_price": "22394.49",
+    "rate": 5.53,
+    "median": 0.23
+  },
+  {
+    "last": -0.31,
+    "mean": 0.24,
+    "sum": 1360.25,
+    "timestamp": 1663014087.6737306,
+    "count": 5690,
+    "btc_price": "22392.34",
+    "rate": 5.41,
+    "median": 0.23
+  },
+  {
+    "last": 0.11,
+    "mean": 0.24,
+    "sum": 1401.93,
+    "timestamp": 1663014118.0458558,
+    "count": 5835,
+    "btc_price": "22403.47",
+    "rate": 5.28,
+    "median": 0.23
+  },
+  {
+    "last": 0.26,
+    "mean": 0.24,
+    "sum": 1416.25,
+    "timestamp": 1663014148.2440925,
+    "count": 5910,
+    "btc_price": "22400.34",
+    "rate": 5.06,
+    "median": 0.23
+  },
+  {
+    "last": -0.4,
+    "mean": 0.24,
+    "sum": 1427.01,
+    "timestamp": 1663014178.3468552,
+    "count": 5887,
+    "btc_price": "22399.76",
+    "rate": 5.05,
+    "median": 0.24
+  },
+  {
+    "last": 0.55,
+    "mean": 0.24,
+    "sum": 1434.41,
+    "timestamp": 1663014208.3946838,
+    "count": 5908,
+    "btc_price": "22407",
+    "rate": 5.13,
+    "median": 0.24
+  },
+  {
+    "last": 0.53,
+    "mean": 0.25,
+    "sum": 1444.17,
+    "timestamp": 1663014238.70269,
+    "count": 5889,
+    "btc_price": "22398.6",
+    "rate": 5.12,
+    "median": 0.24
+  },
+  {
+    "last": 0.1,
+    "mean": 0.25,
+    "sum": 1378.83,
+    "timestamp": 1663014301.9513638,
+    "count": 5561,
+    "btc_price": "22391.52",
+    "rate": 0.0,
+    "median": 0.25
+  },
+  {
+    "last": 0.2,
+    "mean": 0.25,
+    "sum": 1387.66,
+    "timestamp": 1663014332.1131778,
+    "count": 5553,
+    "btc_price": "22390.06",
+    "rate": 5.24,
+    "median": 0.25
+  },
+  {
+    "last": 0.26,
+    "mean": 0.25,
+    "sum": 1423.89,
+    "timestamp": 1663014362.5574634,
+    "count": 5798,
+    "btc_price": "22393.54",
+    "rate": 9.18,
+    "median": 0.23
+  },
+  {
+    "last": 0.4,
+    "mean": 0.25,
+    "sum": 1450.58,
+    "timestamp": 1663014392.8006234,
+    "count": 5901,
+    "btc_price": "22396.04",
+    "rate": 8.2,
+    "median": 0.23
+  },
+  {
+    "last": 0.33,
+    "mean": 0.24,
+    "sum": 1482.19,
+    "timestamp": 1663014423.4808252,
+    "count": 6060,
+    "btc_price": "22397.33",
+    "rate": 7.43,
+    "median": 0.23
+  },
+  {
+    "last": -0.16,
+    "mean": 0.24,
+    "sum": 1516.32,
+    "timestamp": 1663014453.5493128,
+    "count": 6233,
+    "btc_price": "22405.6",
+    "rate": 7.1,
+    "median": 0.23
+  },
+  {
+    "last": 0.15,
+    "mean": 0.24,
+    "sum": 1539.18,
+    "timestamp": 1663014483.64203,
+    "count": 6322,
+    "btc_price": "22399.7",
+    "rate": 6.92,
+    "median": 0.23
+  },
+  {
+    "last": 0.12,
+    "mean": 0.24,
+    "sum": 1534.59,
+    "timestamp": 1663014513.6843996,
+    "count": 6341,
+    "btc_price": "22402.98",
+    "rate": 6.76,
+    "median": 0.23
+  },
+  {
+    "last": 0.02,
+    "mean": 0.24,
+    "sum": 1463.04,
+    "timestamp": 1663014580.1579382,
+    "count": 6019,
+    "btc_price": "22393.23",
+    "rate": 0.0,
+    "median": 0.23
+  },
+  {
+    "last": 0.6,
+    "mean": 0.24,
+    "sum": 1472.7,
+    "timestamp": 1663014610.361559,
+    "count": 6056,
+    "btc_price": "22393.82",
+    "rate": 5.64,
+    "median": 0.23
+  },
+  {
+    "last": 0.12,
+    "mean": 0.24,
+    "sum": 1468.37,
+    "timestamp": 1663014640.4561923,
+    "count": 6031,
+    "btc_price": "22390.21",
+    "rate": 5.9,
+    "median": 0.23
+  },
+  {
+    "last": 0.12,
+    "mean": 0.24,
+    "sum": 1473.26,
+    "timestamp": 1663014670.5668342,
+    "count": 6035,
+    "btc_price": "22391.69",
+    "rate": 5.69,
+    "median": 0.23
+  },
+  {
+    "last": 0.3,
+    "mean": 0.24,
+    "sum": 1479.49,
+    "timestamp": 1663014700.613492,
+    "count": 6049,
+    "btc_price": "22402.49",
+    "rate": 5.62,
+    "median": 0.23
+  },
+  {
+    "last": 0.18,
+    "mean": 0.24,
+    "sum": 1505.96,
+    "timestamp": 1663014730.6732528,
+    "count": 6174,
+    "btc_price": "22408.23",
+    "rate": 5.53,
+    "median": 0.23
+  },
+  {
+    "last": 0.71,
+    "mean": 0.24,
+    "sum": 1543.64,
+    "timestamp": 1663014760.8704903,
+    "count": 6327,
+    "btc_price": "22398.1",
+    "rate": 5.46,
+    "median": 0.23
+  },
+  {
+    "last": 0.17,
+    "mean": 0.24,
+    "sum": 1583.14,
+    "timestamp": 1663014791.0534837,
+    "count": 6490,
+    "btc_price": "22404.95",
+    "rate": 5.45,
+    "median": 0.23
+  },
+  {
+    "last": 0.18,
+    "mean": 0.24,
+    "sum": 1616.31,
+    "timestamp": 1663014821.9302275,
+    "count": 6637,
+    "btc_price": "22397.59",
+    "rate": 5.36,
+    "median": 0.23
+  },
+  {
+    "last": 0.18,
+    "mean": 0.24,
+    "sum": 1907.2,
+    "timestamp": 1663015130.9492078,
+    "count": 7831,
+    "btc_price": "22422.94",
+    "rate": 5.19,
+    "median": 0.23
+  },
+  {
+    "last": 0.61,
+    "mean": 0.24,
+    "sum": 1788.99,
+    "timestamp": 1663015222.0543046,
+    "count": 7378,
+    "btc_price": "22428.31",
+    "rate": 0.0,
+    "median": 0.23
+  },
+  {
+    "last": 0.05,
+    "mean": 0.24,
+    "sum": 1791.8,
+    "timestamp": 1663015252.5160317,
+    "count": 7383,
+    "btc_price": "22448.83",
+    "rate": 6.45,
+    "median": 0.23
+  },
+  {
+    "last": 0.57,
+    "mean": 0.24,
+    "sum": 1810.32,
+    "timestamp": 1663015282.5584443,
+    "count": 7425,
+    "btc_price": "22449.97",
+    "rate": 6.23,
+    "median": 0.24
+  },
+  {
+    "last": 0.03,
+    "mean": 0.25,
+    "sum": 1847.29,
+    "timestamp": 1663015312.6765342,
+    "count": 7488,
+    "btc_price": "22448.06",
+    "rate": 6.65,
+    "median": 0.24
+  },
+  {
+    "last": 0.57,
+    "mean": 0.25,
+    "sum": 1882.12,
+    "timestamp": 1663015342.8597288,
+    "count": 7537,
+    "btc_price": "22445.26",
+    "rate": 6.7,
+    "median": 0.25
+  },
+  {
+    "last": 0.6,
+    "mean": 0.26,
+    "sum": 1956.44,
+    "timestamp": 1663015372.9154153,
+    "count": 7666,
+    "btc_price": "22429.53",
+    "rate": 7.15,
+    "median": 0.25
+  },
+  {
+    "last": -0.21,
+    "mean": 0.26,
+    "sum": 2055.78,
+    "timestamp": 1663015403.0986385,
+    "count": 7872,
+    "btc_price": "22433.28",
+    "rate": 7.37,
+    "median": 0.25
+  },
+  {
+    "last": 0.36,
+    "mean": 0.28,
+    "sum": 1159.73,
+    "timestamp": 1663016260.4867575,
+    "count": 4137,
+    "btc_price": "22388.88",
+    "rate": 0.0,
+    "median": 0.3
+  },
+  {
+    "last": 0.17,
+    "mean": 0.28,
+    "sum": 1156.22,
+    "timestamp": 1663016291.0172677,
+    "count": 4108,
+    "btc_price": "22395.03",
+    "rate": 4.91,
+    "median": 0.3
+  },
+  {
+    "last": 0.25,
+    "mean": 0.28,
+    "sum": 1126.79,
+    "timestamp": 1663016378.6996481,
+    "count": 3979,
+    "btc_price": "22411.16",
+    "rate": 0.0,
+    "median": 0.3
+  },
+  {
+    "last": -0.25,
+    "mean": 0.28,
+    "sum": 1119.68,
+    "timestamp": 1663016408.722882,
+    "count": 3937,
+    "btc_price": "22411.16",
+    "rate": 3.97,
+    "median": 0.3
+  },
+  {
+    "last": 0.21,
+    "mean": 0.28,
+    "sum": 1112.82,
+    "timestamp": 1663016438.8129437,
+    "count": 3943,
+    "btc_price": "22401.48",
+    "rate": 5.16,
+    "median": 0.29
+  },
+  {
+    "last": 0.04,
+    "mean": 0.28,
+    "sum": 1106.05,
+    "timestamp": 1663016468.837759,
+    "count": 3924,
+    "btc_price": "22402.74",
+    "rate": 4.96,
+    "median": 0.29
+  },
+  {
+    "last": 0.23,
+    "mean": 0.28,
+    "sum": 1097.6,
+    "timestamp": 1663016499.449885,
+    "count": 3898,
+    "btc_price": "22400",
+    "rate": 4.87,
+    "median": 0.29
+  },
+  {
+    "last": 0.21,
+    "mean": 0.28,
+    "sum": 1089.98,
+    "timestamp": 1663016529.587402,
+    "count": 3885,
+    "btc_price": "22392.08",
+    "rate": 4.86,
+    "median": 0.29
+  },
+  {
+    "last": 0.43,
+    "mean": 0.28,
+    "sum": 1080.16,
+    "timestamp": 1663016559.9042203,
+    "count": 3851,
+    "btc_price": "22387.95",
+    "rate": 4.72,
+    "median": 0.28
+  },
+  {
+    "last": -0.2,
+    "mean": 0.28,
+    "sum": 1069.32,
+    "timestamp": 1663016590.0207524,
+    "count": 3826,
+    "btc_price": "22380.45",
+    "rate": 4.69,
+    "median": 0.28
+  },
+  {
+    "last": 0.16,
+    "mean": 0.28,
+    "sum": 1061.12,
+    "timestamp": 1663016620.3715844,
+    "count": 3806,
+    "btc_price": "22367.59",
+    "rate": 4.62,
+    "median": 0.27
+  },
+  {
+    "last": 0.22,
+    "mean": 0.28,
+    "sum": 1092.55,
+    "timestamp": 1663016650.4718459,
+    "count": 3932,
+    "btc_price": "22375.46",
+    "rate": 4.6,
+    "median": 0.27
+  },
+  {
+    "last": 0.17,
+    "mean": 0.28,
+    "sum": 1061.15,
+    "timestamp": 1663016722.9020545,
+    "count": 3820,
+    "btc_price": "22389.56",
+    "rate": 0.0,
+    "median": 0.26
+  },
+  {
+    "last": 0.34,
+    "mean": 0.28,
+    "sum": 1065.15,
+    "timestamp": 1663016753.015672,
+    "count": 3827,
+    "btc_price": "22387.39",
+    "rate": 5.1,
+    "median": 0.26
+  },
+  {
+    "last": 0.69,
+    "mean": 0.28,
+    "sum": 1066.01,
+    "timestamp": 1663016783.9198828,
+    "count": 3828,
+    "btc_price": "22381.81",
+    "rate": 4.8,
+    "median": 0.26
+  },
+  {
+    "last": -0.26,
+    "mean": 0.28,
+    "sum": 1053.32,
+    "timestamp": 1663016814.082299,
+    "count": 3792,
+    "btc_price": "22351.66",
+    "rate": 4.47,
+    "median": 0.26
+  },
+  {
+    "last": 0.22,
+    "mean": 0.28,
+    "sum": 1044.95,
+    "timestamp": 1663016844.494766,
+    "count": 3776,
+    "btc_price": "22358.16",
+    "rate": 4.43,
+    "median": 0.26
+  },
+  {
+    "last": 0.24,
+    "mean": 0.28,
+    "sum": 1019.61,
+    "timestamp": 1663016874.6854043,
+    "count": 3690,
+    "btc_price": "22342.27",
+    "rate": 4.26,
+    "median": 0.26
+  },
+  {
+    "last": 0.09,
+    "mean": 0.28,
+    "sum": 995.82,
+    "timestamp": 1663016904.7256198,
+    "count": 3611,
+    "btc_price": "22358.72",
+    "rate": 4.14,
+    "median": 0.26
+  },
+  {
+    "last": 0.56,
+    "mean": 0.27,
+    "sum": 988.24,
+    "timestamp": 1663016934.8517892,
+    "count": 3622,
+    "btc_price": "22358.39",
+    "rate": 4.19,
+    "median": 0.25
+  },
+  {
+    "last": 0.01,
+    "mean": 0.27,
+    "sum": 1015.43,
+    "timestamp": 1663016965.2345192,
+    "count": 3731,
+    "btc_price": "22351.26",
+    "rate": 4.11,
+    "median": 0.25
+  },
+  {
+    "last": -0.03,
+    "mean": 0.27,
+    "sum": 1035.06,
+    "timestamp": 1663016996.142183,
+    "count": 3834,
+    "btc_price": "22321.14",
+    "rate": 4.03,
+    "median": 0.25
+  },
+  {
+    "last": -0.25,
+    "mean": 0.27,
+    "sum": 1046.76,
+    "timestamp": 1663017026.5232215,
+    "count": 3927,
+    "btc_price": "22316.47",
+    "rate": 4.04,
+    "median": 0.25
+  },
+  {
+    "last": 0.37,
+    "mean": 0.26,
+    "sum": 880.13,
+    "timestamp": 1663017106.503096,
+    "count": 3405,
+    "btc_price": "22317.99",
+    "rate": 0.0,
+    "median": 0.24
+  },
+  {
+    "last": 0.71,
+    "mean": 0.25,
+    "sum": 833.62,
+    "timestamp": 1663017136.7148108,
+    "count": 3360,
+    "btc_price": "22322.88",
+    "rate": 5.08,
+    "median": 0.24
+  },
+  {
+    "last": 0.27,
+    "mean": 0.24,
+    "sum": 760.96,
+    "timestamp": 1663017166.7507436,
+    "count": 3237,
+    "btc_price": "22322.74",
+    "rate": 4.86,
+    "median": 0.24
+  },
+  {
+    "last": 0.05,
+    "mean": 0.22,
+    "sum": 683.88,
+    "timestamp": 1663017197.193641,
+    "count": 3099,
+    "btc_price": "22325.06",
+    "rate": 4.59,
+    "median": 0.23
+  },
+  {
+    "last": -0.09,
+    "mean": 0.22,
+    "sum": 686.11,
+    "timestamp": 1663017227.5082376,
+    "count": 3185,
+    "btc_price": "22348.85",
+    "rate": 4.62,
+    "median": 0.23
+  },
+  {
+    "last": 0.13,
+    "mean": 0.22,
+    "sum": 709.84,
+    "timestamp": 1663017257.6933134,
+    "count": 3298,
+    "btc_price": "22346.72",
+    "rate": 4.44,
+    "median": 0.23
+  },
+  {
+    "last": 0.11,
+    "mean": 0.22,
+    "sum": 744.31,
+    "timestamp": 1663017287.8180203,
+    "count": 3441,
+    "btc_price": "22346.82",
+    "rate": 4.5,
+    "median": 0.23
+  },
+  {
+    "last": 0.24,
+    "mean": 0.22,
+    "sum": 777.44,
+    "timestamp": 1663017317.9981258,
+    "count": 3575,
+    "btc_price": "22348.3",
+    "rate": 4.49,
+    "median": 0.23
+  },
+  {
+    "last": 0.48,
+    "mean": 0.22,
+    "sum": 805.15,
+    "timestamp": 1663017348.5499444,
+    "count": 3709,
+    "btc_price": "22331.93",
+    "rate": 4.48,
+    "median": 0.23
+  },
+  {
+    "last": 0.05,
+    "mean": 0.22,
+    "sum": 834.38,
+    "timestamp": 1663017378.8430796,
+    "count": 3822,
+    "btc_price": "22324.81",
+    "rate": 4.39,
+    "median": 0.23
+  },
+  {
+    "last": 0.05,
+    "mean": 0.22,
+    "sum": 860.64,
+    "timestamp": 1663017408.9474967,
+    "count": 3950,
+    "btc_price": "22332.16",
+    "rate": 4.38,
+    "median": 0.23
+  },
+  {
+    "last": 0.22,
+    "mean": 0.22,
+    "sum": 1039.09,
+    "timestamp": 1663018060.642962,
+    "count": 4682,
+    "btc_price": "22283.66",
+    "rate": 3.93,
+    "median": 0.23
+  },
+  {
+    "last": -0.53,
+    "mean": 0.22,
+    "sum": 1026.65,
+    "timestamp": 1663018090.868346,
+    "count": 4662,
+    "btc_price": "22282.27",
+    "rate": 3.96,
+    "median": 0.23
+  },
+  {
+    "last": 0.67,
+    "mean": 0.22,
+    "sum": 1050.54,
+    "timestamp": 1663018121.0125635,
+    "count": 4790,
+    "btc_price": "22284.28",
+    "rate": 4.0,
+    "median": 0.23
+  },
+  {
+    "last": 0.27,
+    "mean": 0.22,
+    "sum": 1076.66,
+    "timestamp": 1663018151.1035836,
+    "count": 4899,
+    "btc_price": "22285.51",
+    "rate": 3.96,
+    "median": 0.23
+  },
+  {
+    "last": 0.35,
+    "mean": 0.22,
+    "sum": 1107.74,
+    "timestamp": 1663018181.2005382,
+    "count": 5012,
+    "btc_price": "22286.24",
+    "rate": 3.98,
+    "median": 0.23
+  },
+  {
+    "last": 0.4,
+    "mean": 0.22,
+    "sum": 1106.6,
+    "timestamp": 1663018211.216282,
+    "count": 5008,
+    "btc_price": "22292.07",
+    "rate": 3.95,
+    "median": 0.23
+  },
+  {
+    "last": -0.08,
+    "mean": 0.24,
+    "sum": 316.67,
+    "timestamp": 1663019398.163072,
+    "count": 1335,
+    "btc_price": "22373.74",
+    "rate": 0.0,
+    "median": 0.24
+  },
+  {
+    "last": -0.19,
+    "mean": 0.24,
+    "sum": 338.73,
+    "timestamp": 1663019428.3200915,
+    "count": 1419,
+    "btc_price": "22350.46",
+    "rate": 2.83,
+    "median": 0.24
+  },
+  {
+    "last": 0.49,
+    "mean": 0.24,
+    "sum": 365.61,
+    "timestamp": 1663019458.688064,
+    "count": 1531,
+    "btc_price": "22306",
+    "rate": 3.25,
+    "median": 0.24
+  },
+  {
+    "last": 0.16,
+    "mean": 0.24,
+    "sum": 398.01,
+    "timestamp": 1663019488.8117273,
+    "count": 1642,
+    "btc_price": "22308.91",
+    "rate": 3.4,
+    "median": 0.24
+  },
+  {
+    "last": 0.35,
+    "mean": 0.24,
+    "sum": 429.3,
+    "timestamp": 1663019518.9142227,
+    "count": 1754,
+    "btc_price": "22311.88",
+    "rate": 3.48,
+    "median": 0.24
+  },
+  {
+    "last": 0.07,
+    "mean": 0.25,
+    "sum": 463.47,
+    "timestamp": 1663019549.1769366,
+    "count": 1878,
+    "btc_price": "22338.7",
+    "rate": 3.6,
+    "median": 0.24
+  },
+  {
+    "last": 0.03,
+    "mean": 0.24,
+    "sum": 499.41,
+    "timestamp": 1663019579.4794493,
+    "count": 2064,
+    "btc_price": "22344.01",
+    "rate": 4.03,
+    "median": 0.24
+  },
+  {
+    "last": 0.55,
+    "mean": 0.25,
+    "sum": 183.21,
+    "timestamp": 1663020810.1217046,
+    "count": 731,
+    "btc_price": "22346.43",
+    "rate": 0.0,
+    "median": 0.24
+  },
+  {
+    "last": 0.55,
+    "mean": 0.32,
+    "sum": 356.19,
+    "timestamp": 1663020840.159979,
+    "count": 1119,
+    "btc_price": "22339.98",
+    "rate": 12.94,
+    "median": 0.35
+  },
+  {
+    "last": -0.08,
+    "mean": 0.35,
+    "sum": 519.25,
+    "timestamp": 1663020870.3696728,
+    "count": 1481,
+    "btc_price": "22343.31",
+    "rate": 12.48,
+    "median": 0.42
+  },
+  {
+    "last": 0.55,
+    "mean": 0.37,
+    "sum": 699.41,
+    "timestamp": 1663020900.5145268,
+    "count": 1890,
+    "btc_price": "22350.05",
+    "rate": 12.84,
+    "median": 0.49
+  },
+  {
+    "last": -0.12,
+    "mean": 0.38,
+    "sum": 900.53,
+    "timestamp": 1663020930.69246,
+    "count": 2354,
+    "btc_price": "22350.87",
+    "rate": 13.47,
+    "median": 0.51
+  },
+  {
+    "last": 0.67,
+    "mean": 0.35,
+    "sum": 1078.79,
+    "timestamp": 1663021198.9486732,
+    "count": 3100,
+    "btc_price": "22373.67",
+    "rate": 3.68,
+    "median": 0.42
+  },
+  {
+    "last": 0.19,
+    "mean": 0.35,
+    "sum": 1078.85,
+    "timestamp": 1663021229.3477986,
+    "count": 3104,
+    "btc_price": "22386.26",
+    "rate": 3.59,
+    "median": 0.42
+  },
+  {
+    "last": -0.19,
+    "mean": 0.35,
+    "sum": 1073.75,
+    "timestamp": 1663021259.7706769,
+    "count": 3098,
+    "btc_price": "22385.22",
+    "rate": 3.58,
+    "median": 0.42
+  },
+  {
+    "last": 0.79,
+    "mean": 0.34,
+    "sum": 1063.08,
+    "timestamp": 1663021289.835933,
+    "count": 3082,
+    "btc_price": "22390",
+    "rate": 3.54,
+    "median": 0.42
+  },
+  {
+    "last": 0.07,
+    "mean": 0.35,
+    "sum": 1066.15,
+    "timestamp": 1663021320.4833472,
+    "count": 3084,
+    "btc_price": "22400.59",
+    "rate": 3.57,
+    "median": 0.42
+  },
+  {
+    "last": 0.09,
+    "mean": 0.34,
+    "sum": 1054.04,
+    "timestamp": 1663021351.2554114,
+    "count": 3066,
+    "btc_price": "22398.28",
+    "rate": 3.55,
+    "median": 0.42
+  },
+  {
+    "last": 0.07,
+    "mean": 0.35,
+    "sum": 1039.51,
+    "timestamp": 1663021381.7103043,
+    "count": 2971,
+    "btc_price": "22400.86",
+    "rate": 3.49,
+    "median": 0.42
+  },
+  {
+    "last": 0.71,
+    "mean": 0.32,
+    "sum": 1236.11,
+    "timestamp": 1663022610.396265,
+    "count": 3824,
+    "btc_price": "22329.85",
+    "rate": 3.24,
+    "median": 0.38
+  },
+  {
+    "last": 0.08,
+    "mean": 0.31,
+    "sum": 1088.87,
+    "timestamp": 1663022640.6435094,
+    "count": 3528,
+    "btc_price": "22328.43",
+    "rate": 3.24,
+    "median": 0.35
+  },
+  {
+    "last": -0.25,
+    "mean": 0.29,
+    "sum": 956.02,
+    "timestamp": 1663022670.81665,
+    "count": 3277,
+    "btc_price": "22332.83",
+    "rate": 3.27,
+    "median": 0.32
+  },
+  {
+    "last": 0.1,
+    "mean": 0.27,
+    "sum": 791.39,
+    "timestamp": 1663022701.1253467,
+    "count": 2943,
+    "btc_price": "22340.88",
+    "rate": 3.23,
+    "median": 0.27
+  },
+  {
+    "last": -0.31,
+    "mean": 0.24,
+    "sum": 619.73,
+    "timestamp": 1663022731.7580903,
+    "count": 2614,
+    "btc_price": "22379.46",
+    "rate": 3.29,
+    "median": 0.24
+  },
+  {
+    "last": 0.51,
+    "mean": 0.24,
+    "sum": 597.53,
+    "timestamp": 1663022814.4536436,
+    "count": 2534,
+    "btc_price": "22373.58",
+    "rate": 0.0,
+    "median": 0.24
+  },
+  {
+    "last": 0.12,
+    "mean": 0.24,
+    "sum": 600.59,
+    "timestamp": 1663022844.8563068,
+    "count": 2544,
+    "btc_price": "22377.2",
+    "rate": 3.59,
+    "median": 0.24
+  },
+  {
+    "last": 0.25,
+    "mean": 0.24,
+    "sum": 605.68,
+    "timestamp": 1663022874.9858098,
+    "count": 2571,
+    "btc_price": "22385.46",
+    "rate": 4.04,
+    "median": 0.24
+  },
+  {
+    "last": -0.52,
+    "mean": 0.23,
+    "sum": 604.42,
+    "timestamp": 1663022905.2152326,
+    "count": 2576,
+    "btc_price": "22364.04",
+    "rate": 3.84,
+    "median": 0.24
+  },
+  {
+    "last": -0.15,
+    "mean": 0.24,
+    "sum": 603.66,
+    "timestamp": 1663022935.2793033,
+    "count": 2557,
+    "btc_price": "22345.03",
+    "rate": 3.74,
+    "median": 0.24
+  },
+  {
+    "last": 0.71,
+    "mean": 0.24,
+    "sum": 610.66,
+    "timestamp": 1663022965.4227438,
+    "count": 2549,
+    "btc_price": "22337.81",
+    "rate": 3.65,
+    "median": 0.24
+  },
+  {
+    "last": 0.2,
+    "mean": 0.24,
+    "sum": 614.52,
+    "timestamp": 1663022995.8016257,
+    "count": 2541,
+    "btc_price": "22328.03",
+    "rate": 3.68,
+    "median": 0.24
+  },
+  {
+    "last": 0.59,
+    "mean": 0.25,
+    "sum": 650.46,
+    "timestamp": 1663023025.883259,
+    "count": 2621,
+    "btc_price": "22316.66",
+    "rate": 3.93,
+    "median": 0.24
+  },
+  {
+    "last": 0.46,
+    "mean": 0.26,
+    "sum": 703.48,
+    "timestamp": 1663023055.9415028,
+    "count": 2713,
+    "btc_price": "22313.48",
+    "rate": 4.28,
+    "median": 0.25
+  },
+  {
+    "last": 0.31,
+    "mean": 0.26,
+    "sum": 718.31,
+    "timestamp": 1663023086.1172664,
+    "count": 2757,
+    "btc_price": "22326.95",
+    "rate": 4.31,
+    "median": 0.26
+  },
+  {
+    "last": 0.88,
+    "mean": 0.26,
+    "sum": 720.38,
+    "timestamp": 1663023116.394945,
+    "count": 2782,
+    "btc_price": "22336.14",
+    "rate": 4.31,
+    "median": 0.26
+  },
+  {
+    "last": 0.04,
+    "mean": 0.26,
+    "sum": 670.74,
+    "timestamp": 1663023193.1854272,
+    "count": 2571,
+    "median": 0.27,
+    "rate": 0.0,
+    "btc_price": "22335.07"
+  },
+  {
+    "last": 0.55,
+    "mean": 0.26,
+    "sum": 701.0,
+    "timestamp": 1663023223.982878,
+    "count": 2693,
+    "median": 0.26,
+    "rate": 4.0,
+    "btc_price": "22329.64"
+  },
+  {
+    "last": 0.29,
+    "mean": 0.26,
+    "sum": 734.95,
+    "timestamp": 1663023254.0764759,
+    "count": 2811,
+    "median": 0.27,
+    "rate": 3.96,
+    "btc_price": "22335.54"
+  },
+  {
+    "last": 0.05,
+    "mean": 0.26,
+    "sum": 763.04,
+    "timestamp": 1663023284.115992,
+    "count": 2924,
+    "median": 0.26,
+    "rate": 3.89,
+    "btc_price": "22327.26"
+  },
+  {
+    "last": 0.33,
+    "mean": 0.26,
+    "sum": 789.6,
+    "timestamp": 1663023314.3715131,
+    "count": 3072,
+    "median": 0.25,
+    "rate": 4.15,
+    "btc_price": "22332.54"
+  },
+  {
+    "last": -0.54,
+    "mean": 0.26,
+    "sum": 812.88,
+    "timestamp": 1663023344.5472426,
+    "count": 3167,
+    "median": 0.25,
+    "rate": 3.94,
+    "btc_price": "22326.02"
+  },
+  {
+    "last": 0.17,
+    "mean": 0.26,
+    "sum": 837.32,
+    "timestamp": 1663023374.7032456,
+    "count": 3260,
+    "median": 0.25,
+    "rate": 3.8,
+    "btc_price": "22301.22"
+  },
+  {
+    "last": -0.27,
+    "mean": 0.26,
+    "sum": 854.06,
+    "timestamp": 1663023405.2030146,
+    "count": 3342,
+    "median": 0.25,
+    "rate": 3.64,
+    "btc_price": "22288.32"
+  },
+  {
+    "last": 0.23,
+    "mean": 0.26,
+    "sum": 876.58,
+    "timestamp": 1663023435.36014,
+    "count": 3427,
+    "median": 0.25,
+    "rate": 3.54,
+    "btc_price": "22286.58"
+  },
+  {
+    "last": 0.61,
+    "mean": 0.25,
+    "sum": 897.82,
+    "timestamp": 1663023465.6137908,
+    "count": 3524,
+    "median": 0.25,
+    "rate": 3.5,
+    "btc_price": "22300.8"
+  },
+  {
+    "last": 0.25,
+    "mean": 0.25,
+    "sum": 918.95,
+    "timestamp": 1663023496.1760256,
+    "count": 3612,
+    "median": 0.25,
+    "rate": 3.44,
+    "btc_price": "22307.3"
+  },
+  {
+    "last": 0.31,
+    "mean": 0.25,
+    "sum": 942.21,
+    "timestamp": 1663023526.8675208,
+    "count": 3708,
+    "median": 0.25,
+    "rate": 3.41,
+    "btc_price": "22303.92"
+  },
+  {
+    "last": 0.2,
+    "mean": 0.26,
+    "sum": 986.84,
+    "timestamp": 1663023556.990027,
+    "count": 3854,
+    "median": 0.26,
+    "rate": 3.53,
+    "btc_price": "22324.02"
+  }
+]
