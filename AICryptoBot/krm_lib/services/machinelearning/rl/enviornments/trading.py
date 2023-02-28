@@ -20,12 +20,12 @@ PERCENT_CAPITAL = 0.1
 KILL_THRESH = 0.4 # Threshold for balance preservation
 
 # Structure environment
-class TradingEnv(gym.Env):
+class TestTradingEnv(gym.Env):
     """A stock trading environment for OpenAI gym"""
     metadata = {'render.modes': ['human']}
 
     def __init__(self, df, initial_account_balance=1000, trading_cost_rate=0.001):
-        super(TradingEnv, self).__init__()
+        super(TestTradingEnv, self).__init__()
         
         # Generic variables
         self.df = df
@@ -129,3 +129,214 @@ class TradingEnv(gym.Env):
     def render(self, mode='human', close=False):
         pass
 # ENVIORNMENT END
+
+####### START ENVIORNMENT #########
+class RealTradingEnv(gym.Env):
+####### END ENVIORNMENT #########
+    """ Coin Trading enviornment w/ OPEN AI gym """
+    metadata = {'rendor.modes':['human']}
+    
+    def __init__(self, df, initial_account_balance=1000, trading_cost_rate=0.001):
+        super(RealTradingEnv, self).__init__()
+        
+        # Pass Generic Variable as a Pandas Dataframe
+        self.df = df
+        
+        # Account Variables
+        self.initial_balance = initial_account_balance
+        self.available_balance = initial_account_balance
+        self.net_worth = initial_account_balance
+        
+        
+        self.trading_cost_rate = trading_cost_rate
+        self.realized_profit = 0
+        self.unrealized_profit = 0
+        self.last_profit = 0
+        
+        # Position variables
+        self.open_quantities = []
+        self.open_prices = []
+        self.trading_costs = 0
+        self.open_positions = 0
+        self.closed_positions = 0
+        self.incorrect_position_calls = 0
+        self.num_trades = 0
+        self.held_for_period = 0
+        
+        # Current Step
+        self.current_step = 0
+        self.max_steps = len(df)
+
+        # Actions of the format Long, Hold, Close
+        # Actions/Decisions are Discrete - Long, Hold, Close 
+        self.action_space = spaces.Discrete(3)
+
+        # Prices contains the Close and Close Returns etc
+        # Observations (input data) is continuous
+        self.observation_space = spaces.Box(low=-1, high=1, shape=(8, ), dtype=np.float32)
+        
+    # REWARD STRUCTURE
+    # NOTE: CAN and Should try to come up with a better reward structure if possible...
+    def _calculate_reward(self):
+        reward = 0
+        if self.num_trades:
+            # Incentivize for profit: rewarding based on "profit-per-trade" - encourage not to over-trade
+            reward += self.realized_profit / self.num_trades
+            # Incentivize less for 'unrealized' profit (0.30 percent)
+            reward += self.unrealized_profit / self.num_trades * 0.3
+            # Add 1 to reward if it made a profit on most recent trade
+            reward += 1 if self.last_profit > 0 else 0
+            # Remove 1 from reward if incorrect position calls is > 0
+        reward -= 1 if self.incorrect_position_calls > 0 else 0
+        # Penialize if AI does not 'trade'
+        if reward <= 0:
+            reward -= 2
+        return reward
+    
+    # Structure sign observation data
+    # Revisit - Observation structure to add additional technical indicators for Crypto Trading
+    def _next_observation(self):
+        '''
+        This one had memory of the past - Sine Wave Observation
+        close_item = self.df.loc[self.current_step, "Close"].item() 
+        close_rt_item = self.df.loc[self.current_step, "Close_Rt"].item()
+        close_T1_item = self.df.loc[self.current_step - 1, "Close_Rt"].item()
+        close_T2_item = self.df.loc[self.current_step - 2, "Close_Rt"].item()
+        close_T3_item = self.df.loc[self.current_step - 3, "Close_Rt"].item()
+        close_T4_item = self.df.loc[self.current_step - 4, "Close_Rt"].item()
+        '''
+        # This has no memory of the past. Just purely based on what happened yesterday
+        # Suprised this produces any valid results.
+        item_0_T0 = self.df.loc[self.current_step - 0, "Open"].item()
+        item_1_T0 = self.df.loc[self.current_step - 0, "High"].item()       
+        item_2_T0 = self.df.loc[self.current_step - 0, "Low"].item()
+        item_3_T0 = self.df.loc[self.current_step - 0, "Close"].item()
+        item_4_T0 = self.df.loc[self.current_step - 0, "Volume"].item()
+        item_5_T0 = self.df.loc[self.current_step - 0, "VWAP"].item()
+        
+        current_position = 1 if self.open_positions else 0
+        num_trades = self.num_trades / len(self.df) if self.num_trades > 0 else 0
+        
+        ''' Sin Wave Observation
+        obs = np.array([close_item, close_rt_item, close_T1_item, close_T2_item, close_T3_item, close_T4_item, 
+                        current_position, num_trades])
+        '''
+        
+        ''' Stock observation VWAP -> No memory of the past '''
+        obs = np.array([item_0_T0, item_1_T0, item_2_T0, item_3_T0, item_4_T0, item_5_T0, current_position, num_trades])
+        
+        
+        return obs
+    
+    # Calculate current open value
+    def _calculate_open_value(self):
+        open_trades_value = 0
+        counts = 0
+        for qty in self.open_quantities:
+            acquisition_price = self.open_prices[counts]
+            open_trades_value += acquisition_price * qty
+            counts += 1
+        return open_trades_value
+        
+    # Calculate gross profit
+    def _profit_calculation(self, current_price, calc_type):
+        open_trades_value = self._calculate_open_value()
+        total_quantity_held = sum(self.open_quantities)
+        current_value = total_quantity_held * current_price
+        gross_profit = current_value - open_trades_value
+        
+        if calc_type == "close_position":
+            trading_costs = current_value * self.trading_cost_rate
+            self.trading_costs += trading_costs
+        elif calc_type == "hold_position" or calc_type == "open_position":
+            trading_costs = open_trades_value * self.trading_cost_rate
+        
+        net_profit = gross_profit - trading_costs
+        
+        return net_profit
+
+    # ACTION FUNCTIONS 
+    # Set the current price to a random price within the time step
+    def _take_action(self, action):
+        current_price = self.df.loc[self.current_step, "Close"].item()
+        
+        # Reset last profit
+        self.last_profit = 0
+        self.incorrect_position_calls = 0
+        
+        # Go Long
+        if action == 0:
+            if self.open_positions < MAX_OPEN_POSITIONS:
+                net_profit = self._profit_calculation(current_price, "open_position")
+                net_worth = self.net_worth + net_profit
+                trading_allowance = net_worth * PERCENT_CAPITAL
+                
+                self.open_quantities.append(trading_allowance / current_price)
+                self.open_prices.append(current_price)
+                self.trading_costs += trading_allowance * self.trading_cost_rate
+                self.num_trades += 1
+            else:
+                self.incorrect_position_calls += 1
+
+        # Hold Positions
+        if action == 1: 
+            net_profit = self._profit_calculation(current_price, "hold_position")
+            self.unrealized_profit += net_profit
+            if self.open_positions > 0:
+                self.held_for_period += 1
+                
+        # Close Positions
+        if action == 2:
+            if self.open_positions != 0:
+                net_profit = self._profit_calculation(current_price, "close_position")
+                self.last_profit = net_profit
+                self.realized_profit += net_profit
+                self.unrealized_profit = 0
+                self.open_quantities = []
+                self.open_prices = []
+                self.held_for_period = 0
+                self.closed_positions += 1
+            else:
+                self.incorrect_position_calls += 1
+                
+        # Update variables
+        open_trades_value = self._calculate_open_value()
+        self.open_positions = len(self.open_quantities)
+        self.net_worth = self.initial_balance + self.unrealized_profit + self.realized_profit
+        self.available_balance = self.initial_balance - open_trades_value + self.realized_profit
+
+    # Execute one time step within the environment
+    def step(self, action):
+        self._take_action(action)
+
+        reward = self._calculate_reward()
+    
+        self.current_step += 1
+        
+        is_max_steps_taken = self.current_step >= self.max_steps - 1
+        is_account_balance_reached = self.net_worth <= self.initial_balance * KILL_THRESH
+        done = True if is_max_steps_taken or is_account_balance_reached else False
+        
+        obs = self._next_observation()
+
+        return obs, reward, done, {}
+
+    # Reset the state of the environment to an initial state
+    def reset(self):
+        self.account_balance = self.initial_balance
+        self.net_worth = self.initial_balance
+        self.realized_profit = 0
+        self.unrealized_profit = 0
+        self.open_quantities = []
+        self.open_prices = []
+        self.trading_costs = 0
+        self.open_positions = 0
+        self.incorrect_position_calls = 0
+        self.current_step = 5
+
+        return self._next_observation()
+
+    # Render the environment to the screen
+    def render(self, mode='human', close=False):
+        profit = self.net_worth - self.initial_balance
+        return profit

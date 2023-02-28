@@ -4,7 +4,7 @@ Created on Sun Feb 12 09:16:50 2023
 
 @author: JohnMurphy
 """
-from krm_lib.services.machinelearning.rl.enviornments.trading import TradingEnv
+from krm_lib.services.machinelearning.rl.enviornments.trading import TestTradingEnv, RealTradingEnv
 from krm_lib.services.machinelearning.rl.agents.ppo_agent import Agent
 from krm_lib.services.machinelearning.rl.agents.ppo_agent import ActorNetwork
 from krm_lib.services.machinelearning.rl.agents.ppo_agent import CriticNetwork
@@ -48,7 +48,7 @@ def run_test():
     df_test = df_test.iloc[500:]   
     
     
-    env = TradingEnv(df_test, initial_account_balance=1000000)
+    env = TestTradingEnv(df_test, initial_account_balance=1000000)
     # LOAD
     n_actions = env.action_space.n
     input_dims = env.observation_space.shape
@@ -152,7 +152,7 @@ def run_train():
     df_train["Close_Price"].plot()
     df_test["Close_Price"].plot()
     
-    env = TradingEnv(df_train, initial_account_balance=1000000)
+    env = TestTradingEnv(df_train, initial_account_balance=1000000)
     N = 20
     batch_size = 5
     n_epochs = 10
@@ -202,8 +202,76 @@ def run_train():
     return df, df_train, df_test
 # Test Main
 
+def real_training():
+    # Get Training Data
+    crypto_train = CryptoHistory(symbol=CRYPTO_SYMBOL, start_date=CRYPTO_START, end_date=CRYPTO_END)
+    df = crypto_train.get_scaled_price_df()
+    
+    # Min Max Scaled
+    df_mod = df.copy()
+    
+    # Split Training and Testing
+    df_train = df_mod.copy()
+    df_train = df_train.iloc[:500]
+    df_test = df_mod.copy()
+    df_test = df_test.iloc[500:]   
+    
+    plt.rcParams["figure.figsize"] = (15,5)
+    df_train["Close_Price"].plot()
+    df_test["Close_Price"].plot()
+    
+    env = RealTradingEnv(df_train, initial_account_balance=1000000)
+    N = 20
+    batch_size = 5
+    n_epochs = 10
+    
+    agent = Agent(n_actions=env.action_space.n, batch_size=batch_size, 
+                    alpha=alpha, n_epochs=n_epochs, 
+                    input_dims=env.observation_space.shape)
+
+    n_games = 1000
+    figure_file = 'crypto_training.png'
+
+    best_score = env.reward_range[0]
+    score_history = []
+
+    learn_iters = 0
+    avg_score = 0
+    n_steps = 0
+    
+    print("... starting ...")
+    for i in range(n_games):
+        observation = env.reset()
+        done = False
+        score = 0
+        while not done:
+            action, prob, val = agent.choose_action(observation)
+            observation_, reward, done, info = env.step(action)
+            n_steps += 1
+            score += reward
+            agent.remember(observation, action, prob, val, reward, done)
+            if n_steps % N == 0:
+                agent.learn()
+            observation = observation_
+            
+        # Save history
+        score_history.append(score)
+        avg_score = np.mean(score_history[-50:])
+        
+        if avg_score > best_score:
+            best_score = avg_score
+            agent.save_models()
+        
+        print(f"episide: {i}, score: {score}, avg score: {avg_score}, best_score: {best_score}")
+            
+    plotter = Plotters()
+    x = [i+1 for i in range(len(score_history))]
+    plotter.plot_learning_curve(x, score_history, figure_file)
+    return df, df_train, df_test
+# Test Main
+
+
 if __name__ == '__main__':
     #df, df_train, df_test = run_train()
-    df, df_train, df_test = run_test()
-    #binance = BinanceAPI()
-    #df = binance.get_daily_price_history(CRYPTO_SYMBOL, CRYPTO_START, CRYPTO_END, 'dataframe')
+    #df, df_train, df_test = run_test()
+    df, df_train, df_test = real_training()
