@@ -10,9 +10,12 @@ from gym import spaces
 import numpy as np
 import random
 import torch
+from krm_lib.services.machinelearning.rl.agents.ppo_agent import ActorNetwork
+import time
 
 # ENVIORNMENT START
 # Initialise variables
+ALPHA = 0.0004
 MAX_INT = 2147483647
 MAX_TRADES = 10000
 MAX_OPEN_POSITIONS = 1
@@ -165,6 +168,7 @@ class RealTradingEnv(gym.Env):
         
         # Current Step
         self.current_step = 0
+        self.first_decision_step = 5
         self.max_steps = len(df)
 
         # Actions of the format Long, Hold, Close
@@ -315,14 +319,15 @@ class RealTradingEnv(gym.Env):
         
         is_max_steps_taken = self.current_step >= self.max_steps - 1
         is_account_balance_reached = self.net_worth <= self.initial_balance * KILL_THRESH
+        #print(f"is_account_balance_reached: {is_account_balance_reached}, net_worth: {self.net_worth}, kill: {self.initial_balance * KILL_THRESH}")
         done = True if is_max_steps_taken or is_account_balance_reached else False
-        
+        #print(f"is_account_balance_reached: {is_account_balance_reached}, net_worth: {self.net_worth}, kill: {self.initial_balance * KILL_THRESH}")
         obs = self._next_observation()
-
+        #print(f"Out of step -> obs: {obs}, reward: {reward}, done: {done}")
         return obs, reward, done, {}
 
     # Reset the state of the environment to an initial state
-    def reset(self):
+    def reset(self, reset_index=0):
         self.account_balance = self.initial_balance
         self.net_worth = self.initial_balance
         self.realized_profit = 0
@@ -332,7 +337,7 @@ class RealTradingEnv(gym.Env):
         self.trading_costs = 0
         self.open_positions = 0
         self.incorrect_position_calls = 0
-        self.current_step = 5
+        self.current_step = reset_index + 5
 
         return self._next_observation()
 
@@ -340,3 +345,45 @@ class RealTradingEnv(gym.Env):
     def render(self, mode='human', close=False):
         profit = self.net_worth - self.initial_balance
         return profit
+    
+    def run_simulation(self, saved_model_path="tmp/actor_torch_ppo", df_start_index=0):
+        n_actions = self.action_space.n
+        input_dims = self.observation_space.shape
+        model = ActorNetwork(n_actions, input_dims, ALPHA)
+        model.load_state_dict(torch.load(saved_model_path))
+        model.eval()
+        
+        # Run Simulation
+        reporting_df = self.df.copy()
+        
+        n_steps = 0
+        obs = self.reset(reset_index=df_start_index) 
+        state = torch.tensor(obs).float().to(model.device)
+        dist = model(state)
+        probs = dist.probs.cpu().detach().numpy()  
+        
+        done = False
+        score = 0
+        action = np.argmax(probs)
+        while not done:
+            action_name = "None"
+            if action == 0:
+                action_name = "Long"
+            elif action == 1:
+                action_name = "Hold"
+            else:
+                action_name = "Close"            
+            print(action_name, np.argmax(probs), probs, self.last_profit, self.net_worth)
+            time.sleep(0.5)
+            state = torch.tensor(obs).float().to(model.device)
+            dist = model(state)
+            probs = dist.probs.cpu().detach().numpy()
+            action = np.argmax(probs)
+            #action, prob, val = agent.choose_action(observation)
+            observation_, reward, done, info = self.step(action)
+            n_steps += 1
+            score += reward
+            #agent.remember(observation, action, prob, val, reward, done)
+            obs = observation_
+        print("Done at step: " + str(n_steps))
+        
