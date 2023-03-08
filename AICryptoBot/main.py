@@ -4,7 +4,8 @@ Created on Sun Feb 12 09:16:50 2023
 
 @author: JohnMurphy
 """
-from krm_lib.services.machinelearning.rl.enviornments.trading import TestTradingEnv, RealTradingEnv
+from krm_lib.services.machinelearning.rl.enviornments.buysellhold import BuySellHoldTradingEnv
+from krm_lib.services.machinelearning.rl.enviornments.longshort import LongShortTradingEnv
 from krm_lib.services.machinelearning.rl.agents.ppo_agent import Agent
 from krm_lib.services.machinelearning.rl.agents.ppo_agent import ActorNetwork
 from krm_lib.services.machinelearning.rl.agents.ppo_agent import CriticNetwork
@@ -33,7 +34,7 @@ CRYPTO_START = "2020-06-01"
 CRYPTO_END = "2023-02-10"
 
 alpha = 0.0004
-def run_test():
+def longshort_test(saved_model_path="tmp/actor_torch_ppo_longshort"):
     # Get Test Data
     crypto_test = CryptoHistory(symbol=CRYPTO_SYMBOL, start_date=CRYPTO_START, end_date=CRYPTO_END)
     df = crypto_test.get_scaled_price_df()  
@@ -48,13 +49,13 @@ def run_test():
     df_test = df_test.iloc[500:]   
     
     
-    env = TestTradingEnv(df_test, initial_account_balance=1000000)
+    env = LongShortTradingEnv(df_test, initial_account_balance=1000000)
     # LOAD
     n_actions = env.action_space.n
     input_dims = env.observation_space.shape
     #alpha = 0.0003
     model = ActorNetwork(n_actions, input_dims, alpha)
-    model.load_state_dict(T.load("tmp/actor_torch_ppo"))
+    model.load_state_dict(T.load(saved_model_path))
     model.eval()
     
     # RUN
@@ -134,7 +135,7 @@ def run_test():
     df_res[["Benchmark", "Equity"]].plot()
     return df, df_train, df_test
 
-def run_train():
+def longshort_train():
     # Get Training Data
     crypto_train = CryptoHistory(symbol=CRYPTO_SYMBOL, start_date=CRYPTO_START, end_date=CRYPTO_END)
     df = crypto_train.get_scaled_price_df()
@@ -152,14 +153,14 @@ def run_train():
     df_train["Close_Price"].plot()
     df_test["Close_Price"].plot()
     
-    env = TestTradingEnv(df_train, initial_account_balance=1000000)
+    env = LongShortTradingEnv(df_train, initial_account_balance=1000000)
     N = 20
     batch_size = 5
     n_epochs = 10
     
     agent = Agent(n_actions=env.action_space.n, batch_size=batch_size, 
                     alpha=alpha, n_epochs=n_epochs, 
-                    input_dims=env.observation_space.shape)
+                    input_dims=env.observation_space.shape, env_name="longshort")
 
     n_games = 1000
     figure_file = 'crypto_training.png'
@@ -202,7 +203,7 @@ def run_train():
     return df, df_train, df_test
 # Test Main
 
-def real_training():
+def buysellhold_training():
     # Get Training Data
     crypto_train = CryptoHistory(symbol=CRYPTO_SYMBOL, start_date=CRYPTO_START, end_date=CRYPTO_END)
     df = crypto_train.get_scaled_price_df()
@@ -212,22 +213,22 @@ def real_training():
     
     # Split Training and Testing
     df_train = df_mod.copy()
-    df_train = df_train.iloc[:500]
+    df_train = df_train.iloc[0:700]
     df_test = df_mod.copy()
-    df_test = df_test.iloc[500:]   
+    df_test = df_test.iloc[700:]   
     
     plt.rcParams["figure.figsize"] = (15,5)
     df_train["Close_Price"].plot()
     df_test["Close_Price"].plot()
     
-    env = RealTradingEnv(df_train, initial_account_balance=1000000)
+    env = BuySellHoldTradingEnv(df_train, initial_account_balance=1000000)
     N = 20
     batch_size = 5
-    n_epochs = 10
+    n_epochs = 8
     
     agent = Agent(n_actions=env.action_space.n, batch_size=batch_size, 
                     alpha=alpha, n_epochs=n_epochs, 
-                    input_dims=env.observation_space.shape)
+                    input_dims=env.observation_space.shape, env_name="buysellhold")
 
     n_games = 200
     figure_file = 'crypto_training.png'
@@ -268,90 +269,8 @@ def real_training():
     x = [i+1 for i in range(len(score_history))]
     plotter.plot_learning_curve(x, score_history, figure_file)
     return df, df_train, df_test
-# Test Main
-'''
-def real_testing():
-    # Get Test Data
-    crypto_test = CryptoHistory(symbol=CRYPTO_SYMBOL, start_date=CRYPTO_START, end_date=CRYPTO_END)
-    df = crypto_test.get_scaled_price_df()  
 
-    # Min Max Scaled
-    df_mod = df.copy()
-    
-    # Split Training and Testing
-    df_train = df_mod.copy()
-    df_train = df_train.iloc[:500]
-    df_test = df_mod.copy()
-    df_test = df_test.iloc[500:]   
-    
-    
-    env = RealTradingEnv(df_test, initial_account_balance=1000000)
-    # LOAD
-    n_actions = env.action_space.n
-    input_dims = env.observation_space.shape
-    #alpha = 0.0003
-    model = ActorNetwork(n_actions, input_dims, alpha)
-    model.load_state_dict(T.load("tmp/actor_torch_ppo"))
-    model.eval()
-    
-    # RUN
-    reporting_df = df_test.copy()
-    #long_probs = []
-    #short_probs = []
-    #is_long = 1
-    #is_short = 1
-    #long_ratio = 0.5
-    is_long = 1
-    is_close = 1
-    is_hold = 1
-    probs_dic = {
-            long = [],
-            hold = [],
-            close = []
-        }
-    for step in range(5, len(reporting_df)): # changed from reporting_df
-
-        item_0_T0 = df_mod.loc[step - 0, "Open"].item()
-        item_1_T0 = df_mod.loc[step - 0, "High"].item()
-        item_2_T0 = df_mod.loc[step - 0, "Low"].item()
-        item_3_T0 = df_mod.loc[step - 0, "Close"].item()
-        item_4_T0 = df_mod.loc[step - 0, "Volume"].item()
-        item_5_T0 = df_mod.loc[step - 0, "VWAP"].item()
-        
-        obs = np.array([item_0_T0, item_1_T0, item_2_T0, item_3_T0, item_4_T0, item_5_T0, long_ratio])
-        
-        state = T.tensor(obs).float().to(model.device)
-        dist = model(state)
-        probs = dist.probs.cpu().detach().numpy()
-        
-        print(np.argmax(probs), probs)
-        action = np.argmax(probs)
-        
-        # 0 is Long
-        if action == 0: 
-            is_long += 1
-        if action == 1:
-            is_hold += 1
-        is action == 2:
-            is_close += 1
-        
-        probs_dic["long"].append(probs[0])
-        probs_dic["hold"].append(probs[1])
-        probs_dic["close"].append(probs[2])
-        
-    capital = 1
-    perc_invest = 1
-    df_res = reporting_df.copy()
-    df_res = [["Open", "Close_Price"]]
-    df_res["Returns"] = df_res["Close_Price"] / df_res["Close_Price"].shift(1) - 1
-    df_res = df_res.iloc[5:, :]
-    df_res["Longs"] = probs_dic["long"]
-    df_res["Holds"] = probs_dic["hold"]
-    df_res["Closes"] = probs_dic["close"]
-    df_res.loc[df_res["Longs"] >=]
-    '''
-    
-def real_test(train_test_split_index=500):
+def buysellhold_test(saved_model_path="tmp/actor_torch_ppo_buysellhold", train_test_split_index=500):
     # Get Test Data
     crypto_test = CryptoHistory(symbol=CRYPTO_SYMBOL, start_date=CRYPTO_START, end_date=CRYPTO_END)
     df = crypto_test.get_scaled_price_df()  
@@ -366,12 +285,13 @@ def real_test(train_test_split_index=500):
     df_test = df_test.iloc[train_test_split_index:]  
     df_test = df_test.reset_index()
     
-    enviornment = RealTradingEnv(df=df_test,initial_account_balance=1000000, trading_cost_rate=0.001)
-    enviornment.run_simulation("tmp/actor_torch_ppo")
+    enviornment = BuySellHoldTradingEnv(df=df_test,initial_account_balance=1000000, trading_cost_rate=0.004, window=5)
+    enviornment.run_simulation(saved_model_path=saved_model_path)
         
         
 if __name__ == '__main__':
-    #df, df_train, df_test = run_train()
-    #df, df_train, df_test = run_test()
-    #df, df_train, df_test = real_training()
-    real_test()
+    #df, df_train, df_test = longshort_train()
+    #df, df_train, df_test = longshort_test()
+    df, df_train, df_test = buysellhold_training()
+    #df = buysellhold_test(saved_model_path="tmp/actor_torch_ppo_buysellhold", train_test_split_index=500)
+    

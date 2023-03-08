@@ -2,7 +2,7 @@
 """
 Created on Sat Feb 11 21:16:28 2023
 
-@author: JohnMurphy
+@author: JohnMurphy, KevinKraatz, RichardSilva
 """
 # PyTorch
 import os
@@ -15,10 +15,10 @@ from torch.distributions.categorical import Categorical
 # ACTOR - START
 class ActorNetwork(nn.Module):
     def __init__(self, n_actions, input_dims, alpha,
-            fc1_dims=256, fc2_dims=256, chkpt_dir='tmp/'):
+            fc1_dims=256, fc2_dims=256, chkpt_dir='tmp/', chkpt_file='actor_torch_ppo'):
         super(ActorNetwork, self).__init__()
 
-        self.checkpoint_file = os.path.join(chkpt_dir, 'actor_torch_ppo') #Original V1 has some awesome weights
+        self.checkpoint_file = os.path.join(chkpt_dir, chkpt_file)
         self.actor = nn.Sequential(
                 nn.Linear(*input_dims, fc1_dims),
                 nn.ReLU(),
@@ -48,10 +48,10 @@ class ActorNetwork(nn.Module):
 # CRITIC - START
 class CriticNetwork(nn.Module):
     def __init__(self, input_dims, alpha, fc1_dims=256, fc2_dims=256,
-            chkpt_dir='tmp/'):
+            chkpt_dir='tmp/', chkpt_file='critic_torch_ppo'):
         super(CriticNetwork, self).__init__()
 
-        self.checkpoint_file = os.path.join(chkpt_dir, 'critic_torch_ppo')
+        self.checkpoint_file = os.path.join(chkpt_dir, chkpt_file)
         self.critic = nn.Sequential(
                 nn.Linear(*input_dims, fc1_dims),
                 nn.ReLU(),
@@ -79,14 +79,16 @@ class CriticNetwork(nn.Module):
 # AGENT - START
 class Agent:
     def __init__(self, n_actions, input_dims, gamma=0.99, alpha=0.0003, gae_lambda=0.95,
-            policy_clip=0.2, batch_size=64, n_epochs=10):
+            policy_clip=0.2, batch_size=64, n_epochs=10, env_name='default'):
         self.gamma = gamma
         self.policy_clip = policy_clip
         self.n_epochs = n_epochs
         self.gae_lambda = gae_lambda
 
-        self.actor = ActorNetwork(n_actions, input_dims, alpha)
-        self.critic = CriticNetwork(input_dims, alpha)
+        actor_file = "actor_torch_ppo_" + env_name
+        critic_file = "critic_torch_ppo_" + env_name
+        self.actor = ActorNetwork(n_actions, input_dims, alpha, chkpt_file=actor_file)
+        self.critic = CriticNetwork(input_dims, alpha, chkpt_file=critic_file)
         self.memory = PPOMemory(batch_size)
        
     def remember(self, state, action, probs, vals, reward, done):
