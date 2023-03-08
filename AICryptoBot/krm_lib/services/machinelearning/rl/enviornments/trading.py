@@ -267,7 +267,6 @@ class RealTradingEnv(gym.Env):
     # ACTION FUNCTIONS 
     # Set the current price to a random price within the time step
     def _take_action(self, action):
-        previous_net_worth = self.net_worth
         #current_price = self.df.loc[self.current_step, "Close"].item()
         current_price = self.df.loc[self.current_step, "Close_Price"].item()
         # Reset last profit
@@ -328,6 +327,7 @@ class RealTradingEnv(gym.Env):
 
     # Execute one time step within the environment
     def step(self, action):
+        #previous_net_worth = self.net_worth
         self._take_action(action)
         
         reward = self._calculate_reward()

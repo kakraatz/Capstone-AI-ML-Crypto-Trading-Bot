@@ -29,9 +29,9 @@ class BuySellHoldTradingEnv(gym.Env):
     """ Coin Trading enviornment w/ OPEN AI gym """
     metadata = {'rendor.modes':['human']}
     
-    def __init__(self, df, initial_account_balance=1000, trading_cost_rate=0.004, window=5):
+    def __init__(self, df, initial_account_balance=1000, trading_cost_rate_maker=0.0035, trading_cost_rate_taker=0.0045, window=5):
         super(BuySellHoldTradingEnv, self).__init__()
-        
+        self.first_decision_step = window
         # Observation Space -> Historic window
         self.window = window
         self.space_parameters = 6
@@ -46,7 +46,9 @@ class BuySellHoldTradingEnv(gym.Env):
         self.net_worth = initial_account_balance
         
         
-        self.trading_cost_rate = trading_cost_rate
+        #self.trading_cost_rate = trading_cost_rate
+        self.trading_cost_rate_maker = trading_cost_rate_maker
+        self.trading_cost_rate_taker =  trading_cost_rate_taker
         self.realized_profit = 0
         self.unrealized_profit = 0
         self.last_profit = 0
@@ -63,9 +65,23 @@ class BuySellHoldTradingEnv(gym.Env):
         
         # Current Step
         self.current_step = 0
-        self.first_decision_step = 5
         self.max_steps = len(df)
-
+        
+        # Actions
+        self.current_action = 1  #default action is hold
+        self.previous_action = 1 #default action is hold
+        
+        # previous, current, next price
+        self.previous_price  = 0
+        self.next_price = 0
+        self.current_price = 0
+        
+        # opportunity will be used to calculate "reward"
+        self.previous_opportunity = 0
+        self.current_opportunity = 0
+        self.next_opportunity = 0 # might not want to use this in reward
+        self.total_positive_opportunity = 0
+        
         # Actions of the format Long, Hold, Close
         # Actions/Decisions are Discrete - Long, Hold, Close 
         self.action_space = spaces.Discrete(3)
@@ -75,8 +91,10 @@ class BuySellHoldTradingEnv(gym.Env):
         #self.observation_space = spaces.Box(low=-1, high=1, shape=(8, ), dtype=np.float32)
         self.observation_space = spaces.Box(low=-1, high=1, shape=(self.space_shape, ), dtype=np.float32)
         
+        
     # REWARD STRUCTURE
     # NOTE: CAN and Should try to come up with a better reward structure if possible...
+
     '''
     def _calculate_reward(self):
         reward = 0
@@ -98,18 +116,75 @@ class BuySellHoldTradingEnv(gym.Env):
     def _calculate_reward(self):
         reward = 0
         if self.num_trades:
-            # Incentivize for profit: rewarding based on "profit-per-trade" - encourage not to over-trade
-            reward += self.realized_profit / self.num_trades
-            # Incentivize less for 'unrealized' profit (0.30 percent)
-            reward += self.unrealized_profit / self.num_trades * 0.3
-            # Add 1 to reward if it made a profit on most recent trade
-            reward += 1 if self.last_profit > 0 else 0
-            # Remove 1 from reward if incorrect position calls is > 0
-        reward -= 1 if self.incorrect_position_calls > 0 else 0
-        # Penialize if AI does not 'trade'
-        if reward <= 0:
-            reward -= 2
+            # OPEN - Reward Structure
+            if self.current_action == 0:
+                # 1. Next Opportunity Reward -> Reward based on next_opportunity -> standard reward
+                if self.next_opportunity > 0:      
+                    reward += self.next_opportunity * 1.0            # (POSITIVE REWARD) add next opportunity to reward -> next opportunity is positive the 
+                else:
+                    reward += self.next_opportunity * 1.0            # (NEGATIVE REWARD) - bad "open" call: make negitive reward more significant
+                
+                # 2. Current Opportunity Reward -> Current opportunity was a 'missed' opportunity
+                if self.current_opportunity > 0:
+                    reward += -self.current_opportunity * 0.25        # (NEGATIVE REWARD) - current opportunity is not a 'realized' opportunity (it was actually missed). 
+                    
+                else:                                                 # (POSITIVE Reward)
+                    reward += -self.current_opportunity *0.25 
+                
+                # 3. Market Reversal Reward -> Found "Valley"     
+                if self.next_opportunity > 0:
+                # Encourage - calling "Open" if reversal is a 'valley'
+                    if self.current_opportunity < 0:
+                        reward += -self.current_opportunity
+                        if self.previous_opportunity < 0:
+                            reward += -self.previous_opportunity
+                # Discourage - calling "Open" if reversal is a 'peak'
+                                            
+                # 4. Trading Cost Reward -> negitive impact on reward
+                reward += -self.trading_cost_rate_maker
+                
+            # HOLD - Reward Structure
+            elif self.current_action == 1:
+                # Current Opportunity Reward -> show be primary reward for HOLD Call
+                if self.current_opportunity > 0:
+                    reward += self.current_opportunity * 1.15     # (POSITIVE REWARD) - scaled positive reward incentized to hold if the sentiment is positive
+                else:
+                    reward += self.current_opportunity * 5         # (NEGATIVE REWARD) - Negative incentized to hold if the sentiment is positive
+                    
+            # CLOSE - Reward Structure
+            elif self.current_action == 2:
+                # 1. Next Opportunity Reward -> Reward based on next_opportunity -> standard reward
+                if self.next_opportunity > 0:      
+                    reward += -self.next_opportunity * 0.50          # (NEGATIVE REWARD) add next opportunity to reward -> next opportunity is positive the 
+                else:
+                    reward += -self.next_opportunity * 0.50          # (POSITIVE REWARD) - next_opportunity is < 0 (negative) -> and you closed before it went negative so add a positive reward by adding (-) next opportunity.
+                
+                # 2. Current Opportunity Reward -> On ACTION "CLOSE" the current opportuntity is the highest weighted opportunity
+                if self.current_opportunity > 0:
+                    reward += self.current_opportunity               # (POSITIVE REWARD) - closed when 'current' opporuntity was positive -> this was a 'realized' profit
+                    
+                else:                                                # (POSITIVE Reward) 
+                    reward += self.current_opportunity * 0.25 
+                    
+                # 3. Market Reversal Reward -> Found "Peak"  
+                if self.next_opportunity < 0:
+                    # Encourage - calling "Open" if reversal is a 'peak'
+                    if self.current_opportunity > 0:
+                        reward += self.current_opportunity
+                        if self.previous_opportunity > 0:
+                            reward += self.previous_opportunity
+                            # Possibly structure the logic as below (to really incentize the good behavior)
+                            '''
+                            if previous_action == 1:
+                                reward += self.previous_opportunity
+                            else:
+                                reward += self.previous_opportunity * 0.25
+                            '''
+                            
+                # 4. Trading Cost Reward -> negitive impact on reward
+                reward += -self.trading_cost_rate_taker       
         return reward
+    
     
     # Structure sign observation data
     # Revisit - Observation structure to add additional technical indicators for Crypto Trading
@@ -157,10 +232,10 @@ class BuySellHoldTradingEnv(gym.Env):
         gross_profit = current_value - open_trades_value
         
         if calc_type == "close_position":
-            trading_costs = current_value * self.trading_cost_rate
+            trading_costs = current_value * self.trading_cost_rate_taker
             self.trading_costs += trading_costs
         elif calc_type == "open_position":
-            trading_costs = open_trades_value * self.trading_cost_rate
+            trading_costs = open_trades_value * self.trading_cost_rate_maker
         elif calc_type == "hold_position":
             trading_costs = 0
         
@@ -171,15 +246,14 @@ class BuySellHoldTradingEnv(gym.Env):
     # ACTION FUNCTIONS 
     # Set the current price to a random price within the time step
     def _take_action(self, action):
-        previous_net_worth = self.net_worth
+        #previous_net_worth = self.net_worth
         #current_price = self.df.loc[self.current_step, "Close"].item()
         current_price = self.df.loc[self.current_step, "Close_Price"].item()
         # Reset last profit
         self.last_profit = 0
-        self.incorrect_position_calls = 0
-        
+        self.incorrect_position_calls = 0        
         action_string = "None"
-        current_netprofit = 0
+        #current_netprofit = 0
         # Go Long
         if action == 0:
             if self.open_positions < MAX_OPEN_POSITIONS:
@@ -190,7 +264,7 @@ class BuySellHoldTradingEnv(gym.Env):
                 
                 self.open_quantities.append(trading_allowance / current_price)
                 self.open_prices.append(current_price)
-                self.trading_costs += trading_allowance * self.trading_cost_rate
+                self.trading_costs += trading_allowance * self.trading_cost_rate_maker
                 self.num_trades += 1
             else:
                 self.incorrect_position_calls += 1
@@ -231,14 +305,36 @@ class BuySellHoldTradingEnv(gym.Env):
         #print(f"step: {self.current_step}, action: {action_string}, current_price: {current_price}, current_worth: {self.net_worth}, realized_p: {self.realized_profit}, open_positions_held: {self.open_positions}, quantity_held:{total_quantity_held}, open_original_value:{open_trades_value}, open_current_value:{current_value}")
         #print(f"{self.current_step}|{action_string}|{current_price}|{self.net_worth}|{self.realized_profit}|{self.open_positions}|{total_quantity_held}|{open_trades_value}|{current_value}")
         #print(f"{self.current_step}|{action_string}|{current_price}|{self.net_worth}= {self.initial_balance} + {self.unrealized_profit} + {self.realized_profit}  |{open_trades_value}|{current_value}")
-
-    # Execute one time step within the environment
-    def step(self, action):
-        self._take_action(action)
-        
-        reward = self._calculate_reward()
+        #print(f"{self.current_step}|{action_string}|{current_price}|{self.previous_opportunity * 100}|{self.current_opportunity * 100}|{self.next_opportunity * 100}|{self.total_positive_opportunity * 100}|")
     
+    def _calculate_opportunity(self, days=0):
+        current_index = self.current_step + days
+        previous_index = self.current_step + days - 1
+        opportunity = 0
+        try:
+            current_price = self.df.loc[current_index, "Close_Price"].item()
+            previous_price = self.df.loc[previous_index, "Close_Price"].item()
+            opportunity = (current_price - previous_price) / current_price
+        except Exception:
+            pass
+        return opportunity
+        
+    
+    # Execute one time step within the environment
+    def step(self, action): 
+        self._take_action(action)
+        reward = self._calculate_reward()   
+        
+        print(f"step: {self.current_step}|price: {self.current_price}|action: {self.current_action}|current_opportunity: {self.current_opportunity}|reward: {reward}")
         self.current_step += 1
+        self.previous_opportunity = self._calculate_opportunity(-1)
+        self.current_opportunity = self._calculate_opportunity()
+        self.next_opportunity = self._calculate_opportunity(1)
+        
+        
+        
+        if self.current_opportunity > 0:
+            self.total_positive_opportunity = self.total_positive_opportunity + self.current_opportunity
         
         is_max_steps_taken = self.current_step >= self.max_steps - 1
         is_account_balance_reached = self.net_worth <= self.initial_balance * KILL_THRESH
@@ -304,12 +400,14 @@ class BuySellHoldTradingEnv(gym.Env):
             dist = model(state)
             probs = dist.probs.cpu().detach().numpy()
             action = np.argmax(probs)
+            self.current_action = action
             #action, prob, val = agent.choose_action(observation)
             observation_, reward, done, info = self.step(action)
             n_steps += 1
             score += reward
             #agent.remember(observation, action, prob, val, reward, done)
             obs = observation_
+            self.previous_action = action
         print("Done at step: " + str(n_steps))
         return self.df
         

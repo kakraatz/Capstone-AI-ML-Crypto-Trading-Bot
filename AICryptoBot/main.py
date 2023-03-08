@@ -162,7 +162,7 @@ def longshort_train():
                     alpha=alpha, n_epochs=n_epochs, 
                     input_dims=env.observation_space.shape, env_name="longshort")
 
-    n_games = 1000
+    n_games = 250
     figure_file = 'crypto_training.png'
 
     best_score = env.reward_range[0]
@@ -221,7 +221,7 @@ def buysellhold_training():
     df_train["Close_Price"].plot()
     df_test["Close_Price"].plot()
     
-    env = BuySellHoldTradingEnv(df_train, initial_account_balance=1000000)
+    env = BuySellHoldTradingEnv(df_train, initial_account_balance=1000000, window=5)
     N = 20
     batch_size = 5
     n_epochs = 8
@@ -230,7 +230,7 @@ def buysellhold_training():
                     alpha=alpha, n_epochs=n_epochs, 
                     input_dims=env.observation_space.shape, env_name="buysellhold")
 
-    n_games = 200
+    n_games = 250
     figure_file = 'crypto_training.png'
 
     best_score = env.reward_range[0]
@@ -285,13 +285,13 @@ def buysellhold_test(saved_model_path="tmp/actor_torch_ppo_buysellhold", train_t
     df_test = df_test.iloc[train_test_split_index:]  
     df_test = df_test.reset_index()
     
-    enviornment = BuySellHoldTradingEnv(df=df_test,initial_account_balance=1000000, trading_cost_rate=0.004, window=5)
+    enviornment = BuySellHoldTradingEnv(df=df_test,initial_account_balance=1000000, window=5)
     enviornment.run_simulation(saved_model_path=saved_model_path)
         
         
 if __name__ == '__main__':
     #df, df_train, df_test = longshort_train()
     #df, df_train, df_test = longshort_test()
-    df, df_train, df_test = buysellhold_training()
-    #df = buysellhold_test(saved_model_path="tmp/actor_torch_ppo_buysellhold", train_test_split_index=500)
+    #df, df_train, df_test = buysellhold_training()
+    df = buysellhold_test(saved_model_path="tmp/actor_torch_ppo_buysellhold", train_test_split_index=750)
     
