@@ -47,6 +47,7 @@ class CryptoHistory():
             t_test = dftest[0] < dftest[4]["1%"]
             if p_value < 0.05 or not t_test:
                 non_stationaries.append(col)
+
 #       print(f"Non-stationaries Features Found: {len(non_stationaries)}")
 #       print(non_stationaries)
 #       df.dropna(inplace=True)

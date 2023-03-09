@@ -79,6 +79,7 @@ def run_test():
         for i in range(len(col_list)):
             exec(f'item_{i}_T0 = df_mod.loc[{step} - 0, "{col_list[i]}"].item()')
             exec(f'item_list.append(item_{i}_T0)')
+
         # item_0_T0 = df_mod.loc[step - 0, "Open"].item()
         # item_1_T0 = df_mod.loc[step - 0, "High"].item()
         # item_2_T0 = df_mod.loc[step - 0, "Low"].item()
