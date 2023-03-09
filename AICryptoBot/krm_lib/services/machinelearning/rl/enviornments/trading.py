@@ -231,8 +231,8 @@ class RealTradingEnv(gym.Env):
             obs_array.append(item_close)
             obs_array.append(item_volume)
             obs_array.append(item_VWAP)
-        obs_array.append(current_position)
-        obs_array.append(num_trades)
+        #obs_array.append(current_position)
+        #obs_array.append(num_trades)
         obs = np.array(obs_array)        
         
         return obs
