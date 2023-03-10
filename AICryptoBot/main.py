@@ -234,7 +234,7 @@ def buysellhold_training(train_test_split_index=500, episodes=500):
     train_test_plotter.plot_market_train_test(df_train, df_test, figure_file="train_test.png")
     
     
-    env = BuySellHoldTradingEnv(df_train, initial_account_balance=1000000, window=15)
+    env = BuySellHoldTradingEnv(df_train, initial_account_balance=1000000, window=10)
     N = 20
     batch_size = 5
     n_epochs = 4
@@ -311,7 +311,7 @@ def buysellhold_test(saved_model_path="tmp/actor_torch_ppo_buysellhold", train_t
     df_test = df_test.iloc[train_test_split_index:]  
     df_test = df_test.reset_index()
     
-    enviornment = BuySellHoldTradingEnv(df=df_test,initial_account_balance=1000000, window=15)
+    enviornment = BuySellHoldTradingEnv(df=df_test,initial_account_balance=1000000, window=10)
     return enviornment.run_simulation(saved_model_path=saved_model_path)
                                
 def buysell_training():
@@ -413,7 +413,7 @@ if __name__ == '__main__':
     #df, df_train, df_test = longshort_train()
     #df, df_train, df_test = longshort_test()
     
-    df, df_train, df_test = buysellhold_training(train_test_split_index=650, episodes=50)
+    df, df_train, df_test = buysellhold_training(train_test_split_index=775, episodes=5000)
     #df = buysellhold_test(saved_model_path="tmp/actor_torch_ppo_buysellhold", train_test_split_index=750)
     
     #df, df_train, df_test, decisions_matrix, rewards_matrix, scores_array  = buysell_training()
