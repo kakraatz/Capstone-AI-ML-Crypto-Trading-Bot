@@ -205,6 +205,7 @@ class BuySellHoldTradingEnv(gym.Env):
                         reward += self.next_opportunity * 0.2 # (Small Positive Reward)
                 # 4. Trading Cost Reward -> negitive impact on reward
                 reward += -self.trading_cost_rate_maker + -self.trading_cost_rate_taker
+                
             # HOLD - Reward Structure
             elif self.current_action == 1:
                 # Reward only if there actually is an open_position
@@ -221,6 +222,7 @@ class BuySellHoldTradingEnv(gym.Env):
                         reward += -self.next_opportunity
                     else:
                         reward += self.next_opportunity
+                        
             # CLOSE - Reward Structure
             elif self.current_action == 2:
                 # Reward only if there actually is an open_position
@@ -233,6 +235,7 @@ class BuySellHoldTradingEnv(gym.Env):
                         reward += -self.next_opportunity * 0.5
                     else:
                         reward += -self.next_opportunity
+                        
         return reward * 100
     
     
