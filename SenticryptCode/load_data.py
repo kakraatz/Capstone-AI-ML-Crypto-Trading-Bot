@@ -8,6 +8,7 @@ Created on Fri Mar 10 16:46:21 2023
 import json
 import pandas as pd
 
+
 def load_data():
     path = '../SenticryptCode/sentiment_df.json'
     file = open(path)
