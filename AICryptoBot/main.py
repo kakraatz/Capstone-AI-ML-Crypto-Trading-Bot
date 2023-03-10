@@ -4,7 +4,8 @@ Created on Sun Feb 12 09:16:50 2023
 
 @author: JohnMurphy
 """
-from krm_lib.services.machinelearning.rl.enviornments.trading import TradingEnv
+from krm_lib.services.machinelearning.rl.enviornments.buysellhold import BuySellHoldTradingEnv, BuySellTradingEnv
+from krm_lib.services.machinelearning.rl.enviornments.longshort import LongShortTradingEnv
 from krm_lib.services.machinelearning.rl.agents.ppo_agent import Agent
 from krm_lib.services.machinelearning.rl.agents.ppo_agent import ActorNetwork
 from krm_lib.services.machinelearning.rl.agents.ppo_agent import CriticNetwork
@@ -23,17 +24,27 @@ from krm_lib.services.apis.binance import BinanceAPI
 
 # STOCK CONSTANTS
 STOCK_START_DATE = "2017-01-1"
-STOCK_END_DATE = "2022-06-01"
+STOCK_END_DATE =  "2023-03-08"
 STOCK_SYMBOL = "AAPL"
 
 # CRYPTO CONSTANTS
 CRYPTO_SYMBOL = "BTCUSD"
 # Time Range for Training Dataset
 CRYPTO_START = "2020-06-01"
-CRYPTO_END = "2023-02-10"
+CRYPTO_END = "2023-03-09"
+
+CRYPTO_START = "2021-10-01"
+CRYPTO_END = "2022-04-01"
+
+# ETH CONSTANTS
+#CRYPTO_SYMBOL = "ETHUSD"
+# Time Range for Training Dataset
+#CRYPTO_START = "2020-06-01"
+#CRYPTO_END = "2023-03-08"
+
 
 alpha = 0.0004
-def run_test():
+def longshort_test(saved_model_path="tmp/actor_torch_ppo_longshort"):
     # Get Test Data
     crypto_test = CryptoHistory(symbol=CRYPTO_SYMBOL, start_date=CRYPTO_START, end_date=CRYPTO_END)
     df = crypto_test.get_scaled_price_df()  
@@ -48,13 +59,13 @@ def run_test():
     df_test = df_test.iloc[500:]   
     
     
-    env = TradingEnv(df_test, initial_account_balance=1000000)
+    env = LongShortTradingEnv(df_test, initial_account_balance=1000000)
     # LOAD
     n_actions = env.action_space.n
     input_dims = env.observation_space.shape
     #alpha = 0.0003
     model = ActorNetwork(n_actions, input_dims, alpha)
-    model.load_state_dict(T.load("tmp/actor_torch_ppo"))
+    model.load_state_dict(T.load(saved_model_path))
     model.eval()
     
     # RUN
@@ -134,7 +145,7 @@ def run_test():
     df_res[["Benchmark", "Equity"]].plot()
     return df, df_train, df_test
 
-def run_train():
+def longshort_train():
     # Get Training Data
     crypto_train = CryptoHistory(symbol=CRYPTO_SYMBOL, start_date=CRYPTO_START, end_date=CRYPTO_END)
     df = crypto_train.get_scaled_price_df()
@@ -152,16 +163,16 @@ def run_train():
     df_train["Close_Price"].plot()
     df_test["Close_Price"].plot()
     
-    env = TradingEnv(df_train, initial_account_balance=1000000)
+    env = LongShortTradingEnv(df_train, initial_account_balance=1000000)
     N = 20
     batch_size = 5
     n_epochs = 10
     
     agent = Agent(n_actions=env.action_space.n, batch_size=batch_size, 
                     alpha=alpha, n_epochs=n_epochs, 
-                    input_dims=env.observation_space.shape)
+                    input_dims=env.observation_space.shape, env_name="longshort")
 
-    n_games = 1000
+    n_games = 250
     figure_file = 'crypto_training.png'
 
     best_score = env.reward_range[0]
@@ -202,8 +213,206 @@ def run_train():
     return df, df_train, df_test
 # Test Main
 
+def buysellhold_training(train_test_split_index=500):
+    # Get Training Data
+    crypto_train = CryptoHistory(symbol=CRYPTO_SYMBOL, start_date=CRYPTO_START, end_date=CRYPTO_END)
+    df = crypto_train.get_scaled_price_df()
+    
+    # Min Max Scaled
+    df_mod = df.copy()
+    
+    # Split Training and Testing
+    df_train = df_mod.copy()
+    df_train = df_train.iloc[0:train_test_split_index]
+    df_test = df_mod.copy()
+    df_test = df_test.iloc[train_test_split_index:]   
+    
+    plt.rcParams["figure.figsize"] = (15,5)
+    df_train["Close_Price"].plot()
+    df_test["Close_Price"].plot()
+    
+    env = BuySellHoldTradingEnv(df_train, initial_account_balance=1000000, window=5)
+    N = 20
+    batch_size = 5
+    n_epochs = 4
+    
+    agent = Agent(n_actions=env.action_space.n, batch_size=batch_size, 
+                    alpha=alpha, n_epochs=n_epochs, 
+                    input_dims=env.observation_space.shape, env_name="buysellhold")
+
+    n_games = 300
+    figure_file = 'crypto_training.png'
+
+    best_score = env.reward_range[0]
+    score_history = []
+
+    learn_iters = 0
+    avg_score = 0
+    n_steps = 0
+    
+    print("... starting ...")
+    rewards_matrix = []
+    decisions_matrix = []
+    scores_array = []
+    for i in range(n_games):
+        observation = env.reset()
+        done = False
+        score = 0
+        cntr = 0
+        decisions_array = []
+        rewards_array = []
+        while not done:
+            action, prob, val = agent.choose_action(observation)
+            observation_, reward, done, info = env.step(action)
+            n_steps += 1
+            score += reward
+            agent.remember(observation, action, prob, val, reward, done)
+            if n_steps % N == 0:
+                agent.learn()
+            observation = observation_
+            decisions_array.append(action)
+            rewards_array.append(reward)
+            cntr += 1
+        
+        rewards_matrix.append(rewards_array)
+        decisions_matrix.append(decisions_array)
+        scores_array.append(score)
+        # Save history
+        score_history.append(score)
+        avg_score = np.mean(score_history[-50:])
+        
+        if avg_score > best_score:
+            best_score = avg_score
+            agent.save_models()
+        
+        print(f"episide: {i}, score: {score}, avg score: {avg_score}, best_score: {best_score}")
+            
+    plotter = Plotters()
+    x = [i+1 for i in range(len(score_history))]
+    plotter.plot_learning_curve(x, score_history, figure_file)
+    return df, df_train, df_test
+
+def buysellhold_test(saved_model_path="tmp/actor_torch_ppo_buysellhold", train_test_split_index=500):
+    
+    # Get Test Data
+    crypto_test = CryptoHistory(symbol=CRYPTO_SYMBOL, start_date=CRYPTO_START, end_date=CRYPTO_END)
+    df = crypto_test.get_scaled_price_df()  
+
+    # Min Max Scaled
+    df_mod = df.copy()
+    
+    # Split Training and Testing
+    df_train = df_mod.copy()
+    df_train = df_train.iloc[:train_test_split_index]
+    df_test = df_mod.copy()
+    df_test = df_test.iloc[train_test_split_index:]  
+    df_test = df_test.reset_index()
+    
+    enviornment = BuySellHoldTradingEnv(df=df_test,initial_account_balance=1000000, window=5)
+    return enviornment.run_simulation(saved_model_path=saved_model_path)
+                               
+def buysell_training():
+    # Get Training Data
+    crypto_train = CryptoHistory(symbol=CRYPTO_SYMBOL, start_date=CRYPTO_START, end_date=CRYPTO_END)
+    df = crypto_train.get_scaled_price_df()
+    
+    # Min Max Scaled
+    df_mod = df.copy()
+    
+    # Split Training and Testing
+    df_train = df_mod.copy()
+    df_train = df_train.iloc[0:500]
+    df_test = df_mod.copy()
+    df_test = df_test.iloc[500:]   
+    
+    plt.rcParams["figure.figsize"] = (15,5)
+    df_train["Close_Price"].plot()
+    df_test["Close_Price"].plot()
+    
+    env = BuySellTradingEnv(df_train, initial_account_balance=1000000, window=5)
+    N = 20
+    batch_size = 5
+    n_epochs = 8
+    
+    agent = Agent(n_actions=env.action_space.n, batch_size=batch_size, 
+                    alpha=alpha, n_epochs=n_epochs, 
+                    input_dims=env.observation_space.shape, env_name="buysell")
+    n_games = 250
+    figure_file = 'crypto_training.png'
+    best_score = env.reward_range[0]
+    score_history = []
+    learn_iters = 0
+    avg_score = 0
+    n_steps = 0
+    print("... starting ...")
+    rewards_matrix = []
+    decisions_matrix = []
+    scores_array = []
+    for i in range(n_games):
+        observation = env.reset()
+        done = False
+        score = 0
+        cntr = 0
+        decisions_array = []
+        rewards_array = []
+        while not done:
+            action, prob, val = agent.choose_action(observation)
+            observation_, reward, done, info = env.step(action)
+            n_steps += 1
+            score += reward
+            agent.remember(observation, action, prob, val, reward, done)
+            if n_steps % N == 0:
+                agent.learn()
+            observation = observation_
+            decisions_array.append(action)
+            rewards_array.append(reward)
+            cntr += 1
+        
+        rewards_matrix.append(rewards_array)
+        decisions_matrix.append(decisions_array)
+        scores_array.append(score)
+        # Save history
+        score_history.append(score)
+        avg_score = np.mean(score_history[-50:])
+        
+        if avg_score > best_score:
+            best_score = avg_score
+            agent.save_models()
+        
+        print(f"episide: {i}, score: {score}, avg score: {avg_score}, best_score: {best_score}")
+            
+    plotter = Plotters()
+    x = [i+1 for i in range(len(score_history))]
+    plotter.plot_learning_curve(x, score_history, figure_file)
+    return df, df_train, df_test, decisions_matrix, rewards_matrix, scores_array 
+
+def buysell_test(saved_model_path="tmp/actor_torch_ppo_buysell", train_test_split_index=500):  
+    # Get Test Data
+    crypto_test = CryptoHistory(symbol=CRYPTO_SYMBOL, start_date=CRYPTO_START, end_date=CRYPTO_END)
+    df = crypto_test.get_scaled_price_df()  
+
+    # Min Max Scaled
+    df_mod = df.copy()
+    
+    # Split Training and Testing
+    df_train = df_mod.copy()
+    df_train = df_train.iloc[:train_test_split_index]
+    df_test = df_mod.copy()
+    df_test = df_test.iloc[train_test_split_index:]  
+    df_test = df_test.reset_index()
+    
+    enviornment = BuySellTradingEnv(df=df_test,initial_account_balance=1000000, window=5)
+    enviornment.run_simulation(saved_model_path=saved_model_path)
+                               
+        
+        
 if __name__ == '__main__':
-    #df, df_train, df_test = run_train()
-    df, df_train, df_test = run_test()
-    #binance = BinanceAPI()
-    #df = binance.get_daily_price_history(CRYPTO_SYMBOL, CRYPTO_START, CRYPTO_END, 'dataframe')
+    #df, df_train, df_test = longshort_train()
+    #df, df_train, df_test = longshort_test()
+    
+    #df, df_train, df_test = buysellhold_training(train_test_split_index=280)
+    df = buysellhold_test(saved_model_path="tmp/actor_torch_ppo_buysellhold", train_test_split_index=0)
+    
+    #df, df_train, df_test, decisions_matrix, rewards_matrix, scores_array  = buysell_training()
+    #df = buysell_test(saved_model_path="tmp/actor_torch_ppo_buysell", train_test_split_index=700)
+    
