@@ -12,6 +12,7 @@ import random
 import torch
 from krm_lib.services.machinelearning.rl.agents.ppo_agent import ActorNetwork
 import time
+from SenticryptCode import load_data
 
 # ENVIORNMENT START
 # Initialise variables
@@ -35,11 +36,14 @@ class BuySellHoldTradingEnv(gym.Env):
         self.first_decision_step = window
         # Observation Space -> Historic window
         self.window = window
-        self.space_parameters = 6
+        self.space_parameters = 7
         self.space_shape = window * self.space_parameters + 1 # add 1 to include current_open_opportunity
         
         # Pass Generic Variable as a Pandas Dataframe
         self.df = df
+        
+        # Normalize sentiment JSON as Pandas DataFrame
+        self.sentiment_df = load_data.load_data()
         
         # Account Variables
         self.initial_balance = initial_account_balance
@@ -256,12 +260,14 @@ class BuySellHoldTradingEnv(gym.Env):
             item_close = self.df.loc[self.current_step - x, "Close"].item()
             item_volume = self.df.loc[self.current_step - x, "Volume"].item()
             item_VWAP = self.df.loc[self.current_step - x, "VWAP"].item()
+            item_sentiment = self.sentiment_df.loc[self.current_step - x, "Sentiment"].item()
             obs_array.append(item_open)
             obs_array.append(item_high)
             obs_array.append(item_low)
             obs_array.append(item_close)
             obs_array.append(item_volume)
             obs_array.append(item_VWAP)
+            obs_array.append(item_sentiment)
         obs_array.append(current_open_opportunity) # if quanity is open there is a defined opportunity
         obs = np.array(obs_array)        
         
