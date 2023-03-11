@@ -13,6 +13,8 @@ import torch
 from krm_lib.services.machinelearning.rl.agents.ppo_agent import ActorNetwork
 import time
 from SenticryptCode import load_data
+import pandas as pd
+from krm_lib.utilities.helpers import Plotters
 
 # ENVIORNMENT START
 # Initialise variables
@@ -260,7 +262,7 @@ class BuySellHoldTradingEnv(gym.Env):
             item_close = self.df.loc[self.current_step - x, "Close"].item()
             item_volume = self.df.loc[self.current_step - x, "Volume"].item()
             item_VWAP = self.df.loc[self.current_step - x, "VWAP"].item()
-            item_sentiment = self.sentiment_df.loc[self.current_step - x, "Sentiment"].item()
+            item_sentiment = self.sentiment_df.loc[self.current_step - x, "Scaled"].item()
             obs_array.append(item_open)
             obs_array.append(item_high)
             obs_array.append(item_low)
@@ -367,9 +369,10 @@ class BuySellHoldTradingEnv(gym.Env):
         total_quantity_held = sum(self.open_quantities)
         current_value = total_quantity_held * self.current_price
         if self.simulation:
-            #print(f"step: {self.current_step}, action: {action_string}, current_price: {current_price}, current_worth: {self.net_worth}, realized_p: {self.realized_profit}, open_positions_held: {self.open_positions}, quantity_held:{total_quantity_held}, open_original_value:{open_trades_value}, open_current_value:{current_value}")
+            #pass
+            print(f"step: {self.current_step}, action: {action_string}, current_price: {self.current_price}, current_worth: {self.net_worth}, realized_p: {self.realized_profit}, open_positions_held: {self.open_positions}, quantity_held:{total_quantity_held}, open_original_value:{open_trades_value}, open_current_value:{current_value}")
             #print(f"{self.current_step}|{action_string}|{current_price}|{self.net_worth}|{self.realized_profit}|{self.open_positions}|{total_quantity_held}|{open_trades_value}|{current_value}")
-            print(f"{self.current_step}|{action_string}|{self.current_price}|{self.net_worth} = {self.initial_balance} + {self.unrealized_profit} + {self.realized_profit}  |{open_trades_value}|{current_value}")
+            #print(f"{self.current_step}|{action_string}|{self.current_price}|{self.net_worth} = {self.initial_balance} + {self.unrealized_profit} + {self.realized_profit}  |{open_trades_value}|{current_value}")
             #print(f"{self.current_step}|{action_string}|{current_price}|{self.previous_opportunity * 100}|{self.current_opportunity * 100}|{self.next_opportunity * 100}|{self.total_positive_opportunity * 100}|")
     
     def _calculate_opportunity(self, days=0):
@@ -451,6 +454,9 @@ class BuySellHoldTradingEnv(gym.Env):
         done = False
         score = 0
         action = np.argmax(probs)
+        
+        price_history = []
+        profit_history = []
         while not done:
             action_name = "None"
             if action == 0:
@@ -475,6 +481,12 @@ class BuySellHoldTradingEnv(gym.Env):
             #agent.remember(observation, action, prob, val, reward, done)
             obs = observation_
             self.previous_action = action
+            profit_history.append(current_price + self.realized_profit)
+            price_history.append(current_price)
+        df_price_history = pd.DataFrame(price_history, columns=['Price'])
+        df_profit_history = pd.DataFrame(profit_history, columns=['Profit'])
+        plotter = Plotters()
+        plotter.plot_test_profit(df_profit_history, df_price_history, figure_file="test_profit.png")
         print("Done at step: " + str(n_steps))
         return self.df
         

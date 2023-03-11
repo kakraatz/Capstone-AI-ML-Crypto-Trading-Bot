@@ -41,3 +41,4 @@ class CryptoHistory():
         binance = BinanceAPI()
         df = binance.get_daily_price_history(self.symbol, self.start, self.end, 'dataframe')
         return df
+    
