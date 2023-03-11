@@ -31,7 +31,7 @@ STOCK_SYMBOL = "AAPL"
 CRYPTO_SYMBOL = "BTCUSD"
 # Time Range for Training Dataset
 CRYPTO_START = "2020-06-01"
-CRYPTO_END = "2023-03-09"
+CRYPTO_END = "2023-02-10"
 
 #CRYPTO_START = "2021-10-01"
 #CRYPTO_END = "2022-04-01"
@@ -213,7 +213,7 @@ def longshort_train():
     return df, df_train, df_test
 # Test Main
 
-def buysellhold_training(train_test_split_index=500, episodes=500):
+def buysellhold_training(train_test_split_index=600, episodes=1000):
     # Get Training Data
     crypto_train = CryptoHistory(symbol=CRYPTO_SYMBOL, start_date=CRYPTO_START, end_date=CRYPTO_END)
     df = crypto_train.get_scaled_price_df()
@@ -232,7 +232,6 @@ def buysellhold_training(train_test_split_index=500, episodes=500):
     #df_test["Close_Price"].plot()
     train_test_plotter = Plotters()
     train_test_plotter.plot_market_train_test(df_train, df_test, figure_file="train_test.png")
-    
     
     env = BuySellHoldTradingEnv(df_train, initial_account_balance=1000000, window=15)
     N = 20
@@ -288,14 +287,14 @@ def buysellhold_training(train_test_split_index=500, episodes=500):
             best_score = avg_score
             agent.save_models()
         
-        print(f"episide: {i}, score: {score}, avg score: {avg_score}, best_score: {best_score}")
+        print(f"episode: {i}, score: {score}, avg score: {avg_score}, best_score: {best_score}")
     
     plotter = Plotters()
     x = [i+1 for i in range(len(score_history))]
     plotter.plot_learning_curve(x, score_history, figure_file="learning_curve.png")
     return df, df_train, df_test
 
-def buysellhold_test(saved_model_path="tmp/actor_torch_ppo_buysellhold", train_test_split_index=500):
+def buysellhold_test(saved_model_path="tmp/actor_torch_ppo_buysellhold", train_test_split_index=600):
     
     # Get Test Data
     crypto_test = CryptoHistory(symbol=CRYPTO_SYMBOL, start_date=CRYPTO_START, end_date=CRYPTO_END)
@@ -311,7 +310,7 @@ def buysellhold_test(saved_model_path="tmp/actor_torch_ppo_buysellhold", train_t
     df_test = df_test.iloc[train_test_split_index:]  
     df_test = df_test.reset_index()
     
-    enviornment = BuySellHoldTradingEnv(df=df_test,initial_account_balance=1000000, window=15)
+    enviornment = BuySellHoldTradingEnv(df=df_test, initial_account_balance=1000000, window=15)
     return enviornment.run_simulation(saved_model_path=saved_model_path)
                                
 def buysell_training():
@@ -413,8 +412,8 @@ if __name__ == '__main__':
     #df, df_train, df_test = longshort_train()
     #df, df_train, df_test = longshort_test()
     
-    df, df_train, df_test = buysellhold_training(train_test_split_index=650, episodes=50)
-    #df = buysellhold_test(saved_model_path="tmp/actor_torch_ppo_buysellhold", train_test_split_index=750)
+    #df, df_train, df_test = buysellhold_training(train_test_split_index=600, episodes=1000)
+    df = buysellhold_test(saved_model_path="tmp/actor_torch_ppo_buysellhold", train_test_split_index=600)
     
     #df, df_train, df_test, decisions_matrix, rewards_matrix, scores_array  = buysell_training()
     #df = buysell_test(saved_model_path="tmp/actor_torch_ppo_buysell", train_test_split_index=700)

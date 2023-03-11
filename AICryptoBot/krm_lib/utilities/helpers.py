@@ -27,3 +27,11 @@ class Plotters():
         df_test["Close_Price"].plot()
         plt.title('Market Price - Train/Test Split')
         plt.savefig(figure_file)
+        
+    def plot_test_profit(self, df_profit, df_price, figure_file="test_profit.png"):
+        test_profit_fig = plt.figure(figsize=(15,5))
+        df_profit["Profit"].plot(color='green')
+        df_price["Price"].plot(color='black')
+        plt.title('Market Price vs. Profit')
+        plt.savefig(figure_file)
+        
