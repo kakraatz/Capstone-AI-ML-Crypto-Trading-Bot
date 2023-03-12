@@ -24,6 +24,7 @@ class StockHistory():
         vwap = VolumeWeightedAveragePrice(high=df["High"], low=df["Low"], close=df["Close"], 
                                           volume=df["Volume"], window=14, fillna=False)
         df["VWAP"] = vwap.volume_weighted_average_price()
+        #df["Next_Open"]
         df.dropna(inplace=True)
         # Min Max Scaled
         df_mod = df.copy()

@@ -25,34 +25,43 @@ from krm_lib.services.apis.binance import BinanceAPI
 # STOCK CONSTANTS
 #STOCK_START_DATE = "2017-01-1"
 #STOCK_END_DATE =  "2023-03-08"
-STOCK_SYMBOL = "AAPL"
-STOCK_SYMBOL = "TLSA"
+#STOCK_SYMBOL = "AAPL"
+#STOCK_SYMBOL = "TLSA"
 STOCK_SYMBOL = "MSFT"
-STOCK_SYMBOL = "NVDA"
+#STOCK_SYMBOL = "NVDA"
+#STOCK_SYMBOL = "AMD"
+
 # SMALL Biotech
-STOCK_SYMBOL = "NVAX"
+#STOCK_SYMBOL = "NVAX"
 
 # SMALL Tech Stock
-STOCK_SYMBOL = "UIS" 
+#STOCK_SYMBOL = "UIS" 
+
+# LONG HISTORY
+#START = "2018-06-01"
+#END =  "2023-03-11"
 
 # ENTIRE TIMESPAN
-#START = "2020-06-01"
-#END = "2023-03-11"
+START = "2020-06-01"
+END = "2023-03-12"
 
 # 1 YEAR
-START = "2022-03-11"
-END = "2023-03-11"
+#START = "2022-03-11"
+#END = "2023-03-11"
 
 # CS497 Winter TERM
 #START = "2023-01-09"
 #END = "2023-03-11"
 
-#CRYPTO_SYMBOL = "ETHUSD"
-CRYPTO_SYMBOL = "BTCUSD"
+CRYPTO_SYMBOL = "ETHUSD"
+#CRYPTO_SYMBOL = "BTCUSD"
 #CRYPTO_SYMBOL = "DOGEUSD"
 #CRYPTO_SYMBOL = "BNBUSD"
 #CRYPTO_SYMBOL = "SHIBUSD"
 #CRYPTO_SYMBOL = "SOLUSD"
+#CRYPTO_SYMBOL = "ATOMUSD"  # COSMOS
+#CRYPTO_SYMBOL = "MANAUSD"  # Decentraland
+
 
 
 
@@ -226,11 +235,16 @@ def longshort_train():
     return df, df_train, df_test
 # Test Main
 
-def buysellhold_training(train_test_split_index=500, episodes=500):
-    # Get Training Data
-    crypto_train = CryptoHistory(symbol=CRYPTO_SYMBOL, start_date=START, end_date=END)
-    df = crypto_train.get_scaled_price_df()
-    
+def buysellhold_training(train_test_split_index=500, episodes=500, window=10, type = "crypto"):
+    df = pd.DataFrame()
+    # Get Test Data
+    if type == "crypto":
+        crypto_test = CryptoHistory(symbol=CRYPTO_SYMBOL, start_date=START, end_date=END)
+        df = crypto_test.get_scaled_price_df()  
+    elif type == "stock":
+        stock_test = StockHistory(symbol=STOCK_SYMBOL, start_date=START, end_date=END)
+        df = stock_test.get_scaled_price_df()
+        
     # Min Max Scaled
     df_mod = df.copy()
     
@@ -247,7 +261,7 @@ def buysellhold_training(train_test_split_index=500, episodes=500):
     train_test_plotter.plot_market_train_test(df_train, df_test, figure_file="train_test.png")
     
     
-    env = BuySellHoldTradingEnv(df_train, initial_account_balance=1000000, window=10)
+    env = BuySellHoldTradingEnv(df_train, initial_account_balance=1000000, window=window)
     N = 20
     batch_size = 5
     n_epochs = 4
@@ -308,7 +322,7 @@ def buysellhold_training(train_test_split_index=500, episodes=500):
     plotter.plot_learning_curve(x, score_history, figure_file="learning_curve.png")
     return df, df_train, df_test
 
-def buysellhold_test(saved_model_path="tmp/actor_torch_ppo_buysellhold", train_test_split_index=500, type = "crypto"):
+def buysellhold_test(saved_model_path="tmp/actor_torch_ppo_buysellhold", train_test_split_index=500, window=10, type = "crypto"):
     df = pd.DataFrame()
     # Get Test Data
     if type == "crypto":
@@ -328,7 +342,7 @@ def buysellhold_test(saved_model_path="tmp/actor_torch_ppo_buysellhold", train_t
     df_test = df_test.iloc[train_test_split_index:]  
     df_test = df_test.reset_index()
     
-    enviornment = BuySellHoldTradingEnv(df=df_test,initial_account_balance=1000000, window=10)
+    enviornment = BuySellHoldTradingEnv(df=df_test,initial_account_balance=1000000, window=window)
     return enviornment.run_simulation(saved_model_path=saved_model_path)
                                
         
@@ -336,13 +350,9 @@ if __name__ == '__main__':
     #df, df_train, df_test = longshort_train()
     #df, df_train, df_test = longshort_test()
     
-    #df, df_train, df_test = buysellhold_training(train_test_split_index=775, episodes=10000)
-    df = buysellhold_test(saved_model_path="tmp/actor_torch_ppo_buysellhold", train_test_split_index=0, type="crypto")
+    #df, df_train, df_test = buysellhold_training(train_test_split_index=800, episodes=10000, window=10, type="stock")
+    #df = buysellhold_test(saved_model_path="tmp/actor_torch_ppo_buysellhold", train_test_split_index=0, window=10, type="stock")
     
-    '''
-    crypto_pca = CryptoHistoryPCA(symbol=CRYPTO_SYMBOL, start_date=START, end_date=END)
-    df_pca = crypto_pca.get_scaled_price_df()
-    crypto = CryptoHistory(symbol=CRYPTO_SYMBOL, start_date=START, end_date=END)
-    df = crypto.get_scaled_price_df()
-    '''
+    # C:\Users\JohnMurphy\Documents\GitHub\Capstone---AI-ML-Crypto-Trading-Bot\AICryptoBot\tmp\CRYPTO\buysellhold_enviornments\20200601-20230210\buysellhold_10000_episodes
+    df = buysellhold_test(saved_model_path="tmp/CRYPTO/buysellhold_enviornments/20200601-20230210/buysellhold_10000_episodes/actor_torch_ppo_buysellhold", train_test_split_index=775, window=10, type="crypto")
     
