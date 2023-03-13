@@ -8,10 +8,19 @@ Created on Sun Feb 12 09:46:26 2023
 
 # Data Preprocessing
 import pandas as pd
+import numpy as np
 from krm_lib.services.apis.binance import BinanceAPI
 #from pandas_datareader import data as pdr
 #import yfinance as yfin
 from ta.volume import VolumeWeightedAveragePrice
+from ta import add_all_ta_features
+
+# Statistics
+from statsmodels.tsa.stattools import adfuller
+
+# Unsupervised Machine Learning
+from sklearn.decomposition import PCA
+from sklearn.model_selection import train_test_split
 
 class CryptoHistory():
     def __init__(self, symbol, start_date, end_date):
