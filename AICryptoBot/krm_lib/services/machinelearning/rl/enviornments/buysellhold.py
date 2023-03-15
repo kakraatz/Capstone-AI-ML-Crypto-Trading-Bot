@@ -35,7 +35,7 @@ class BuySellHoldTradingEnv(gym.Env):
         self.first_decision_step = window
         # Observation Space -> Historic window
         self.window = window
-        self.space_parameters = 6
+        self.space_parameters = 5
         self.space_shape = window * self.space_parameters + 1 # add 1 to include current_open_opportunity
         
         # Pass Generic Variable as a Pandas Dataframe
