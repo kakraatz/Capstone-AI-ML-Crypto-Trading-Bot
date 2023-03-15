@@ -298,7 +298,7 @@ def buysellhold_training(train_test_split_index=500, episodes=500):
 def buysellhold_test(saved_model_path="tmp/actor_torch_ppo_buysellhold", train_test_split_index=500):
     
     # Get Test Data
-    crypto_test = CryptoHistory(symbol=CRYPTO_SYMBOL, start_date=CRYPTO_START, end_date=CRYPTO_END)
+    crypto_test = StockHistory(symbol=STOCK_SYMBOL, start_date=STOCK_START_DATE, end_date=STOCK_END_DATE)
     df = crypto_test.get_scaled_price_df()  
 
     # Min Max Scaled
@@ -391,7 +391,7 @@ def buysell_training():
 
 def buysell_test(saved_model_path="tmp/actor_torch_ppo_buysell", train_test_split_index=500):  
     # Get Test Data
-    crypto_test = CryptoHistory(symbol=CRYPTO_SYMBOL, start_date=CRYPTO_START, end_date=CRYPTO_END)
+    crypto_test = StockHistory(symbol=STOCK_SYMBOL, start_date=STOCK_START_DATE, end_date=CRYPTO_END)
     df = crypto_test.get_scaled_price_df()  
 
     # Min Max Scaled
@@ -413,8 +413,8 @@ if __name__ == '__main__':
     #df, df_train, df_test = longshort_train()
     #df, df_train, df_test = longshort_test()
     
-    df, df_train, df_test = buysellhold_training(train_test_split_index=650, episodes=10)
-    #df = buysellhold_test(saved_model_path="tmp/actor_torch_ppo_buysellhold", train_test_split_index=750)
+    # df, df_train, df_test = buysellhold_training(train_test_split_index=650, episodes=5)
+    df = buysellhold_test(saved_model_path="tmp/actor_torch_ppo_buysellhold", train_test_split_index=750)
     
     #df, df_train, df_test, decisions_matrix, rewards_matrix, scores_array  = buysell_training()
     #df = buysell_test(saved_model_path="tmp/actor_torch_ppo_buysell", train_test_split_index=700)

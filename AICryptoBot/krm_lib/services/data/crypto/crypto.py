@@ -81,7 +81,8 @@ class CryptoHistory():
         # PCA
         n_components = 5
         pca = PCA(n_components=n_components)
-        X_pca = pca.fit_transform(X)
+        pca.fit(X)
+        X_pca = pca.transform(X)
 
         # Calculate the variance explained by Principle Components
         print("Variance of each component: ", pca.explained_variance_ratio_)
