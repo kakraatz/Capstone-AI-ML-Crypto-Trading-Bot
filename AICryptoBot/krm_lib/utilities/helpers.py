@@ -29,7 +29,8 @@ class Plotters():
         plt.savefig(figure_file)
         
     def plot_benchmark_equity(self, benchmark_arr, equity_arr, steps, figure_file="equity_vs_benchmark.png"):
+        benchmark_equity = plt.figure(figsize=(15,5))
         plt.plot(steps, benchmark_arr, c='b')
         plt.plot(steps, equity_arr, c='g')
-        plt.title("Equity vs. Benchmark")
+        plt.title("AI-Bot (green) vs. Benchmark (blue)")
         plt.savefig(figure_file)

@@ -42,12 +42,12 @@ STOCK_SYMBOL = "MSFT"
 #END =  "2023-03-11"
 
 # ENTIRE TIMESPAN
-START = "2020-06-01"
-END = "2023-03-12"
+#START = "2020-06-01"
+#END = "2023-03-11"
 
 # 1 YEAR
-#START = "2022-03-11"
-#END = "2023-03-11"
+START = "2022-03-11"
+END = "2023-03-14"
 
 # CS497 Winter TERM
 #START = "2023-01-09"
@@ -61,6 +61,7 @@ CRYPTO_SYMBOL = "ETHUSD"
 #CRYPTO_SYMBOL = "SOLUSD"
 #CRYPTO_SYMBOL = "ATOMUSD"  # COSMOS
 #CRYPTO_SYMBOL = "MANAUSD"  # Decentraland
+#CRYPTO_SYMBOL = "LITEUSD"  # Lite Coin
 
 
 
@@ -354,5 +355,14 @@ if __name__ == '__main__':
     #df = buysellhold_test(saved_model_path="tmp/actor_torch_ppo_buysellhold", train_test_split_index=0, window=10, type="stock")
     
     # C:\Users\JohnMurphy\Documents\GitHub\Capstone---AI-ML-Crypto-Trading-Bot\AICryptoBot\tmp\CRYPTO\buysellhold_enviornments\20200601-20230210\buysellhold_10000_episodes
-    df = buysellhold_test(saved_model_path="tmp/CRYPTO/buysellhold_enviornments/20200601-20230210/buysellhold_10000_episodes/actor_torch_ppo_buysellhold", train_test_split_index=775, window=10, type="crypto")
+    #df = buysellhold_test(saved_model_path="tmp/CRYPTO/buysellhold_enviornments/20200601-20230210/buysellhold_10000_episodes/actor_torch_ppo_buysellhold", train_test_split_index=635, window=10, type="crypto")
+    #df = buysellhold_test(saved_model_path="tmp/CRYPTO/buysellhold_enviornments/20200601-20230210/buysellhold_10000_episodes/actor_torch_ppo_buysellhold", train_test_split_index=775, window=10, type="crypto")
+    #df = buysellhold_test(saved_model_path="tmp/CRYPTO/buysellhold_enviornments/20200601-20230210/buysellhold_10000_episodes/actor_torch_ppo_buysellhold", train_test_split_index=943, window=10, type="crypto")
+    
+    
+    #df = buysellhold_test(saved_model_path="tmp/CRYPTO/buysellhold_enviornments/20200601-20230210/buysellhold_10000_episodes/actor_torch_ppo_buysellhold", train_test_split_index=341, window=10, type="crypto")
+    #df = buysellhold_test(saved_model_path="tmp/CRYPTO/buysellhold_enviornments/20200601-20230210/buysellhold_10000_episodes/actor_torch_ppo_buysellhold", train_test_split_index=129, window=10, type="crypto")
+    #df = buysellhold_test(saved_model_path="tmp/CRYPTO/buysellhold_enviornments/20200601-20230210/buysellhold_10000_episodes/actor_torch_ppo_buysellhold", train_test_split_index=300, window=10, type="crypto")
+    #df = buysellhold_test(saved_model_path="tmp/CRYPTO/buysellhold_enviornments/20200601-20230210/buysellhold_10000_episodes/actor_torch_ppo_buysellhold", train_test_split_index=300, window=10, type="crypto")
+    df = buysellhold_test(saved_model_path="tmp/CRYPTO/buysellhold_enviornments/20200601-20230210/buysellhold_10000_episodes/actor_torch_ppo_buysellhold", train_test_split_index=200, window=10, type="crypto")
     

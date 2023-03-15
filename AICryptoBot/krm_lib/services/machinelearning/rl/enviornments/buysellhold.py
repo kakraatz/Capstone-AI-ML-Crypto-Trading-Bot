@@ -453,6 +453,8 @@ class BuySellHoldTradingEnv(gym.Env):
         action = np.argmax(probs)
         self.initial_price_market = self.df.loc[self.current_step, "Close_Price"].item()
         self.initial_quantity_market = self.initial_investment / self.initial_price_market
+        bot_final_worth = self.initial_price_market
+        market_final_worth = self.initial_price_market
         steps_arr = []
         while not done:            
             action_name = "None"
@@ -466,7 +468,9 @@ class BuySellHoldTradingEnv(gym.Env):
             index = self.df.loc[self.current_step, "index"].item()
             
             bot_position = self.initial_investment + self.realized_profit + self.unrealized_profit
-            market_position = self.initial_quantity_market * current_price            
+            market_position = self.initial_quantity_market * current_price         
+            bot_final_worth = bot_position
+            market_final_worth = market_position
             self.bot_profit.append(bot_position)
             self.market_profit.append(market_position)
             steps_arr.append(n_steps)
@@ -484,7 +488,8 @@ class BuySellHoldTradingEnv(gym.Env):
         print("Done at step: " + str(n_steps))
         plotter = Plotters()
         plotter.plot_benchmark_equity(self.market_profit, self.bot_profit, steps_arr)    
-        print(self.market_profit)
-        print(self.bot_profit)
+        #bot_roi = (bot_final_worth - self.initial_price_market) / 
+        #print(self.market_profit)
+        #print(self.bot_profit)
         return self.df
 
