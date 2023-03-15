@@ -413,7 +413,7 @@ if __name__ == '__main__':
     #df, df_train, df_test = longshort_train()
     #df, df_train, df_test = longshort_test()
     
-    df, df_train, df_test = buysellhold_training(train_test_split_index=650, episodes=50)
+    df, df_train, df_test = buysellhold_training(train_test_split_index=650, episodes=10)
     #df = buysellhold_test(saved_model_path="tmp/actor_torch_ppo_buysellhold", train_test_split_index=750)
     
     #df, df_train, df_test, decisions_matrix, rewards_matrix, scores_array  = buysell_training()

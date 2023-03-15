@@ -250,18 +250,18 @@ class BuySellHoldTradingEnv(gym.Env):
         # Looks at 6 days of history data
         obs_array = []
         for x in range(0, self.window):
-            item_open = self.df.loc[self.current_step - x, "Open"].item()
-            item_high = self.df.loc[self.current_step - x, "High"].item()       
-            item_low = self.df.loc[self.current_step - x, "Low"].item()
-            item_close = self.df.loc[self.current_step - x, "Close"].item()
-            item_volume = self.df.loc[self.current_step - x, "Volume"].item()
-            item_VWAP = self.df.loc[self.current_step - x, "VWAP"].item()
-            obs_array.append(item_open)
-            obs_array.append(item_high)
-            obs_array.append(item_low)
-            obs_array.append(item_close)
-            obs_array.append(item_volume)
-            obs_array.append(item_VWAP)
+            item_pc0 = self.df.loc[self.current_step - x, "PC_0"].item()
+            item_pc1 = self.df.loc[self.current_step - x, "PC_1"].item()
+            item_pc2 = self.df.loc[self.current_step - x, "PC_2"].item()
+            item_pc3 = self.df.loc[self.current_step - x, "PC_3"].item()
+            item_pc4 = self.df.loc[self.current_step - x, "PC_4"].item()
+
+            obs_array.append(item_pc0)
+            obs_array.append(item_pc1)
+            obs_array.append(item_pc2)
+            obs_array.append(item_pc3)
+            obs_array.append(item_pc4)
+
         obs_array.append(current_open_opportunity) # if quanity is open there is a defined opportunity
         obs = np.array(obs_array)        
         
